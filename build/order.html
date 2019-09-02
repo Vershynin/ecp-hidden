@@ -1,0 +1,434 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Main page</title>
+<link href="styles.css" rel="stylesheet"></head>
+<body class="body-order">
+<div class="order-header">
+    <div class="order-header__container">
+        <div class="order-header__logo">
+            <a href="index.html" class="logo__link">
+                <img src="assets/images/combined-shape.svg" alt="logo">
+            </a>
+        </div>
+        <div class="header-main__telephones telephones">
+            <img src="assets/images/info.svg" alt="information" class="info-img telephones__icon" data-toggle="tooltip" data-placement="top" title="telephones icon">
+            <select class="header-main__telephone">
+                <option value="1">0 800 888 99 22</option>
+                <option value="2">0 800 888 99 23</option>
+                <option value="3">0 800 888 99 24</option>
+            </select>
+            <span class="schedule">
+                <span class="schedule__text">7/7 9:00 - 18:00</span>
+            </span>
+            <div class="header-main__cart active">
+                <div class="header-main__cart-count active">1</div>
+            </div>
+        </div>
+    </div>
+</div>
+<section class="order-page__wrapper step__first">
+    <div class="order-page">
+        <div class="order-page__title">Оформление заказа</div>
+        <div class="order-page__order-processing">
+            <div class="order-page__structure">
+                <span class="order-page__step">1</span>
+                <span class="order-page__name">Контактные данные</span>
+            </div>
+            <div class="order-page__tabs">
+                <div id="tabs-container">
+                    <ul class="tabs-menu">
+                        <li class="current" rel="tab1"><a href="#">Я постоянный покупатель</a></li>
+                        <li rel="tab2"><a href="#">Я новый покупатель</a></li>
+                    </ul>
+                    <div class="tab">
+                        <h3 class="tab_drawer_heading" rel="tab1">Сегодня</h3>
+                        <div id="tab1" class="tab-content">
+                            <form>
+                                <div class="tab-content__row">
+                                    <label class="tab-content__label">Имя</label>
+                                    <input type="text" placeholder="Имя" class="tab-content__input">
+                                </div>
+                                <div class="tab-content__row">
+                                    <label class="tab-content__label">Фамилия</label>
+                                    <input type="text" placeholder="Фамилия" class="tab-content__input">
+                                </div>
+                                <div class="tab-content__row">
+                                    <label class="tab-content__label">Город</label>
+                                    <select name="" class="tab-content__select">
+                                        <option value="1">Запорожье</option>
+                                        <option value="2">Житомир</option>
+                                    </select>
+                                    <!--<input type="text" placeholder="Город" class="tab-content__input">-->
+                                </div>
+                                <div class="tab-content__row">
+                                    <label class="tab-content__label">Мобильный</label>
+                                    <input type="text" placeholder="Мобильный" class="tab-content__input">
+                                </div>
+                                <div class="tab-content__row">
+                                    <label class="tab-content__label">Email</label>
+                                    <input type="text" placeholder="Email" class="tab-content__input">
+                                </div>
+                                <div class="tab-content__row tab-content__row-text">
+                                    <label class="tab-content__label">Если вы хотите следить за статусом выполнения заказа</label>
+                                </div>
+                                <div class="tab-content__row">
+                                    <label class="tab-content__label"></label>
+                                    <a href="#" class="tab-content__btn">Далее</a>
+                                </div>
+                            </form>
+                        </div>
+                        <h3 class="d_active tab_drawer_heading" rel="tab2">За неделю</h3>
+                        <div id="tab2" class="tab-content">
+                            <form>
+                                <div class="tab-content__row">
+                                    <label class="tab-content__label">Имя</label>
+                                    <input type="text" placeholder="Имя" class="tab-content__input">
+                                </div>
+                                <div class="tab-content__row">
+                                    <label class="tab-content__label">Фамилия</label>
+                                    <input type="text" placeholder="Фамилия" class="tab-content__input">
+                                </div>
+                                <div class="tab-content__row">
+                                    <label class="tab-content__label">Город</label>
+                                    <select name="" id="" class="tab-content__select">
+                                        <option value="1">Запорожье</option>
+                                        <option value="2">Житомир</option>
+                                    </select>
+                                    <!--<input type="text" placeholder="Город" class="tab-content__input">-->
+                                </div>
+                                <div class="tab-content__row">
+                                    <label class="tab-content__label">Мобильный</label>
+                                    <input type="text" placeholder="Мобильный" class="tab-content__input">
+                                </div>
+                                <div class="tab-content__row">
+                                    <label class="tab-content__label">Email</label>
+                                    <input type="text" placeholder="Email" class="tab-content__input">
+                                </div>
+                                <div class="tab-content__row tab-content__row-text">
+                                    <label class="tab-content__label">Если вы хотите следить за статусом выполнения заказа</label>
+                                </div>
+                                <div class="tab-content__row">
+                                    <label class="tab-content__label"></label>
+                                    <a href="#" class="tab-content__btn">Далее</a>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="order-page__structure empty">
+            <span class="order-page__step">2</span>
+            <span class="order-page__name">Выбор способов доставки и оплаты</span>
+        </div>
+    </div>
+    <div class="order-page__cart">
+        <div class="table-responsive table-cart">
+            <table class="table">
+                <tbody>
+                <tr>
+                    <td><img src="assets/images/product.png" alt="product"></td>
+                    <td>Optimum Nutrition, Opti-Men, 150 таблеток</td>
+                    <td><b>43 грн</b></td>
+                </tr>
+                <tr>
+                    <td><img src="assets/images/product.png" alt="product"></td>
+                    <td>Optimum Nutrition, Opti-Men, 150 таблеток</td>
+                    <td><b>43 грн</b></td>
+                </tr>
+                <tr>
+                    <td><img src="assets/images/product.png" alt="product"></td>
+                    <td>Optimum Nutrition, Opti-Men, 150 таблеток</td>
+                    <td><b>43 грн</b></td>
+                </tr>
+                <tr>
+                    <td><img src="assets/images/product.png" alt="product"></td>
+                    <td>Optimum Nutrition, Opti-Men, 150 таблеток</td>
+                    <td><b>43 грн</b></td>
+                </tr>
+                <tr>
+                    <td><img src="assets/images/product.png" alt="product"></td>
+                    <td>Optimum Nutrition, Opti-Men, 150 таблеток</td>
+                    <td><b>43 грн</b></td>
+                </tr>
+                <tr class="total">
+                    <td><b>Итого:</b></td>
+                    <td></td>
+                    <td class="text-right"><b>150 грн</b></td>
+                </tr>
+                </tbody>
+            </table>
+            <div class="table-cart__footer">
+                <a href="#" class="table-cart__link">Редактировать заказ</a>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="order-page__wrapper step__second">
+    <div class="order-page">
+        <div class="order-page__title">Оформление заказа</div>
+        <div class="order-page__order-processing">
+            <div class="order-page__structure">
+                <span class="order-page__step">2</span>
+                <span class="order-page__name">Выбор способов доставки и оплаты</span>
+            </div>
+            <div class="order-page__payment payment">
+                <div class="payment__cat">
+                    <span class="payment__text"><b>Доставка в Запорожье</b></span>
+                    <a href="#" class="payment__link">Изменить город</a>
+                </div>
+                <div class="payment__row">
+                    <label class="radio-container">
+                        <div class="payment__content">
+                            <div class="payment__text">
+                                <span class="pull-left">Отделение Новая Почта</span>
+                                <span class="pull-right"><b>150 грн</b></span>
+                            </div>
+                            <select name="" class="payment__select">
+                                <option value="1">№1, ул. Теплостроевская, 28</option>
+                                <option value="2">№2, ул. Теплостроевская, 13</option>
+                            </select>
+                            <img src="assets/images/placeholder.svg" alt="placeholder" class="payment__img">
+                            <a href="#" class="payment__link">Cм. на карте</a>
+                            <div class="">
+                                <a href="#" class="payment__link">График работы отделений</a>
+                            </div>
+                        </div>
+                        <input type="radio" name="radio" checked>
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="radio-container">
+                        <div class="payment__content">
+                            <div class="payment__text">
+                                <span class="pull-left">Курьер Новая Почта</span>
+                                <span class="pull-right"><b>50 грн</b></span>
+                            </div>
+                        </div>
+                        <input type="radio" name="radio">
+                        <span class="checkmark"></span>
+                    </label>
+                </div>
+                <div class="payment__cat">
+                    <span class="payment__text"><b>Оплата</b></span>
+                </div>
+                <div class="payment__row">
+                    <label class="radio-container">
+                        <div class="payment__content">
+                            <div class="payment__text">
+                                <span class="pull-left">Наличными</span>
+                            </div>
+                        </div>
+                        <input type="radio" name="radio-pay">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="radio-container">
+                        <div class="payment__content">
+                            <div class="payment__text">
+                                <span class="pull-left">Безналичными</span>
+                            </div>
+                        </div>
+                        <input type="radio" name="radio-pay">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="radio-container">
+                        <div class="payment__content">
+                            <div class="payment__text">
+                                <span class="pull-left">Оплата бонусами</span>
+                            </div>
+                        </div>
+                        <input type="radio" name="radio-pay">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="radio-container">
+                        <div class="payment__content">
+                            <div class="payment__text">
+                                <span class="pull-left">Visa/MasterCard</span>
+                            </div>
+                        </div>
+                        <input type="radio" name="radio-pay">
+                        <span class="checkmark"></span>
+                    </label>
+                </div>
+                <div class="payment__cat">
+                    <span class="payment__text"><b>Делать автоматическую покупку</b></span>
+                    <img class="info-img" src="assets/images/r-pinfo-icon.svg" alt="info" data-toggle="tooltip" data-placement="top" title="" data-original-title="Подписаться">
+                </div>
+                <div class="payment__row checkbox" id="checkbox">
+                    <label class="checkbox-wrap">Подписаться на товар
+                        <input type="checkbox" class="checkbox__input">
+                        <span class="checkbox__text checkmark"></span>
+                    </label>
+                    <select name="" class="payment__select">
+                        <option value="1">через 30 дней</option>
+                        <option value="2">через 12 дней</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="order-page__cart">
+        <div class="table-responsive table-cart">
+            <table class="table">
+                <tbody>
+                <tr>
+                    <td><img src="assets/images/product.png" alt="product"></td>
+                    <td>Optimum Nutrition, Opti-Men, 150 таблеток</td>
+                    <td><b>43 грн</b></td>
+                </tr>
+                <tr>
+                    <td>Доставка</td>
+                    <td></td>
+                    <td><b>150 грн</b></td>
+                </tr>
+                <tr class="total">
+                    <td><b>К оплате</b></td>
+                    <td></td>
+                    <td><b>150 грн</b></td>
+                </tr>
+                </tbody>
+            </table>
+            <a href="#" class="table-cart__confirm">Подтверждаю заказ</a>
+            <p class="table-cart__text text-center">
+                Подтверждая заказ, я принимаю условия <br> <a href="#" class="table-cart__link">пользовательского соглашения</a>
+            </p>
+            <div class="table-cart__footer">
+                <form class="table-cart__form">
+                    <input type="text" placeholder="Промокод" class="table-cart__promocode" />
+                    <a href="#" class="table-cart__promobtn">Применить</a>
+                </form>
+                <a href="#" class="table-cart__link">Редактировать заказ</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<div class="footer">
+    <div class="footer-bot text-center">
+        © OneTwoFit 2018
+    </div>
+</div>
+<!-- Modal buy-one-click -->
+<div id="start-modal" class="start-modal modal fade" role="dialog">
+    <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <span class="close-circle"></span>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <div class="modal-body">
+                <form class="modal-start-screen">
+                    <div class="start-modal__title">Настройте для себя магазин</div>
+                    <div class="start-modal__row settings-top">
+                        <div class="form-group">
+                            <label class="start-modal__label">страна</label>
+                            <select name="" class="start-modal__select">
+                                <option value="0">Украина</option>
+                                <option value="1">Россия</option>
+                                <option value="2">Австралия</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label class="start-modal__label">язык</label>
+                            <select name="" class="start-modal__select">
+                                <option value="0">русский</option>
+                                <option value="1">русский</option>
+                                <option value="2">английский</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label class="start-modal__label">страна</label>
+                            <select name="" class="start-modal__select">
+                                <option value="0">₴ (UAH)</option>
+                                <option value="1">рубль</option>
+                                <option value="2">$ (US)</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="start-modal__row settings-bottom">
+                        <div class="form-group">
+                            <label class="start-modal__label">доступные методы доставки</label>
+                            <div class="settings-bottom__images">
+                                <img src="assets/images/nova-poshta.png" alt="Nova poshta">
+                                <img src="assets/images/ykrposhta.png" alt="Ykr poshta">
+                                <img src="assets/images/intime.svg" alt="Intime">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="start-modal__label">доступные способы оплаты</label>
+                            <div class="settings-bottom__images">
+                                <img src="assets/images/mastercard.svg" alt="mastercard">
+                                <img src="assets/images/visa.svg" alt="VISA">
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class="start-modal__link-save">сохранить настройки</a>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.3/owl.carousel.js"></script>
+
+<script>
+    //tabs
+    $(".tab-content").hide();
+    $(".tab-content:first").show();
+
+    /* if in tab mode */
+    $("ul.tabs-menu li").click(function(e) {
+        e.preventDefault();
+
+        $(".tab-content").hide();
+        var activeTab = $(this).attr("rel");
+        $("#"+activeTab).fadeIn();
+
+        $("ul.tabs-menu li").removeClass("current");
+        $(this).addClass("current");
+
+        $(".tab_drawer_heading").removeClass("d_active");
+        $(".tab_drawer_heading[rel^='"+activeTab+"']").addClass("d_active");
+
+    });
+    /* if in drawer mode */
+    $(".tab_drawer_heading").click(function(e) {
+        e.preventDefault();
+
+        $(".tab-content").hide();
+        var d_activeTab = $(this).attr("rel");
+        $("#"+d_activeTab).fadeIn();
+
+        $(".tab_drawer_heading").removeClass("d_active");
+        $(this).addClass("d_active");
+
+        $("ul.tabs-menu li").removeClass("active");
+        $("ul.tabs-menu li[rel^='"+d_activeTab+"']").addClass("active");
+    });
+
+
+    /* Extra class "tab_last"
+       to add border to right side
+       of last tab */
+    $('ul.tabs li').last().addClass("tab_last");
+</script>
+
+<!--swap step-->
+<script>
+    const nextStep = document.querySelector('.tab-content__btn');
+
+    nextStep.addEventListener('click', () => {
+        nextStep.closest('.step__first').style.display = 'none';
+        console.log(nextStep.closest('.step__first'));
+        nextStep.closest('.step__first').nextElementSibling.style.display = 'flex';
+    });
+
+</script>
+<script type="text/javascript" src="vendors.js"></script><script type="text/javascript" src="application.js"></script></body>
+</html>

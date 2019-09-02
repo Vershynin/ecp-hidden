@@ -1,0 +1,108 @@
+@import '../styles/variables';
+@import '../styles/mixins';
+
+.checkbox-wrap {
+  display: block;
+  position: relative;
+  padding-left: 50px !important;
+  margin-bottom: 12px !important;
+  cursor: pointer;
+  font-size: 18px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-align: left;
+  input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+}
+
+/* Create a custom checkbox */
+.checkbox__text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: transparent;
+  border: 1px solid $main-color-purple;
+}
+
+/* When the checkbox is checked, add a blue background */
+.checkbox-wrap input:checked ~ .checkbox__text {
+  background-color: $main-color-purple;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkbox__text:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.checkbox-wrap input:checked ~ .checkbox__text:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.checkbox-wrap .checkbox__text:after {
+  left: 8px;
+  top: 4px;
+  width: 7px;
+  height: 12px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+//radiobtn
+.radio-btn-block {
+  margin-top: 50px;
+}
+.radio {
+  text-align: left;
+  margin: 0;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  &-wrap {
+    display: block;
+    position: relative;
+    padding: 0 !important;
+    margin-right: 5px;
+    margin-bottom: 5px !important;
+    height: 50px;
+    width: 60px;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+  &__input {
+    display: none;
+  }
+  &__text {
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    color: #000000;
+    padding: 0.5rem;
+    border: 1px solid $main-color-purple;
+    border-radius: 5px;
+    width: 60px;
+    display: inline-block;
+    text-align: center;
+  }
+  &__input:checked ~ .radio__text {
+    color: #ffffff;
+    background-color: $main-color-purple;
+  }
+}

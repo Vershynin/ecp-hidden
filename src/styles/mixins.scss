@@ -1,0 +1,142 @@
+@import "./variables";
+
+@mixin center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@mixin header-text-style {
+  font-size: 14px;
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
+
+//main page
+@mixin slider-title {
+  font-size: 72px;
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -1px;
+  text-align: left;
+  color: #ffffff;
+}
+//--main page
+
+@mixin sliders-categories-title {
+  font-size: 36px;
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -1px;
+  text-align: left;
+  color: #000000;
+  text-transform: uppercase;
+  padding: 71px 0;
+  span {
+    margin-right: 20px;
+  }
+}
+
+@mixin slider-receipt-title {
+  font-size: 36px;
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -1px;
+  text-align: center;
+  color: #6004ba;
+  text-transform: uppercase;
+}
+
+@mixin sales {
+  background-color: $main-color-aqua;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #ffffff;
+  display: inline-block;
+  position: relative;
+  padding: 3px;
+  &:before {
+    position: absolute;
+    left: -21px;
+    top: 0;
+    content: '';
+    display: table;
+    clear: both;
+    border: 13px solid transparent;
+    border-right: 8px solid $main-color-aqua;
+  }
+}
+
+@mixin sliders-categories-product {
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+}
+
+@mixin blog-title {
+  font-size: 25px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
+
+@mixin blog-post-title {
+  font-size: 24px;
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000000;
+  margin: 50px 0;
+}
+
+@mixin product-title {
+  font-size: 36px;
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.36;
+  letter-spacing: -1px;
+  text-align: left;
+  color: #000000;
+}
+
+@mixin special-text {
+  font-size: 22px;
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.36;
+  letter-spacing: -1px;
+  text-align: left;
+  color: #000000;
+}

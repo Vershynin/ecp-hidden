@@ -1,0 +1,1883 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Categories page</title>
+<link href="styles.css" rel="stylesheet"></head>
+<body class="body-categories-page">
+    <header class="header">
+    <div class="header-top">
+        <div class="header-top__language">
+            <ul class="header-top__country" data-toggle="modal" data-target="#start-modal">
+                <li class="header-top__country-name"><img src="assets/images/ua.svg" alt="Ukraine">Украина</li>
+            </ul>
+            <div class="header-top__lang">русский</div>
+            <div class="header-top__currency">
+                <select class="currency">
+                    <option value="1">грн</option>
+                    <option value="2">р</option>
+                </select>
+            </div>
+        </div>
+        <ul class="header-top__actions">
+            <li class="header-top__item"><a href="blog.html" class="header-top__link">Блог</a></li>
+            <li class="header-top__item"><a href="#" class="header-top__link">Сравнить</a></li>
+            <li class="header-top__item"><a href="#" class="header-top__link">Избранное</a></li>
+            <li class="header-top__item"><a href="#" class="header-top__link">Поделиться</a></li>
+        </ul>
+    </div>
+    <div class="header-main">
+        <div class="header-main__logo">
+            <a href="index.html"><img src="assets/images/combined-shape.svg" alt="logo"></a>
+        </div>
+        <div class="header-main__content">
+            <div class="header-main__content-wrap">
+                <div class="header-main__telephones telephones">
+                    <img src="assets/images/info.svg" alt="information" class="info-img telephones__icon" data-toggle="tooltip" data-placement="top" title="telephones icon">
+                    <select class="header-main__telephone">
+                        <option value="1">0 800 888 99 22</option>
+                        <option value="2">0 800 888 99 23</option>
+                        <option value="3">0 800 888 99 24</option>
+                    </select>
+                    <span class="schedule">
+                            <span class="schedule__text">7/7 9:00 - 18:00</span>
+                        </span>
+                </div>
+                <div class="header-main__search search">
+                    <input class="search-element" type="text" placeholder="поиск..." /><i class="fa fa-search" aria-hidden="true"></i>
+                </div>
+            </div>
+        </div>
+        <div class="header-main__information">
+            <div class="header-main__autorization">
+                <a href="registration.html" class="login">Вход</a>
+                <!--<span class="vertical">|</span>-->
+                <a href="registration.html" class="registration">Регистрация</a>
+            </div>
+            <div class="header-main__cart">
+                <div class="header-main__cart-count">0</div>
+            </div>
+        </div>
+    </div>
+    <div class="header-bottom navigation">
+        <ul class="navigation-list">
+            <li class="navigation-list__item">
+                <a href="#" class="navigation-list__link">Поиск товара</a>
+            </li>
+            <li class="navigation-list__item">
+                <a href="#" class="navigation-list__link">Витамины и минералы</a>
+                <div class="sub-navigation-list__wrapper">
+                    <ul class="sub-navigation-list">
+                        <li class="sub-navigation-list__item">
+                            <a href="#" class="sub-navigation-list__link">Активные добавки</a>
+                            <div class="sub-sub-navigation-list__wrapper">
+                                <ul class="sub-sub-navigation-list">
+                                    <li class="sub-sub-navigation-list__item">
+                                        <a href="#" class="sub-sub-navigation-list__link">Антивозрастные добавки</a>
+                                        <div class="third-level-menu__wrapper">
+                                            <ul class="third-level-menu">
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Коэнзим Q10</a>
+                                                    <ul class="fourth-level-menu">
+                                                        <li class="fourth-level-menu__item">
+                                                            <a href="#" class="fourth-level-menu__link">Коэнзим Q10 + рыбий жир</a>
+                                                            <a href="#" class="fourth-level-menu__link">Формулы коэнзим Q10</a>
+                                                            <a href="#" class="fourth-level-menu__link">Убихинол</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Куркумин</a>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Лютеин</a>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Альфа-липоевая кислота</a>
+                                                    <ul class="fourth-level-menu">
+                                                        <li class="fourth-level-menu__item">
+                                                            <a href="#" class="fourth-level-menu__link">R-липоевая кислота</a>
+                                                            <a href="#" class="fourth-level-menu__link">Другие формулы</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Антиаксантин</a>
+                                                    <ul class="fourth-level-menu">
+                                                        <li class="fourth-level-menu__item">
+                                                            <a href="#" class="fourth-level-menu__link">Биосатин</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Ликопин</a>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Покемон</a>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Пихногенол</a>
+                                                    <ul class="fourth-level-menu">
+                                                        <li class="fourth-level-menu__item">
+                                                            <a href="#" class="fourth-level-menu__link">Сосновая кора (экстракт)</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Кверцетин</a>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Рутин</a>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Зеленый чай</a>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">L-глупатион</a>
+                                                </li>
+                                            </ul>
+                                            <ul class="third-level-menu">
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Коэнзим Q10</a>
+                                                    <ul class="fourth-level-menu">
+                                                        <li class="fourth-level-menu__item">
+                                                            <a href="#" class="fourth-level-menu__link">Коэнзим Q10 + рыбий жир</a>
+                                                            <a href="#" class="fourth-level-menu__link">Формулы коэнзим Q10</a>
+                                                            <a href="#" class="fourth-level-menu__link">Убихинол</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Куркумин</a>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Лютеин</a>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Альфа-липоевая кислота</a>
+                                                    <ul class="fourth-level-menu">
+                                                        <li class="fourth-level-menu__item">
+                                                            <a href="#" class="fourth-level-menu__link">R-липоевая кислота</a>
+                                                            <a href="#" class="fourth-level-menu__link">Другие формулы</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Антиаксантин</a>
+                                                    <ul class="fourth-level-menu">
+                                                        <li class="fourth-level-menu__item">
+                                                            <a href="#" class="fourth-level-menu__link">Биосатин</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Ликопин</a>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Покемон</a>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Пихногенол</a>
+                                                    <ul class="fourth-level-menu">
+                                                        <li class="fourth-level-menu__item">
+                                                            <a href="#" class="fourth-level-menu__link">Сосновая кора (экстракт)</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                            <ul class="third-level-menu">
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">
+                                                        <img src="assets/images/group-12.jpg" alt="акция">
+                                                    </a>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">
+                                                        <img src="assets/images/group-9.jpg" alt="акция">
+                                                    </a>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">
+                                                        <img src="assets/images/group-9-copy.jpg" alt="акция">
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                            <div class="third-level-menu__images">
+                                                <img src="assets/images/san.png" alt="sponsors">
+                                                <img src="assets/images/my-protein.png" alt="sponsors">
+                                                <img src="assets/images/usn.png" alt="sponsors">
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="sub-sub-navigation-list__item">
+                                        <a href="#" class="sub-sub-navigation-list__link">Для имунной системы</a>
+                                        <div class="third-level-menu__wrapper">
+                                            <ul class="third-level-menu">
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Тестовый продукт</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="sub-sub-navigation-list__item">
+                                        <a href="#" class="sub-sub-navigation-list__link">Для регуляции сна</a>
+                                        <div class="third-level-menu__wrapper">
+                                            <ul class="third-level-menu">
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Коэнзим Q10</a>
+                                                    <ul class="fourth-level-menu">
+                                                        <li class="fourth-level-menu__item">
+                                                            <a href="#" class="fourth-level-menu__link">Коэнзим Q10 + рыбий жир</a>
+                                                            <a href="#" class="fourth-level-menu__link">Формулы коэнзим Q10</a>
+                                                            <a href="#" class="fourth-level-menu__link">Убихинол</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Куркумин</a>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Лютеин</a>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Альфа-липоевая кислота</a>
+                                                    <ul class="fourth-level-menu">
+                                                        <li class="fourth-level-menu__item">
+                                                            <a href="#" class="fourth-level-menu__link">R-липоевая кислота</a>
+                                                            <a href="#" class="fourth-level-menu__link">Другие формулы</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Антиаксантин</a>
+                                                    <ul class="fourth-level-menu">
+                                                        <li class="fourth-level-menu__item">
+                                                            <a href="#" class="fourth-level-menu__link">Биосатин</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Ликопин</a>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Покемон</a>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Пихногенол</a>
+                                                    <ul class="fourth-level-menu">
+                                                        <li class="fourth-level-menu__item">
+                                                            <a href="#" class="fourth-level-menu__link">Сосновая кора (экстракт)</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Кверцетин</a>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Рутин</a>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Зеленый чай</a>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">L-глупатион</a>
+                                                </li>
+                                            </ul>
+                                            <ul class="third-level-menu">
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Коэнзим Q10</a>
+                                                    <ul class="fourth-level-menu">
+                                                        <li class="fourth-level-menu__item">
+                                                            <a href="#" class="fourth-level-menu__link">Коэнзим Q10 + рыбий жир</a>
+                                                            <a href="#" class="fourth-level-menu__link">Формулы коэнзим Q10</a>
+                                                            <a href="#" class="fourth-level-menu__link">Убихинол</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Куркумин</a>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Лютеин</a>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Альфа-липоевая кислота</a>
+                                                    <ul class="fourth-level-menu">
+                                                        <li class="fourth-level-menu__item">
+                                                            <a href="#" class="fourth-level-menu__link">R-липоевая кислота</a>
+                                                            <a href="#" class="fourth-level-menu__link">Другие формулы</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Антиаксантин</a>
+                                                    <ul class="fourth-level-menu">
+                                                        <li class="fourth-level-menu__item">
+                                                            <a href="#" class="fourth-level-menu__link">Биосатин</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Ликопин</a>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Покемон</a>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Пихногенол</a>
+                                                    <ul class="fourth-level-menu">
+                                                        <li class="fourth-level-menu__item">
+                                                            <a href="#" class="fourth-level-menu__link">Сосновая кора (экстракт)</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                            <ul class="third-level-menu">
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">
+                                                        <img src="assets/images/group-12.jpg" alt="акция">
+                                                    </a>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">
+                                                        <img src="assets/images/group-9.jpg" alt="акция">
+                                                    </a>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">
+                                                        <img src="assets/images/group-9-copy.jpg" alt="акция">
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                            <div class="third-level-menu__images">
+                                                <img src="assets/images/san.png" alt="sponsors">
+                                                <img src="assets/images/san.png" alt="sponsors">
+                                                <img src="assets/images/san.png" alt="sponsors">
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="sub-sub-navigation-list__item">
+                                        <a href="#" class="sub-sub-navigation-list__link">Для опорно-двигательного аппарата</a>
+                                    </li>
+                                    <li class="sub-sub-navigation-list__item">
+                                        <a href="#" class="sub-sub-navigation-list__link">Для работы мозга</a>
+                                    </li>
+                                    <li class="sub-sub-navigation-list__item">
+                                        <a href="#" class="sub-sub-navigation-list__link">Для сердечно-сосудистой системы</a>
+                                    </li>
+                                    <li class="sub-sub-navigation-list__item">
+                                        <a href="#" class="sub-sub-navigation-list__link">Для детокса</a>
+                                    </li>
+                                    <li class="sub-sub-navigation-list__item">
+                                        <a href="#" class="sub-sub-navigation-list__link">Для мужского здоровья</a>
+                                    </li>
+                                    <li class="sub-sub-navigation-list__item">
+                                        <a href="#" class="sub-sub-navigation-list__link">Для женского здоровья</a>
+                                    </li>
+                                    <li class="sub-sub-navigation-list__item">
+                                        <a href="#" class="sub-sub-navigation-list__link">Для детского здоровья</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="sub-navigation-list__item">
+                            <a href="#" class="sub-navigation-list__link">Добавки по предназначению</a>
+                            <div class="sub-sub-navigation-list__wrapper">
+                                <ul class="sub-sub-navigation-list">
+                                    <li class="sub-sub-navigation-list__item">
+                                        <a href="#" class="sub-sub-navigation-list__link">Антивозрастные добавки</a>
+                                    </li>
+                                    <li class="sub-sub-navigation-list__item">
+                                        <a href="#" class="sub-sub-navigation-list__link">Для имунной системы</a>
+                                    </li>
+                                    <li class="sub-sub-navigation-list__item">
+                                        <a href="#" class="sub-sub-navigation-list__link">Для регуляции сна</a>
+                                    </li>
+                                    <li class="sub-sub-navigation-list__item">
+                                        <a href="#" class="sub-sub-navigation-list__link">Для опорно-двигательного аппарата</a>
+                                    </li>
+                                    <li class="sub-sub-navigation-list__item">
+                                        <a href="#" class="sub-sub-navigation-list__link">Для работы мозга</a>
+                                    </li>
+                                    <li class="sub-sub-navigation-list__item">
+                                        <a href="#" class="sub-sub-navigation-list__link">Для сердечно-сосудистой системы</a>
+                                    </li>
+                                    <li class="sub-sub-navigation-list__item">
+                                        <a href="#" class="sub-sub-navigation-list__link">Для детокса</a>
+                                    </li>
+                                    <li class="sub-sub-navigation-list__item">
+                                        <a href="#" class="sub-sub-navigation-list__link">Для мужского здоровья</a>
+                                    </li>
+                                    <li class="sub-sub-navigation-list__item">
+                                        <a href="#" class="sub-sub-navigation-list__link">Для женского здоровья</a>
+                                    </li>
+                                    <li class="sub-sub-navigation-list__item">
+                                        <a href="#" class="sub-sub-navigation-list__link">Для детского здоровья</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="navigation-list__item">
+                <a href="#" class="navigation-list__link">Добавки</a>
+                <div class="sub-navigation-list__wrapper">
+                    <ul class="sub-navigation-list">
+                        <li class="sub-navigation-list__item">
+                            <a href="#" class="sub-navigation-list__link">Активные добавки</a>
+                            <div class="sub-sub-navigation-list__wrapper">
+                                <ul class="sub-sub-navigation-list">
+                                    <li class="sub-sub-navigation-list__item">
+                                        <a href="#" class="sub-sub-navigation-list__link">Антивозрастные добавки</a>
+                                        <div class="third-level-menu__wrapper">
+                                            <ul class="third-level-menu">
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Коэнзим Q10</a>
+                                                    <ul class="fourth-level-menu">
+                                                        <li class="fourth-level-menu__item">
+                                                            <a href="#" class="fourth-level-menu__link">Коэнзим Q10 + рыбий жир</a>
+                                                            <a href="#" class="fourth-level-menu__link">Формулы коэнзим Q10</a>
+                                                            <a href="#" class="fourth-level-menu__link">Убихинол</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Куркумин</a>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Лютеин</a>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Альфа-липоевая кислота</a>
+                                                    <ul class="fourth-level-menu">
+                                                        <li class="fourth-level-menu__item">
+                                                            <a href="#" class="fourth-level-menu__link">R-липоевая кислота</a>
+                                                            <a href="#" class="fourth-level-menu__link">Другие формулы</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Антиаксантин</a>
+                                                    <ul class="fourth-level-menu">
+                                                        <li class="fourth-level-menu__item">
+                                                            <a href="#" class="fourth-level-menu__link">Биосатин</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Ликопин</a>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Покемон</a>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Пихногенол</a>
+                                                    <ul class="fourth-level-menu">
+                                                        <li class="fourth-level-menu__item">
+                                                            <a href="#" class="fourth-level-menu__link">Сосновая кора (экстракт)</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Кверцетин</a>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Рутин</a>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Зеленый чай</a>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">L-глупатион</a>
+                                                </li>
+                                            </ul>
+                                            <ul class="third-level-menu">
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Коэнзим Q10</a>
+                                                    <ul class="fourth-level-menu">
+                                                        <li class="fourth-level-menu__item">
+                                                            <a href="#" class="fourth-level-menu__link">Коэнзим Q10 + рыбий жир</a>
+                                                            <a href="#" class="fourth-level-menu__link">Формулы коэнзим Q10</a>
+                                                            <a href="#" class="fourth-level-menu__link">Убихинол</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Куркумин</a>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Лютеин</a>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Альфа-липоевая кислота</a>
+                                                    <ul class="fourth-level-menu">
+                                                        <li class="fourth-level-menu__item">
+                                                            <a href="#" class="fourth-level-menu__link">R-липоевая кислота</a>
+                                                            <a href="#" class="fourth-level-menu__link">Другие формулы</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Антиаксантин</a>
+                                                    <ul class="fourth-level-menu">
+                                                        <li class="fourth-level-menu__item">
+                                                            <a href="#" class="fourth-level-menu__link">Биосатин</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Ликопин</a>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Покемон</a>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Пихногенол</a>
+                                                    <ul class="fourth-level-menu">
+                                                        <li class="fourth-level-menu__item">
+                                                            <a href="#" class="fourth-level-menu__link">Сосновая кора (экстракт)</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                            <ul class="third-level-menu">
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">
+                                                        <img src="assets/images/group-12.jpg" alt="акция">
+                                                    </a>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">
+                                                        <img src="assets/images/group-9.jpg" alt="акция">
+                                                    </a>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">
+                                                        <img src="assets/images/group-9-copy.jpg" alt="акция">
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                            <div class="third-level-menu__images">
+                                                <img src="assets/images/san.png" alt="sponsors">
+                                                <img src="assets/images/my-protein.png" alt="sponsors">
+                                                <img src="assets/images/usn.png" alt="sponsors">
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="sub-sub-navigation-list__item">
+                                        <a href="#" class="sub-sub-navigation-list__link">Для имунной системы</a>
+                                        <div class="third-level-menu__wrapper">
+                                            <ul class="third-level-menu">
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Тестовый продукт</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="sub-sub-navigation-list__item">
+                                        <a href="#" class="sub-sub-navigation-list__link">Для регуляции сна</a>
+                                        <div class="third-level-menu__wrapper">
+                                            <ul class="third-level-menu">
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Коэнзим Q10</a>
+                                                    <ul class="fourth-level-menu">
+                                                        <li class="fourth-level-menu__item">
+                                                            <a href="#" class="fourth-level-menu__link">Коэнзим Q10 + рыбий жир</a>
+                                                            <a href="#" class="fourth-level-menu__link">Формулы коэнзим Q10</a>
+                                                            <a href="#" class="fourth-level-menu__link">Убихинол</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Куркумин</a>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Лютеин</a>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Альфа-липоевая кислота</a>
+                                                    <ul class="fourth-level-menu">
+                                                        <li class="fourth-level-menu__item">
+                                                            <a href="#" class="fourth-level-menu__link">R-липоевая кислота</a>
+                                                            <a href="#" class="fourth-level-menu__link">Другие формулы</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Антиаксантин</a>
+                                                    <ul class="fourth-level-menu">
+                                                        <li class="fourth-level-menu__item">
+                                                            <a href="#" class="fourth-level-menu__link">Биосатин</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Ликопин</a>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Покемон</a>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Пихногенол</a>
+                                                    <ul class="fourth-level-menu">
+                                                        <li class="fourth-level-menu__item">
+                                                            <a href="#" class="fourth-level-menu__link">Сосновая кора (экстракт)</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Кверцетин</a>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Рутин</a>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Зеленый чай</a>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">L-глупатион</a>
+                                                </li>
+                                            </ul>
+                                            <ul class="third-level-menu">
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Коэнзим Q10</a>
+                                                    <ul class="fourth-level-menu">
+                                                        <li class="fourth-level-menu__item">
+                                                            <a href="#" class="fourth-level-menu__link">Коэнзим Q10 + рыбий жир</a>
+                                                            <a href="#" class="fourth-level-menu__link">Формулы коэнзим Q10</a>
+                                                            <a href="#" class="fourth-level-menu__link">Убихинол</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Куркумин</a>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Лютеин</a>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Альфа-липоевая кислота</a>
+                                                    <ul class="fourth-level-menu">
+                                                        <li class="fourth-level-menu__item">
+                                                            <a href="#" class="fourth-level-menu__link">R-липоевая кислота</a>
+                                                            <a href="#" class="fourth-level-menu__link">Другие формулы</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Антиаксантин</a>
+                                                    <ul class="fourth-level-menu">
+                                                        <li class="fourth-level-menu__item">
+                                                            <a href="#" class="fourth-level-menu__link">Биосатин</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Ликопин</a>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Покемон</a>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Пихногенол</a>
+                                                    <ul class="fourth-level-menu">
+                                                        <li class="fourth-level-menu__item">
+                                                            <a href="#" class="fourth-level-menu__link">Сосновая кора (экстракт)</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                            <ul class="third-level-menu">
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">
+                                                        <img src="assets/images/group-12.jpg" alt="акция">
+                                                    </a>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">
+                                                        <img src="assets/images/group-9.jpg" alt="акция">
+                                                    </a>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">
+                                                        <img src="assets/images/group-9-copy.jpg" alt="акция">
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                            <div class="third-level-menu__images">
+                                                <img src="assets/images/san.png" alt="sponsors">
+                                                <img src="assets/images/my-protein.png" alt="sponsors">
+                                                <img src="assets/images/usn.png" alt="sponsors">
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="sub-sub-navigation-list__item">
+                                        <a href="#" class="sub-sub-navigation-list__link">Для опорно-двигательного аппарата</a>
+                                    </li>
+                                    <li class="sub-sub-navigation-list__item">
+                                        <a href="#" class="sub-sub-navigation-list__link">Для работы мозга</a>
+                                    </li>
+                                    <li class="sub-sub-navigation-list__item">
+                                        <a href="#" class="sub-sub-navigation-list__link">Для сердечно-сосудистой системы</a>
+                                    </li>
+                                    <li class="sub-sub-navigation-list__item">
+                                        <a href="#" class="sub-sub-navigation-list__link">Для детокса</a>
+                                    </li>
+                                    <li class="sub-sub-navigation-list__item">
+                                        <a href="#" class="sub-sub-navigation-list__link">Для мужского здоровья</a>
+                                    </li>
+                                    <li class="sub-sub-navigation-list__item">
+                                        <a href="#" class="sub-sub-navigation-list__link">Для женского здоровья</a>
+                                    </li>
+                                    <li class="sub-sub-navigation-list__item">
+                                        <a href="#" class="sub-sub-navigation-list__link">Для детского здоровья</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="sub-navigation-list__item">
+                            <a href="#" class="sub-navigation-list__link">Добавки по предназначению</a>
+                            <div class="sub-sub-navigation-list__wrapper">
+                                <ul class="sub-sub-navigation-list">
+                                    <li class="sub-sub-navigation-list__item">
+                                        <a href="#" class="sub-sub-navigation-list__link">Антивозрастные добавки</a>
+                                    </li>
+                                    <li class="sub-sub-navigation-list__item">
+                                        <a href="#" class="sub-sub-navigation-list__link">Для имунной системы</a>
+                                    </li>
+                                    <li class="sub-sub-navigation-list__item">
+                                        <a href="#" class="sub-sub-navigation-list__link">Для регуляции сна</a>
+                                    </li>
+                                    <li class="sub-sub-navigation-list__item">
+                                        <a href="#" class="sub-sub-navigation-list__link">Для опорно-двигательного аппарата</a>
+                                    </li>
+                                    <li class="sub-sub-navigation-list__item">
+                                        <a href="#" class="sub-sub-navigation-list__link">Для работы мозга</a>
+                                    </li>
+                                    <li class="sub-sub-navigation-list__item">
+                                        <a href="#" class="sub-sub-navigation-list__link">Для сердечно-сосудистой системы</a>
+                                    </li>
+                                    <li class="sub-sub-navigation-list__item">
+                                        <a href="#" class="sub-sub-navigation-list__link">Для детокса</a>
+                                    </li>
+                                    <li class="sub-sub-navigation-list__item">
+                                        <a href="#" class="sub-sub-navigation-list__link">Для мужского здоровья</a>
+                                    </li>
+                                    <li class="sub-sub-navigation-list__item">
+                                        <a href="#" class="sub-sub-navigation-list__link">Для женского здоровья</a>
+                                    </li>
+                                    <li class="sub-sub-navigation-list__item">
+                                        <a href="#" class="sub-sub-navigation-list__link">Для детского здоровья</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="navigation-list__item"><a href="#" class="navigation-list__link">Травы и грибы</a></li>
+            <li class="navigation-list__item"><a href="#" class="navigation-list__link">Здоровое питание</a></li>
+            <li class="navigation-list__item"><a href="#" class="navigation-list__link">Спорт и фитнес</a></li>
+            <li class="navigation-list__item">
+                <a href="#" class="navigation-list__link">Специальное предложение</a>
+            </li>
+        </ul>
+    </div>
+</header>
+    <ul class="breadcrumbs">
+        <li class="breadcrumbs__item"><a class="breadcrumbs__link" href="#">Спорт и фитнес</a><span class="breadcrumbs__icon">/</span></li>
+        <li class="breadcrumbs__item"><a class="breadcrumbs__link" href="#">Спортивное питание</a><span class="breadcrumbs__icon">/</span></li>
+        <li class="breadcrumbs__item"><a class="breadcrumbs__link active" href="#">Протеин</a></li>
+    </ul>
+    <div class="categories-page">
+        <div class="categories-page__name">Протеин</div>
+        <div class="categories-page__sidebar sidebar col-md-2 col-sm-3 col-xs-12">
+            <label class="sidebar-action">Фильтровать по</label>
+            <div class="form-group brand">
+                <label for="brand" class="form-group__text">Бренд</label>
+                <input type="text" placeholder="Поиск по бренду" id="brand" class="form-group__search">
+                <div class="form-group__result checkbox">
+                    <label class="checkbox-wrap">Бренд 1
+                        <input type="checkbox" class="checkbox__input">
+                        <span class="checkbox__text checkmark"></span>
+                    </label>
+                    <label class="checkbox-wrap">Бренд 2
+                        <input type="checkbox" class="checkbox__input">
+                        <span class="checkbox__text checkmark"></span>
+                    </label>
+                    <label class="checkbox-wrap">Бренд 3
+                        <input type="checkbox" class="checkbox__input">
+                        <span class="checkbox__text checkmark"></span>
+                    </label>
+
+                    <a href="#" class="form-group__link-all">Полный список</a>
+                </div>
+            </div>
+            <div class="form-group price-block">
+                <label for="price-block" class="form-group__text">Цена (грн)</label>
+                <div class="form-group__limits">
+                    <span>от</span>
+                    <input type="text" placeholder="" id="price-block" class="form-group__search">
+                    <span>до</span>
+                    <input type="text" placeholder="" id="price-block2" class="form-group__search">
+                </div>
+                <div class="form-group__result checkbox">
+                    <label class="checkbox-wrap">0 - 150 грн
+                        <input type="checkbox" class="checkbox__input">
+                        <span class="checkbox__text checkmark"></span>
+                    </label>
+                    <label class="checkbox-wrap">150 - 300 грн
+                        <input type="checkbox" class="checkbox__input">
+                        <span class="checkbox__text checkmark"></span>
+                    </label>
+                    <label class="checkbox-wrap">500 - 1000 грн
+                        <input type="checkbox" class="checkbox__input">
+                        <span class="checkbox__text checkmark"></span>
+                    </label>
+                    <label class="checkbox-wrap">1000+
+                        <input type="checkbox" class="checkbox__input">
+                        <span class="checkbox__text checkmark"></span>
+                    </label>
+                </div>
+            </div>
+            <div class="form-group spec">
+                <label class="form-group__text">Специальное предложение</label>
+                <div class="form-group__result checkbox">
+                    <label class="checkbox-wrap">Хиты продаж
+                        <input type="checkbox" class="checkbox__input">
+                        <span class="checkbox__text checkmark"></span>
+                    </label>
+                    <label class="checkbox-wrap">Бестселлеры
+                        <input type="checkbox" class="checkbox__input">
+                        <span class="checkbox__text checkmark"></span>
+                    </label>
+                    <label class="checkbox-wrap">Уцененный товар
+                        <input type="checkbox" class="checkbox__input">
+                        <span class="checkbox__text checkmark"></span>
+                    </label>
+                    <label class="checkbox-wrap">Акция
+                        <input type="checkbox" class="checkbox__input">
+                        <span class="checkbox__text checkmark"></span>
+                    </label>
+                    <label class="checkbox-wrap">Распродажа
+                        <input type="checkbox" class="checkbox__input">
+                        <span class="checkbox__text checkmark"></span>
+                    </label>
+                </div>
+            </div>
+            <div class="form-group spec radio-btn-block">
+                <label class="form-group__text">Вес</label>
+                <div class="form-group__result radio">
+                    <label class="radio-wrap">
+                        <input type="radio" name="radio1" class="radio__input" />
+                        <span class="radio__text">150 г</span>
+                    </label>
+                    <label class="radio-wrap">
+                        <input type="radio" name="radio1" class="radio__input" />
+                        <span class="radio__text">150 г</span>
+                    </label>
+                    <label class="radio-wrap">
+                        <input type="radio" name="radio1" class="radio__input" />
+                        <span class="radio__text">150 г</span>
+                    </label>
+                    <label class="radio-wrap">
+                        <input type="radio" name="radio1" class="radio__input" />
+                        <span class="radio__text">150 г</span>
+                    </label>
+                    <label class="radio-wrap">
+                        <input type="radio" name="radio1" class="radio__input" />
+                        <span class="radio__text">150 г</span>
+                    </label>
+                    <label class="radio-wrap">
+                        <input type="radio" name="radio1" class="radio__input" />
+                        <span class="radio__text">150 г</span>
+                    </label>
+                    <label class="radio-wrap">
+                        <input type="radio" name="radio1" class="radio__input" />
+                        <span class="radio__text">150 г</span>
+                    </label>
+                    <label class="radio-wrap">
+                        <input type="radio" name="radio1" class="radio__input" />
+                        <span class="radio__text">150 мл</span>
+                    </label>
+                    <label class="radio-wrap">
+                        <input type="radio" name="radio1" class="radio__input" />
+                        <span class="radio__text">175 мл</span>
+                    </label>
+                </div>
+                <a href="#" class="form-group__link-all">Полный список</a>
+            </div>
+            <div class="form-group spec radio-btn-block">
+                <label class="form-group__text">Количество штук в упаковке</label>
+                <div class="form-group__result radio">
+                    <label class="radio-wrap">
+                        <input type="radio" name="radio" class="radio__input" />
+                        <span class="radio__text">150 г</span>
+                    </label>
+                    <label class="radio-wrap">
+                        <input type="radio" name="radio" class="radio__input" />
+                        <span class="radio__text">150 г</span>
+                    </label>
+                    <label class="radio-wrap">
+                        <input type="radio" name="radio" class="radio__input" />
+                        <span class="radio__text">150 г</span>
+                    </label>
+                    <label class="radio-wrap">
+                        <input type="radio" name="radio" class="radio__input" />
+                        <span class="radio__text">150 г</span>
+                    </label>
+                    <label class="radio-wrap">
+                        <input type="radio" name="radio" class="radio__input" />
+                        <span class="radio__text">150 г</span>
+                    </label>
+                    <label class="radio-wrap">
+                        <input type="radio" name="radio" class="radio__input" />
+                        <span class="radio__text">150 г</span>
+                    </label>
+                    <label class="radio-wrap">
+                        <input type="radio" name="radio" class="radio__input" />
+                        <span class="radio__text">150 г</span>
+                    </label>
+                    <label class="radio-wrap">
+                        <input type="radio" name="radio" class="radio__input" />
+                        <span class="radio__text">150 мл</span>
+                    </label>
+                    <label class="radio-wrap">
+                        <input type="radio" name="radio" class="radio__input" />
+                        <span class="radio__text">175 мл</span>
+                    </label>
+                </div>
+                <a href="#" class="form-group__link-all">Полный список</a>
+            </div>
+            <div class="form-group spec radio-btn-block">
+                <label class="form-group__text">Обьем</label>
+                <div class="form-group__result radio">
+                    <label class="radio-wrap">
+                        <input type="radio" name="radio" class="radio__input" />
+                        <span class="radio__text">150 г</span>
+                    </label>
+                    <label class="radio-wrap">
+                        <input type="radio" name="radio" class="radio__input" />
+                        <span class="radio__text">150 г</span>
+                    </label>
+                    <label class="radio-wrap">
+                        <input type="radio" name="radio" class="radio__input" />
+                        <span class="radio__text">150 г</span>
+                    </label>
+                    <label class="radio-wrap">
+                        <input type="radio" name="radio" class="radio__input" />
+                        <span class="radio__text">150 г</span>
+                    </label>
+                    <label class="radio-wrap">
+                        <input type="radio" name="radio" class="radio__input" />
+                        <span class="radio__text">150 г</span>
+                    </label>
+                    <label class="radio-wrap">
+                        <input type="radio" name="radio" class="radio__input" />
+                        <span class="radio__text">150 г</span>
+                    </label>
+                    <label class="radio-wrap">
+                        <input type="radio" name="radio" class="radio__input" />
+                        <span class="radio__text">150 г</span>
+                    </label>
+                    <label class="radio-wrap">
+                        <input type="radio" name="radio" class="radio__input" />
+                        <span class="radio__text">150 мл</span>
+                    </label>
+                    <label class="radio-wrap">
+                        <input type="radio" name="radio" class="radio__input" />
+                        <span class="radio__text">175 мл</span>
+                    </label>
+                </div>
+                <a href="#" class="form-group__link-all">Полный список</a>
+            </div>
+        </div>
+        <div class="search-page__row col-md-10 col-sm-9 col-xs-12">
+            <label for="price">Сортировать по</label>
+            <select class="select-search" name="price" id="price">
+                <option value="0">возрастанию цены</option>
+                <option value="1">убыванию цены</option>
+                <option value="2">по новизне</option>
+                <option value="2">по оценке пользователя</option>
+            </select>
+            <div class="slider-category search-page__grid">
+                <div class="slider-category__item product">
+                    <div class="product-help-block">
+                        <div class="product-top">
+                            <img src="assets/images/love.svg" alt="like" class="product__like">
+                            <span class="product__sales">-15%</span>
+                        </div>
+                        <div class="product__image">
+                            <img src="assets/images/bitmap.png" alt="product">
+                        </div>
+                        <div class="product__description">
+                            <a href="product.html">Optimum Nutrition, Opti-Men, 150 таблеток</a>
+                        </div>
+                        <div class="product__rating">
+                            <i>
+                                <svg class="active" xmlns="http://www.w3.org/2000/svg" width="14" height="13" viewBox="0 0 14 13">
+                                    <path fill="transparent" stroke="#5A03AF" stroke-width="1" fill-rule="nonzero" d="M12.84 3.978L9.645 3.53 8.215.722A1.36 1.36 0 0 0 7 0a1.36 1.36 0 0 0-1.215.73l-1.43 2.806-3.195.45c-.51.071-.934.417-1.094.891A1.28 1.28 0 0 0 .41 6.22l2.313 2.172-.546 3.076a1.29 1.29 0 0 0 .539 1.282c.417.293.97.332 1.427.1L7 11.396l2.858 1.452c.457.233 1.01.194 1.427-.1a1.29 1.29 0 0 0 .54-1.28l-.547-3.077 2.313-2.18a1.28 1.28 0 0 0 .343-1.343 1.343 1.343 0 0 0-1.094-.89z"/>
+                                </svg>
+                            </i>
+                            <i>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13" viewBox="0 0 14 13">
+                                    <path fill="transparent" stroke="#5A03AF" stroke-width="1" fill-rule="nonzero" d="M12.84 3.978L9.645 3.53 8.215.722A1.36 1.36 0 0 0 7 0a1.36 1.36 0 0 0-1.215.73l-1.43 2.806-3.195.45c-.51.071-.934.417-1.094.891A1.28 1.28 0 0 0 .41 6.22l2.313 2.172-.546 3.076a1.29 1.29 0 0 0 .539 1.282c.417.293.97.332 1.427.1L7 11.396l2.858 1.452c.457.233 1.01.194 1.427-.1a1.29 1.29 0 0 0 .54-1.28l-.547-3.077 2.313-2.18a1.28 1.28 0 0 0 .343-1.343 1.343 1.343 0 0 0-1.094-.89z"/>
+                                </svg>
+                            </i>
+                            <i>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13" viewBox="0 0 14 13">
+                                    <path fill="transparent" stroke="#5A03AF" stroke-width="1" fill-rule="nonzero" d="M12.84 3.978L9.645 3.53 8.215.722A1.36 1.36 0 0 0 7 0a1.36 1.36 0 0 0-1.215.73l-1.43 2.806-3.195.45c-.51.071-.934.417-1.094.891A1.28 1.28 0 0 0 .41 6.22l2.313 2.172-.546 3.076a1.29 1.29 0 0 0 .539 1.282c.417.293.97.332 1.427.1L7 11.396l2.858 1.452c.457.233 1.01.194 1.427-.1a1.29 1.29 0 0 0 .54-1.28l-.547-3.077 2.313-2.18a1.28 1.28 0 0 0 .343-1.343 1.343 1.343 0 0 0-1.094-.89z"/>
+                                </svg>
+                            </i>
+                            <i>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13" viewBox="0 0 14 13">
+                                    <path fill="transparent" stroke="#5A03AF" stroke-width="1" fill-rule="nonzero" d="M12.84 3.978L9.645 3.53 8.215.722A1.36 1.36 0 0 0 7 0a1.36 1.36 0 0 0-1.215.73l-1.43 2.806-3.195.45c-.51.071-.934.417-1.094.891A1.28 1.28 0 0 0 .41 6.22l2.313 2.172-.546 3.076a1.29 1.29 0 0 0 .539 1.282c.417.293.97.332 1.427.1L7 11.396l2.858 1.452c.457.233 1.01.194 1.427-.1a1.29 1.29 0 0 0 .54-1.28l-.547-3.077 2.313-2.18a1.28 1.28 0 0 0 .343-1.343 1.343 1.343 0 0 0-1.094-.89z"/>
+                                </svg>
+                            </i>
+                            <i>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13" viewBox="0 0 14 13">
+                                    <path fill="transparent" stroke="#5A03AF" stroke-width="1" fill-rule="nonzero" d="M12.84 3.978L9.645 3.53 8.215.722A1.36 1.36 0 0 0 7 0a1.36 1.36 0 0 0-1.215.73l-1.43 2.806-3.195.45c-.51.071-.934.417-1.094.891A1.28 1.28 0 0 0 .41 6.22l2.313 2.172-.546 3.076a1.29 1.29 0 0 0 .539 1.282c.417.293.97.332 1.427.1L7 11.396l2.858 1.452c.457.233 1.01.194 1.427-.1a1.29 1.29 0 0 0 .54-1.28l-.547-3.077 2.313-2.18a1.28 1.28 0 0 0 .343-1.343 1.343 1.343 0 0 0-1.094-.89z"/>
+                                </svg>
+                            </i>
+                            <span class="rating-count">12</span>
+                        </div>
+                        <div class="product__price">
+                            <div class="product__price-old">750 грн</div>
+                            <div class="product__price-current">232 грн</div>
+                        </div>
+                        <div class="product__buttons">
+                            <a href="#" class="product__add">Добавить в корзину</a>
+                            <a href="#" class="product__buy">Купить в один клик</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-category__item product">
+                    <div class="product-help-block">
+                        <div class="product-top">
+                            <img src="assets/images/love.svg" alt="like" class="product__like">
+                            <span class="product__sales">-15%</span>
+                        </div>
+                        <div class="product__image">
+                            <img src="assets/images/bitmap.png" alt="product">
+                        </div>
+                        <div class="product__description">
+                            Optimum Nutrition, Opti-Men, 150 таблеток
+                        </div>
+                        <div class="product__rating">
+                            <i>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13" viewBox="0 0 14 13">
+                                    <path fill="transparent" stroke="#5A03AF" stroke-width="1" fill-rule="nonzero" d="M12.84 3.978L9.645 3.53 8.215.722A1.36 1.36 0 0 0 7 0a1.36 1.36 0 0 0-1.215.73l-1.43 2.806-3.195.45c-.51.071-.934.417-1.094.891A1.28 1.28 0 0 0 .41 6.22l2.313 2.172-.546 3.076a1.29 1.29 0 0 0 .539 1.282c.417.293.97.332 1.427.1L7 11.396l2.858 1.452c.457.233 1.01.194 1.427-.1a1.29 1.29 0 0 0 .54-1.28l-.547-3.077 2.313-2.18a1.28 1.28 0 0 0 .343-1.343 1.343 1.343 0 0 0-1.094-.89z"/>
+                                </svg>
+                            </i>
+                            <i>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13" viewBox="0 0 14 13">
+                                    <path fill="transparent" stroke="#5A03AF" stroke-width="1" fill-rule="nonzero" d="M12.84 3.978L9.645 3.53 8.215.722A1.36 1.36 0 0 0 7 0a1.36 1.36 0 0 0-1.215.73l-1.43 2.806-3.195.45c-.51.071-.934.417-1.094.891A1.28 1.28 0 0 0 .41 6.22l2.313 2.172-.546 3.076a1.29 1.29 0 0 0 .539 1.282c.417.293.97.332 1.427.1L7 11.396l2.858 1.452c.457.233 1.01.194 1.427-.1a1.29 1.29 0 0 0 .54-1.28l-.547-3.077 2.313-2.18a1.28 1.28 0 0 0 .343-1.343 1.343 1.343 0 0 0-1.094-.89z"/>
+                                </svg>
+                            </i>
+                            <i>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13" viewBox="0 0 14 13">
+                                    <path fill="transparent" stroke="#5A03AF" stroke-width="1" fill-rule="nonzero" d="M12.84 3.978L9.645 3.53 8.215.722A1.36 1.36 0 0 0 7 0a1.36 1.36 0 0 0-1.215.73l-1.43 2.806-3.195.45c-.51.071-.934.417-1.094.891A1.28 1.28 0 0 0 .41 6.22l2.313 2.172-.546 3.076a1.29 1.29 0 0 0 .539 1.282c.417.293.97.332 1.427.1L7 11.396l2.858 1.452c.457.233 1.01.194 1.427-.1a1.29 1.29 0 0 0 .54-1.28l-.547-3.077 2.313-2.18a1.28 1.28 0 0 0 .343-1.343 1.343 1.343 0 0 0-1.094-.89z"/>
+                                </svg>
+                            </i>
+                            <i>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13" viewBox="0 0 14 13">
+                                    <path fill="transparent" stroke="#5A03AF" stroke-width="1" fill-rule="nonzero" d="M12.84 3.978L9.645 3.53 8.215.722A1.36 1.36 0 0 0 7 0a1.36 1.36 0 0 0-1.215.73l-1.43 2.806-3.195.45c-.51.071-.934.417-1.094.891A1.28 1.28 0 0 0 .41 6.22l2.313 2.172-.546 3.076a1.29 1.29 0 0 0 .539 1.282c.417.293.97.332 1.427.1L7 11.396l2.858 1.452c.457.233 1.01.194 1.427-.1a1.29 1.29 0 0 0 .54-1.28l-.547-3.077 2.313-2.18a1.28 1.28 0 0 0 .343-1.343 1.343 1.343 0 0 0-1.094-.89z"/>
+                                </svg>
+                            </i>
+                            <i>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13" viewBox="0 0 14 13">
+                                    <path fill="transparent" stroke="#5A03AF" stroke-width="1" fill-rule="nonzero" d="M12.84 3.978L9.645 3.53 8.215.722A1.36 1.36 0 0 0 7 0a1.36 1.36 0 0 0-1.215.73l-1.43 2.806-3.195.45c-.51.071-.934.417-1.094.891A1.28 1.28 0 0 0 .41 6.22l2.313 2.172-.546 3.076a1.29 1.29 0 0 0 .539 1.282c.417.293.97.332 1.427.1L7 11.396l2.858 1.452c.457.233 1.01.194 1.427-.1a1.29 1.29 0 0 0 .54-1.28l-.547-3.077 2.313-2.18a1.28 1.28 0 0 0 .343-1.343 1.343 1.343 0 0 0-1.094-.89z"/>
+                                </svg>
+                            </i>
+                            <span class="rating-count">12</span>
+                        </div>
+                        <div class="product__price">
+                            <div class="product__price-old">750 грн</div>
+                            <div class="product__price-current">232 грн</div>
+                        </div>
+                        <div class="product__buttons">
+                            <a href="#" class="product__add">Добавить в корзину</a>
+                            <a href="#" class="product__buy">Купить в один клик</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-category__item product">
+                    <div class="product-help-block">
+                        <div class="product-top">
+                            <img src="assets/images/love.svg" alt="like" class="product__like">
+                            <span class="product__sales">-15%</span>
+                        </div>
+                        <div class="product__image">
+                            <img src="assets/images/product.png" alt="product">
+                        </div>
+                        <div class="product__description">
+                            Optimum Nutrition, Opti-Men, 150 таблеток
+                        </div>
+                        <div class="product__rating">
+                            <i>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13" viewBox="0 0 14 13">
+                                    <path fill="transparent" stroke="#5A03AF" stroke-width="1" fill-rule="nonzero" d="M12.84 3.978L9.645 3.53 8.215.722A1.36 1.36 0 0 0 7 0a1.36 1.36 0 0 0-1.215.73l-1.43 2.806-3.195.45c-.51.071-.934.417-1.094.891A1.28 1.28 0 0 0 .41 6.22l2.313 2.172-.546 3.076a1.29 1.29 0 0 0 .539 1.282c.417.293.97.332 1.427.1L7 11.396l2.858 1.452c.457.233 1.01.194 1.427-.1a1.29 1.29 0 0 0 .54-1.28l-.547-3.077 2.313-2.18a1.28 1.28 0 0 0 .343-1.343 1.343 1.343 0 0 0-1.094-.89z"/>
+                                </svg>
+                            </i>
+                            <i>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13" viewBox="0 0 14 13">
+                                    <path fill="transparent" stroke="#5A03AF" stroke-width="1" fill-rule="nonzero" d="M12.84 3.978L9.645 3.53 8.215.722A1.36 1.36 0 0 0 7 0a1.36 1.36 0 0 0-1.215.73l-1.43 2.806-3.195.45c-.51.071-.934.417-1.094.891A1.28 1.28 0 0 0 .41 6.22l2.313 2.172-.546 3.076a1.29 1.29 0 0 0 .539 1.282c.417.293.97.332 1.427.1L7 11.396l2.858 1.452c.457.233 1.01.194 1.427-.1a1.29 1.29 0 0 0 .54-1.28l-.547-3.077 2.313-2.18a1.28 1.28 0 0 0 .343-1.343 1.343 1.343 0 0 0-1.094-.89z"/>
+                                </svg>
+                            </i>
+                            <i>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13" viewBox="0 0 14 13">
+                                    <path fill="transparent" stroke="#5A03AF" stroke-width="1" fill-rule="nonzero" d="M12.84 3.978L9.645 3.53 8.215.722A1.36 1.36 0 0 0 7 0a1.36 1.36 0 0 0-1.215.73l-1.43 2.806-3.195.45c-.51.071-.934.417-1.094.891A1.28 1.28 0 0 0 .41 6.22l2.313 2.172-.546 3.076a1.29 1.29 0 0 0 .539 1.282c.417.293.97.332 1.427.1L7 11.396l2.858 1.452c.457.233 1.01.194 1.427-.1a1.29 1.29 0 0 0 .54-1.28l-.547-3.077 2.313-2.18a1.28 1.28 0 0 0 .343-1.343 1.343 1.343 0 0 0-1.094-.89z"/>
+                                </svg>
+                            </i>
+                            <i>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13" viewBox="0 0 14 13">
+                                    <path fill="transparent" stroke="#5A03AF" stroke-width="1" fill-rule="nonzero" d="M12.84 3.978L9.645 3.53 8.215.722A1.36 1.36 0 0 0 7 0a1.36 1.36 0 0 0-1.215.73l-1.43 2.806-3.195.45c-.51.071-.934.417-1.094.891A1.28 1.28 0 0 0 .41 6.22l2.313 2.172-.546 3.076a1.29 1.29 0 0 0 .539 1.282c.417.293.97.332 1.427.1L7 11.396l2.858 1.452c.457.233 1.01.194 1.427-.1a1.29 1.29 0 0 0 .54-1.28l-.547-3.077 2.313-2.18a1.28 1.28 0 0 0 .343-1.343 1.343 1.343 0 0 0-1.094-.89z"/>
+                                </svg>
+                            </i>
+                            <i>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13" viewBox="0 0 14 13">
+                                    <path fill="transparent" stroke="#5A03AF" stroke-width="1" fill-rule="nonzero" d="M12.84 3.978L9.645 3.53 8.215.722A1.36 1.36 0 0 0 7 0a1.36 1.36 0 0 0-1.215.73l-1.43 2.806-3.195.45c-.51.071-.934.417-1.094.891A1.28 1.28 0 0 0 .41 6.22l2.313 2.172-.546 3.076a1.29 1.29 0 0 0 .539 1.282c.417.293.97.332 1.427.1L7 11.396l2.858 1.452c.457.233 1.01.194 1.427-.1a1.29 1.29 0 0 0 .54-1.28l-.547-3.077 2.313-2.18a1.28 1.28 0 0 0 .343-1.343 1.343 1.343 0 0 0-1.094-.89z"/>
+                                </svg>
+                            </i>
+                            <span class="rating-count">12</span>
+                        </div>
+                        <div class="product__price">
+                            <div class="product__price-old">750 грн</div>
+                            <div class="product__price-current">232 грн</div>
+                        </div>
+                        <div class="product__buttons">
+                            <a href="#" class="product__add">Добавить в корзину</a>
+                            <a href="#" class="product__buy">Купить в один клик</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-category__item product">
+                    <div class="product-help-block">
+                        <div class="product-top">
+                            <img src="assets/images/love.svg" alt="like" class="product__like">
+                            <span class="product__sales">-15%</span>
+                        </div>
+                        <div class="product__image">
+                            <img src="assets/images/bitmap.png" alt="product">
+                        </div>
+                        <div class="product__description">
+                            Optimum Nutrition, Opti-Men, 150 таблеток
+                        </div>
+                        <div class="product__rating">
+                            <i>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13" viewBox="0 0 14 13">
+                                    <path fill="transparent" stroke="#5A03AF" stroke-width="1" fill-rule="nonzero" d="M12.84 3.978L9.645 3.53 8.215.722A1.36 1.36 0 0 0 7 0a1.36 1.36 0 0 0-1.215.73l-1.43 2.806-3.195.45c-.51.071-.934.417-1.094.891A1.28 1.28 0 0 0 .41 6.22l2.313 2.172-.546 3.076a1.29 1.29 0 0 0 .539 1.282c.417.293.97.332 1.427.1L7 11.396l2.858 1.452c.457.233 1.01.194 1.427-.1a1.29 1.29 0 0 0 .54-1.28l-.547-3.077 2.313-2.18a1.28 1.28 0 0 0 .343-1.343 1.343 1.343 0 0 0-1.094-.89z"/>
+                                </svg>
+                            </i>
+                            <i>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13" viewBox="0 0 14 13">
+                                    <path fill="transparent" stroke="#5A03AF" stroke-width="1" fill-rule="nonzero" d="M12.84 3.978L9.645 3.53 8.215.722A1.36 1.36 0 0 0 7 0a1.36 1.36 0 0 0-1.215.73l-1.43 2.806-3.195.45c-.51.071-.934.417-1.094.891A1.28 1.28 0 0 0 .41 6.22l2.313 2.172-.546 3.076a1.29 1.29 0 0 0 .539 1.282c.417.293.97.332 1.427.1L7 11.396l2.858 1.452c.457.233 1.01.194 1.427-.1a1.29 1.29 0 0 0 .54-1.28l-.547-3.077 2.313-2.18a1.28 1.28 0 0 0 .343-1.343 1.343 1.343 0 0 0-1.094-.89z"/>
+                                </svg>
+                            </i>
+                            <i>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13" viewBox="0 0 14 13">
+                                    <path fill="transparent" stroke="#5A03AF" stroke-width="1" fill-rule="nonzero" d="M12.84 3.978L9.645 3.53 8.215.722A1.36 1.36 0 0 0 7 0a1.36 1.36 0 0 0-1.215.73l-1.43 2.806-3.195.45c-.51.071-.934.417-1.094.891A1.28 1.28 0 0 0 .41 6.22l2.313 2.172-.546 3.076a1.29 1.29 0 0 0 .539 1.282c.417.293.97.332 1.427.1L7 11.396l2.858 1.452c.457.233 1.01.194 1.427-.1a1.29 1.29 0 0 0 .54-1.28l-.547-3.077 2.313-2.18a1.28 1.28 0 0 0 .343-1.343 1.343 1.343 0 0 0-1.094-.89z"/>
+                                </svg>
+                            </i>
+                            <i>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13" viewBox="0 0 14 13">
+                                    <path fill="transparent" stroke="#5A03AF" stroke-width="1" fill-rule="nonzero" d="M12.84 3.978L9.645 3.53 8.215.722A1.36 1.36 0 0 0 7 0a1.36 1.36 0 0 0-1.215.73l-1.43 2.806-3.195.45c-.51.071-.934.417-1.094.891A1.28 1.28 0 0 0 .41 6.22l2.313 2.172-.546 3.076a1.29 1.29 0 0 0 .539 1.282c.417.293.97.332 1.427.1L7 11.396l2.858 1.452c.457.233 1.01.194 1.427-.1a1.29 1.29 0 0 0 .54-1.28l-.547-3.077 2.313-2.18a1.28 1.28 0 0 0 .343-1.343 1.343 1.343 0 0 0-1.094-.89z"/>
+                                </svg>
+                            </i>
+                            <i>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13" viewBox="0 0 14 13">
+                                    <path fill="transparent" stroke="#5A03AF" stroke-width="1" fill-rule="nonzero" d="M12.84 3.978L9.645 3.53 8.215.722A1.36 1.36 0 0 0 7 0a1.36 1.36 0 0 0-1.215.73l-1.43 2.806-3.195.45c-.51.071-.934.417-1.094.891A1.28 1.28 0 0 0 .41 6.22l2.313 2.172-.546 3.076a1.29 1.29 0 0 0 .539 1.282c.417.293.97.332 1.427.1L7 11.396l2.858 1.452c.457.233 1.01.194 1.427-.1a1.29 1.29 0 0 0 .54-1.28l-.547-3.077 2.313-2.18a1.28 1.28 0 0 0 .343-1.343 1.343 1.343 0 0 0-1.094-.89z"/>
+                                </svg>
+                            </i>
+                            <span class="rating-count">12</span>
+                        </div>
+                        <div class="product__price">
+                            <div class="product__price-old">750 грн</div>
+                            <div class="product__price-current">232 грн</div>
+                        </div>
+                        <div class="product__buttons">
+                            <a href="#" class="product__add">Добавить в корзину</a>
+                            <a href="#" class="product__buy">Купить в один клик</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-category__item product">
+                    <div class="product-help-block">
+                        <div class="product-top">
+                            <img src="assets/images/love.svg" alt="like" class="product__like">
+                            <span class="product__sales">-15%</span>
+                        </div>
+                        <div class="product__image">
+                            <img src="assets/images/bitmap.png" alt="product">
+                        </div>
+                        <div class="product__description">
+                            Optimum Nutrition, Opti-Men, 150 таблеток
+                        </div>
+                        <div class="product__rating">
+                            <i>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13" viewBox="0 0 14 13">
+                                    <path fill="transparent" stroke="#5A03AF" stroke-width="1" fill-rule="nonzero" d="M12.84 3.978L9.645 3.53 8.215.722A1.36 1.36 0 0 0 7 0a1.36 1.36 0 0 0-1.215.73l-1.43 2.806-3.195.45c-.51.071-.934.417-1.094.891A1.28 1.28 0 0 0 .41 6.22l2.313 2.172-.546 3.076a1.29 1.29 0 0 0 .539 1.282c.417.293.97.332 1.427.1L7 11.396l2.858 1.452c.457.233 1.01.194 1.427-.1a1.29 1.29 0 0 0 .54-1.28l-.547-3.077 2.313-2.18a1.28 1.28 0 0 0 .343-1.343 1.343 1.343 0 0 0-1.094-.89z"/>
+                                </svg>
+                            </i>
+                            <i>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13" viewBox="0 0 14 13">
+                                    <path fill="transparent" stroke="#5A03AF" stroke-width="1" fill-rule="nonzero" d="M12.84 3.978L9.645 3.53 8.215.722A1.36 1.36 0 0 0 7 0a1.36 1.36 0 0 0-1.215.73l-1.43 2.806-3.195.45c-.51.071-.934.417-1.094.891A1.28 1.28 0 0 0 .41 6.22l2.313 2.172-.546 3.076a1.29 1.29 0 0 0 .539 1.282c.417.293.97.332 1.427.1L7 11.396l2.858 1.452c.457.233 1.01.194 1.427-.1a1.29 1.29 0 0 0 .54-1.28l-.547-3.077 2.313-2.18a1.28 1.28 0 0 0 .343-1.343 1.343 1.343 0 0 0-1.094-.89z"/>
+                                </svg>
+                            </i>
+                            <i>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13" viewBox="0 0 14 13">
+                                    <path fill="transparent" stroke="#5A03AF" stroke-width="1" fill-rule="nonzero" d="M12.84 3.978L9.645 3.53 8.215.722A1.36 1.36 0 0 0 7 0a1.36 1.36 0 0 0-1.215.73l-1.43 2.806-3.195.45c-.51.071-.934.417-1.094.891A1.28 1.28 0 0 0 .41 6.22l2.313 2.172-.546 3.076a1.29 1.29 0 0 0 .539 1.282c.417.293.97.332 1.427.1L7 11.396l2.858 1.452c.457.233 1.01.194 1.427-.1a1.29 1.29 0 0 0 .54-1.28l-.547-3.077 2.313-2.18a1.28 1.28 0 0 0 .343-1.343 1.343 1.343 0 0 0-1.094-.89z"/>
+                                </svg>
+                            </i>
+                            <i>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13" viewBox="0 0 14 13">
+                                    <path fill="transparent" stroke="#5A03AF" stroke-width="1" fill-rule="nonzero" d="M12.84 3.978L9.645 3.53 8.215.722A1.36 1.36 0 0 0 7 0a1.36 1.36 0 0 0-1.215.73l-1.43 2.806-3.195.45c-.51.071-.934.417-1.094.891A1.28 1.28 0 0 0 .41 6.22l2.313 2.172-.546 3.076a1.29 1.29 0 0 0 .539 1.282c.417.293.97.332 1.427.1L7 11.396l2.858 1.452c.457.233 1.01.194 1.427-.1a1.29 1.29 0 0 0 .54-1.28l-.547-3.077 2.313-2.18a1.28 1.28 0 0 0 .343-1.343 1.343 1.343 0 0 0-1.094-.89z"/>
+                                </svg>
+                            </i>
+                            <i>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13" viewBox="0 0 14 13">
+                                    <path fill="transparent" stroke="#5A03AF" stroke-width="1" fill-rule="nonzero" d="M12.84 3.978L9.645 3.53 8.215.722A1.36 1.36 0 0 0 7 0a1.36 1.36 0 0 0-1.215.73l-1.43 2.806-3.195.45c-.51.071-.934.417-1.094.891A1.28 1.28 0 0 0 .41 6.22l2.313 2.172-.546 3.076a1.29 1.29 0 0 0 .539 1.282c.417.293.97.332 1.427.1L7 11.396l2.858 1.452c.457.233 1.01.194 1.427-.1a1.29 1.29 0 0 0 .54-1.28l-.547-3.077 2.313-2.18a1.28 1.28 0 0 0 .343-1.343 1.343 1.343 0 0 0-1.094-.89z"/>
+                                </svg>
+                            </i>
+                            <span class="rating-count">12</span>
+                        </div>
+                        <div class="product__price">
+                            <div class="product__price-old">750 грн</div>
+                            <div class="product__price-current">232 грн</div>
+                        </div>
+                        <div class="product__buttons">
+                            <a href="#" class="product__add">Добавить в корзину</a>
+                            <a href="#" class="product__buy">Купить в один клик</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-category__item product">
+                    <div class="product-help-block">
+                        <div class="product-top">
+                            <img src="assets/images/love.svg" alt="like" class="product__like">
+                            <span class="product__sales">-15%</span>
+                        </div>
+                        <div class="product__image">
+                            <img src="assets/images/bitmap.png" alt="product">
+                        </div>
+                        <div class="product__description">
+                            Optimum Nutrition, Opti-Men, 150 таблеток
+                        </div>
+                        <div class="product__rating">
+                            <i>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13" viewBox="0 0 14 13">
+                                    <path fill="transparent" stroke="#5A03AF" stroke-width="1" fill-rule="nonzero" d="M12.84 3.978L9.645 3.53 8.215.722A1.36 1.36 0 0 0 7 0a1.36 1.36 0 0 0-1.215.73l-1.43 2.806-3.195.45c-.51.071-.934.417-1.094.891A1.28 1.28 0 0 0 .41 6.22l2.313 2.172-.546 3.076a1.29 1.29 0 0 0 .539 1.282c.417.293.97.332 1.427.1L7 11.396l2.858 1.452c.457.233 1.01.194 1.427-.1a1.29 1.29 0 0 0 .54-1.28l-.547-3.077 2.313-2.18a1.28 1.28 0 0 0 .343-1.343 1.343 1.343 0 0 0-1.094-.89z"/>
+                                </svg>
+                            </i>
+                            <i>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13" viewBox="0 0 14 13">
+                                    <path fill="transparent" stroke="#5A03AF" stroke-width="1" fill-rule="nonzero" d="M12.84 3.978L9.645 3.53 8.215.722A1.36 1.36 0 0 0 7 0a1.36 1.36 0 0 0-1.215.73l-1.43 2.806-3.195.45c-.51.071-.934.417-1.094.891A1.28 1.28 0 0 0 .41 6.22l2.313 2.172-.546 3.076a1.29 1.29 0 0 0 .539 1.282c.417.293.97.332 1.427.1L7 11.396l2.858 1.452c.457.233 1.01.194 1.427-.1a1.29 1.29 0 0 0 .54-1.28l-.547-3.077 2.313-2.18a1.28 1.28 0 0 0 .343-1.343 1.343 1.343 0 0 0-1.094-.89z"/>
+                                </svg>
+                            </i>
+                            <i>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13" viewBox="0 0 14 13">
+                                    <path fill="transparent" stroke="#5A03AF" stroke-width="1" fill-rule="nonzero" d="M12.84 3.978L9.645 3.53 8.215.722A1.36 1.36 0 0 0 7 0a1.36 1.36 0 0 0-1.215.73l-1.43 2.806-3.195.45c-.51.071-.934.417-1.094.891A1.28 1.28 0 0 0 .41 6.22l2.313 2.172-.546 3.076a1.29 1.29 0 0 0 .539 1.282c.417.293.97.332 1.427.1L7 11.396l2.858 1.452c.457.233 1.01.194 1.427-.1a1.29 1.29 0 0 0 .54-1.28l-.547-3.077 2.313-2.18a1.28 1.28 0 0 0 .343-1.343 1.343 1.343 0 0 0-1.094-.89z"/>
+                                </svg>
+                            </i>
+                            <i>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13" viewBox="0 0 14 13">
+                                    <path fill="transparent" stroke="#5A03AF" stroke-width="1" fill-rule="nonzero" d="M12.84 3.978L9.645 3.53 8.215.722A1.36 1.36 0 0 0 7 0a1.36 1.36 0 0 0-1.215.73l-1.43 2.806-3.195.45c-.51.071-.934.417-1.094.891A1.28 1.28 0 0 0 .41 6.22l2.313 2.172-.546 3.076a1.29 1.29 0 0 0 .539 1.282c.417.293.97.332 1.427.1L7 11.396l2.858 1.452c.457.233 1.01.194 1.427-.1a1.29 1.29 0 0 0 .54-1.28l-.547-3.077 2.313-2.18a1.28 1.28 0 0 0 .343-1.343 1.343 1.343 0 0 0-1.094-.89z"/>
+                                </svg>
+                            </i>
+                            <i>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13" viewBox="0 0 14 13">
+                                    <path fill="transparent" stroke="#5A03AF" stroke-width="1" fill-rule="nonzero" d="M12.84 3.978L9.645 3.53 8.215.722A1.36 1.36 0 0 0 7 0a1.36 1.36 0 0 0-1.215.73l-1.43 2.806-3.195.45c-.51.071-.934.417-1.094.891A1.28 1.28 0 0 0 .41 6.22l2.313 2.172-.546 3.076a1.29 1.29 0 0 0 .539 1.282c.417.293.97.332 1.427.1L7 11.396l2.858 1.452c.457.233 1.01.194 1.427-.1a1.29 1.29 0 0 0 .54-1.28l-.547-3.077 2.313-2.18a1.28 1.28 0 0 0 .343-1.343 1.343 1.343 0 0 0-1.094-.89z"/>
+                                </svg>
+                            </i>
+                            <span class="rating-count">12</span>
+                        </div>
+                        <div class="product__price">
+                            <div class="product__price-old">750 грн</div>
+                            <div class="product__price-current">232 грн</div>
+                        </div>
+                        <div class="product__buttons">
+                            <a href="#" class="product__add">Добавить в корзину</a>
+                            <a href="#" class="product__buy">Купить в один клик</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-category__item product">
+                    <div class="product-help-block">
+                        <div class="product-top">
+                            <img src="assets/images/love.svg" alt="like" class="product__like">
+                            <span class="product__sales">-15%</span>
+                        </div>
+                        <div class="product__image">
+                            <img src="assets/images/bitmap.png" alt="product">
+                        </div>
+                        <div class="product__description">
+                            Optimum Nutrition, Opti-Men, 150 таблеток
+                        </div>
+                        <div class="product__rating">
+                            <i>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13" viewBox="0 0 14 13">
+                                    <path fill="transparent" stroke="#5A03AF" stroke-width="1" fill-rule="nonzero" d="M12.84 3.978L9.645 3.53 8.215.722A1.36 1.36 0 0 0 7 0a1.36 1.36 0 0 0-1.215.73l-1.43 2.806-3.195.45c-.51.071-.934.417-1.094.891A1.28 1.28 0 0 0 .41 6.22l2.313 2.172-.546 3.076a1.29 1.29 0 0 0 .539 1.282c.417.293.97.332 1.427.1L7 11.396l2.858 1.452c.457.233 1.01.194 1.427-.1a1.29 1.29 0 0 0 .54-1.28l-.547-3.077 2.313-2.18a1.28 1.28 0 0 0 .343-1.343 1.343 1.343 0 0 0-1.094-.89z"/>
+                                </svg>
+                            </i>
+                            <i>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13" viewBox="0 0 14 13">
+                                    <path fill="transparent" stroke="#5A03AF" stroke-width="1" fill-rule="nonzero" d="M12.84 3.978L9.645 3.53 8.215.722A1.36 1.36 0 0 0 7 0a1.36 1.36 0 0 0-1.215.73l-1.43 2.806-3.195.45c-.51.071-.934.417-1.094.891A1.28 1.28 0 0 0 .41 6.22l2.313 2.172-.546 3.076a1.29 1.29 0 0 0 .539 1.282c.417.293.97.332 1.427.1L7 11.396l2.858 1.452c.457.233 1.01.194 1.427-.1a1.29 1.29 0 0 0 .54-1.28l-.547-3.077 2.313-2.18a1.28 1.28 0 0 0 .343-1.343 1.343 1.343 0 0 0-1.094-.89z"/>
+                                </svg>
+                            </i>
+                            <i>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13" viewBox="0 0 14 13">
+                                    <path fill="transparent" stroke="#5A03AF" stroke-width="1" fill-rule="nonzero" d="M12.84 3.978L9.645 3.53 8.215.722A1.36 1.36 0 0 0 7 0a1.36 1.36 0 0 0-1.215.73l-1.43 2.806-3.195.45c-.51.071-.934.417-1.094.891A1.28 1.28 0 0 0 .41 6.22l2.313 2.172-.546 3.076a1.29 1.29 0 0 0 .539 1.282c.417.293.97.332 1.427.1L7 11.396l2.858 1.452c.457.233 1.01.194 1.427-.1a1.29 1.29 0 0 0 .54-1.28l-.547-3.077 2.313-2.18a1.28 1.28 0 0 0 .343-1.343 1.343 1.343 0 0 0-1.094-.89z"/>
+                                </svg>
+                            </i>
+                            <i>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13" viewBox="0 0 14 13">
+                                    <path fill="transparent" stroke="#5A03AF" stroke-width="1" fill-rule="nonzero" d="M12.84 3.978L9.645 3.53 8.215.722A1.36 1.36 0 0 0 7 0a1.36 1.36 0 0 0-1.215.73l-1.43 2.806-3.195.45c-.51.071-.934.417-1.094.891A1.28 1.28 0 0 0 .41 6.22l2.313 2.172-.546 3.076a1.29 1.29 0 0 0 .539 1.282c.417.293.97.332 1.427.1L7 11.396l2.858 1.452c.457.233 1.01.194 1.427-.1a1.29 1.29 0 0 0 .54-1.28l-.547-3.077 2.313-2.18a1.28 1.28 0 0 0 .343-1.343 1.343 1.343 0 0 0-1.094-.89z"/>
+                                </svg>
+                            </i>
+                            <i>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13" viewBox="0 0 14 13">
+                                    <path fill="transparent" stroke="#5A03AF" stroke-width="1" fill-rule="nonzero" d="M12.84 3.978L9.645 3.53 8.215.722A1.36 1.36 0 0 0 7 0a1.36 1.36 0 0 0-1.215.73l-1.43 2.806-3.195.45c-.51.071-.934.417-1.094.891A1.28 1.28 0 0 0 .41 6.22l2.313 2.172-.546 3.076a1.29 1.29 0 0 0 .539 1.282c.417.293.97.332 1.427.1L7 11.396l2.858 1.452c.457.233 1.01.194 1.427-.1a1.29 1.29 0 0 0 .54-1.28l-.547-3.077 2.313-2.18a1.28 1.28 0 0 0 .343-1.343 1.343 1.343 0 0 0-1.094-.89z"/>
+                                </svg>
+                            </i>
+                            <span class="rating-count">12</span>
+                        </div>
+                        <div class="product__price">
+                            <div class="product__price-old">750 грн</div>
+                            <div class="product__price-current">232 грн</div>
+                        </div>
+                        <div class="product__buttons">
+                            <a href="#" class="product__add">Добавить в корзину</a>
+                            <a href="#" class="product__buy">Купить в один клик</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-category__item product">
+                    <div class="product-help-block">
+                        <div class="product-top">
+                            <img src="assets/images/love.svg" alt="like" class="product__like">
+                            <span class="product__sales">-15%</span>
+                        </div>
+                        <div class="product__image">
+                            <img src="assets/images/bitmap.png" alt="product">
+                        </div>
+                        <div class="product__description">
+                            Optimum Nutrition, Opti-Men, 150 таблеток
+                        </div>
+                        <div class="product__rating">
+                            <i>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13" viewBox="0 0 14 13">
+                                    <path fill="transparent" stroke="#5A03AF" stroke-width="1" fill-rule="nonzero" d="M12.84 3.978L9.645 3.53 8.215.722A1.36 1.36 0 0 0 7 0a1.36 1.36 0 0 0-1.215.73l-1.43 2.806-3.195.45c-.51.071-.934.417-1.094.891A1.28 1.28 0 0 0 .41 6.22l2.313 2.172-.546 3.076a1.29 1.29 0 0 0 .539 1.282c.417.293.97.332 1.427.1L7 11.396l2.858 1.452c.457.233 1.01.194 1.427-.1a1.29 1.29 0 0 0 .54-1.28l-.547-3.077 2.313-2.18a1.28 1.28 0 0 0 .343-1.343 1.343 1.343 0 0 0-1.094-.89z"/>
+                                </svg>
+                            </i>
+                            <i>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13" viewBox="0 0 14 13">
+                                    <path fill="transparent" stroke="#5A03AF" stroke-width="1" fill-rule="nonzero" d="M12.84 3.978L9.645 3.53 8.215.722A1.36 1.36 0 0 0 7 0a1.36 1.36 0 0 0-1.215.73l-1.43 2.806-3.195.45c-.51.071-.934.417-1.094.891A1.28 1.28 0 0 0 .41 6.22l2.313 2.172-.546 3.076a1.29 1.29 0 0 0 .539 1.282c.417.293.97.332 1.427.1L7 11.396l2.858 1.452c.457.233 1.01.194 1.427-.1a1.29 1.29 0 0 0 .54-1.28l-.547-3.077 2.313-2.18a1.28 1.28 0 0 0 .343-1.343 1.343 1.343 0 0 0-1.094-.89z"/>
+                                </svg>
+                            </i>
+                            <i>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13" viewBox="0 0 14 13">
+                                    <path fill="transparent" stroke="#5A03AF" stroke-width="1" fill-rule="nonzero" d="M12.84 3.978L9.645 3.53 8.215.722A1.36 1.36 0 0 0 7 0a1.36 1.36 0 0 0-1.215.73l-1.43 2.806-3.195.45c-.51.071-.934.417-1.094.891A1.28 1.28 0 0 0 .41 6.22l2.313 2.172-.546 3.076a1.29 1.29 0 0 0 .539 1.282c.417.293.97.332 1.427.1L7 11.396l2.858 1.452c.457.233 1.01.194 1.427-.1a1.29 1.29 0 0 0 .54-1.28l-.547-3.077 2.313-2.18a1.28 1.28 0 0 0 .343-1.343 1.343 1.343 0 0 0-1.094-.89z"/>
+                                </svg>
+                            </i>
+                            <i>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13" viewBox="0 0 14 13">
+                                    <path fill="transparent" stroke="#5A03AF" stroke-width="1" fill-rule="nonzero" d="M12.84 3.978L9.645 3.53 8.215.722A1.36 1.36 0 0 0 7 0a1.36 1.36 0 0 0-1.215.73l-1.43 2.806-3.195.45c-.51.071-.934.417-1.094.891A1.28 1.28 0 0 0 .41 6.22l2.313 2.172-.546 3.076a1.29 1.29 0 0 0 .539 1.282c.417.293.97.332 1.427.1L7 11.396l2.858 1.452c.457.233 1.01.194 1.427-.1a1.29 1.29 0 0 0 .54-1.28l-.547-3.077 2.313-2.18a1.28 1.28 0 0 0 .343-1.343 1.343 1.343 0 0 0-1.094-.89z"/>
+                                </svg>
+                            </i>
+                            <i>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13" viewBox="0 0 14 13">
+                                    <path fill="transparent" stroke="#5A03AF" stroke-width="1" fill-rule="nonzero" d="M12.84 3.978L9.645 3.53 8.215.722A1.36 1.36 0 0 0 7 0a1.36 1.36 0 0 0-1.215.73l-1.43 2.806-3.195.45c-.51.071-.934.417-1.094.891A1.28 1.28 0 0 0 .41 6.22l2.313 2.172-.546 3.076a1.29 1.29 0 0 0 .539 1.282c.417.293.97.332 1.427.1L7 11.396l2.858 1.452c.457.233 1.01.194 1.427-.1a1.29 1.29 0 0 0 .54-1.28l-.547-3.077 2.313-2.18a1.28 1.28 0 0 0 .343-1.343 1.343 1.343 0 0 0-1.094-.89z"/>
+                                </svg>
+                            </i>
+                            <span class="rating-count">12</span>
+                        </div>
+                        <div class="product__price">
+                            <div class="product__price-old">750 грн</div>
+                            <div class="product__price-current">232 грн</div>
+                        </div>
+                        <div class="product__buttons">
+                            <a href="#" class="product__add">Добавить в корзину</a>
+                            <a href="#" class="product__buy">Купить в один клик</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-category__item product">
+                    <div class="product-help-block">
+                        <div class="product-top">
+                            <img src="assets/images/love.svg" alt="like" class="product__like">
+                            <span class="product__sales">-15%</span>
+                        </div>
+                        <div class="product__image">
+                            <img src="assets/images/bitmap.png" alt="product">
+                        </div>
+                        <div class="product__description">
+                            Optimum Nutrition, Opti-Men, 150 таблеток
+                        </div>
+                        <div class="product__rating">
+                            <i>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13" viewBox="0 0 14 13">
+                                    <path fill="transparent" stroke="#5A03AF" stroke-width="1" fill-rule="nonzero" d="M12.84 3.978L9.645 3.53 8.215.722A1.36 1.36 0 0 0 7 0a1.36 1.36 0 0 0-1.215.73l-1.43 2.806-3.195.45c-.51.071-.934.417-1.094.891A1.28 1.28 0 0 0 .41 6.22l2.313 2.172-.546 3.076a1.29 1.29 0 0 0 .539 1.282c.417.293.97.332 1.427.1L7 11.396l2.858 1.452c.457.233 1.01.194 1.427-.1a1.29 1.29 0 0 0 .54-1.28l-.547-3.077 2.313-2.18a1.28 1.28 0 0 0 .343-1.343 1.343 1.343 0 0 0-1.094-.89z"/>
+                                </svg>
+                            </i>
+                            <i>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13" viewBox="0 0 14 13">
+                                    <path fill="transparent" stroke="#5A03AF" stroke-width="1" fill-rule="nonzero" d="M12.84 3.978L9.645 3.53 8.215.722A1.36 1.36 0 0 0 7 0a1.36 1.36 0 0 0-1.215.73l-1.43 2.806-3.195.45c-.51.071-.934.417-1.094.891A1.28 1.28 0 0 0 .41 6.22l2.313 2.172-.546 3.076a1.29 1.29 0 0 0 .539 1.282c.417.293.97.332 1.427.1L7 11.396l2.858 1.452c.457.233 1.01.194 1.427-.1a1.29 1.29 0 0 0 .54-1.28l-.547-3.077 2.313-2.18a1.28 1.28 0 0 0 .343-1.343 1.343 1.343 0 0 0-1.094-.89z"/>
+                                </svg>
+                            </i>
+                            <i>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13" viewBox="0 0 14 13">
+                                    <path fill="transparent" stroke="#5A03AF" stroke-width="1" fill-rule="nonzero" d="M12.84 3.978L9.645 3.53 8.215.722A1.36 1.36 0 0 0 7 0a1.36 1.36 0 0 0-1.215.73l-1.43 2.806-3.195.45c-.51.071-.934.417-1.094.891A1.28 1.28 0 0 0 .41 6.22l2.313 2.172-.546 3.076a1.29 1.29 0 0 0 .539 1.282c.417.293.97.332 1.427.1L7 11.396l2.858 1.452c.457.233 1.01.194 1.427-.1a1.29 1.29 0 0 0 .54-1.28l-.547-3.077 2.313-2.18a1.28 1.28 0 0 0 .343-1.343 1.343 1.343 0 0 0-1.094-.89z"/>
+                                </svg>
+                            </i>
+                            <i>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13" viewBox="0 0 14 13">
+                                    <path fill="transparent" stroke="#5A03AF" stroke-width="1" fill-rule="nonzero" d="M12.84 3.978L9.645 3.53 8.215.722A1.36 1.36 0 0 0 7 0a1.36 1.36 0 0 0-1.215.73l-1.43 2.806-3.195.45c-.51.071-.934.417-1.094.891A1.28 1.28 0 0 0 .41 6.22l2.313 2.172-.546 3.076a1.29 1.29 0 0 0 .539 1.282c.417.293.97.332 1.427.1L7 11.396l2.858 1.452c.457.233 1.01.194 1.427-.1a1.29 1.29 0 0 0 .54-1.28l-.547-3.077 2.313-2.18a1.28 1.28 0 0 0 .343-1.343 1.343 1.343 0 0 0-1.094-.89z"/>
+                                </svg>
+                            </i>
+                            <i>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13" viewBox="0 0 14 13">
+                                    <path fill="transparent" stroke="#5A03AF" stroke-width="1" fill-rule="nonzero" d="M12.84 3.978L9.645 3.53 8.215.722A1.36 1.36 0 0 0 7 0a1.36 1.36 0 0 0-1.215.73l-1.43 2.806-3.195.45c-.51.071-.934.417-1.094.891A1.28 1.28 0 0 0 .41 6.22l2.313 2.172-.546 3.076a1.29 1.29 0 0 0 .539 1.282c.417.293.97.332 1.427.1L7 11.396l2.858 1.452c.457.233 1.01.194 1.427-.1a1.29 1.29 0 0 0 .54-1.28l-.547-3.077 2.313-2.18a1.28 1.28 0 0 0 .343-1.343 1.343 1.343 0 0 0-1.094-.89z"/>
+                                </svg>
+                            </i>
+                            <span class="rating-count">12</span>
+                        </div>
+                        <div class="product__price">
+                            <div class="product__price-old">750 грн</div>
+                            <div class="product__price-current">232 грн</div>
+                        </div>
+                        <div class="product__buttons">
+                            <a href="#" class="product__add">Добавить в корзину</a>
+                            <a href="#" class="product__buy">Купить в один клик</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-category__item product">
+                    <div class="product-help-block">
+                        <div class="product-top">
+                            <img src="assets/images/love.svg" alt="like" class="product__like">
+                            <span class="product__sales">-15%</span>
+                        </div>
+                        <div class="product__image">
+                            <img src="assets/images/bitmap.png" alt="product">
+                        </div>
+                        <div class="product__description">
+                            Optimum Nutrition, Opti-Men, 150 таблеток
+                        </div>
+                        <div class="product__rating">
+                            <i>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13" viewBox="0 0 14 13">
+                                    <path fill="transparent" stroke="#5A03AF" stroke-width="1" fill-rule="nonzero" d="M12.84 3.978L9.645 3.53 8.215.722A1.36 1.36 0 0 0 7 0a1.36 1.36 0 0 0-1.215.73l-1.43 2.806-3.195.45c-.51.071-.934.417-1.094.891A1.28 1.28 0 0 0 .41 6.22l2.313 2.172-.546 3.076a1.29 1.29 0 0 0 .539 1.282c.417.293.97.332 1.427.1L7 11.396l2.858 1.452c.457.233 1.01.194 1.427-.1a1.29 1.29 0 0 0 .54-1.28l-.547-3.077 2.313-2.18a1.28 1.28 0 0 0 .343-1.343 1.343 1.343 0 0 0-1.094-.89z"/>
+                                </svg>
+                            </i>
+                            <i>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13" viewBox="0 0 14 13">
+                                    <path fill="transparent" stroke="#5A03AF" stroke-width="1" fill-rule="nonzero" d="M12.84 3.978L9.645 3.53 8.215.722A1.36 1.36 0 0 0 7 0a1.36 1.36 0 0 0-1.215.73l-1.43 2.806-3.195.45c-.51.071-.934.417-1.094.891A1.28 1.28 0 0 0 .41 6.22l2.313 2.172-.546 3.076a1.29 1.29 0 0 0 .539 1.282c.417.293.97.332 1.427.1L7 11.396l2.858 1.452c.457.233 1.01.194 1.427-.1a1.29 1.29 0 0 0 .54-1.28l-.547-3.077 2.313-2.18a1.28 1.28 0 0 0 .343-1.343 1.343 1.343 0 0 0-1.094-.89z"/>
+                                </svg>
+                            </i>
+                            <i>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13" viewBox="0 0 14 13">
+                                    <path fill="transparent" stroke="#5A03AF" stroke-width="1" fill-rule="nonzero" d="M12.84 3.978L9.645 3.53 8.215.722A1.36 1.36 0 0 0 7 0a1.36 1.36 0 0 0-1.215.73l-1.43 2.806-3.195.45c-.51.071-.934.417-1.094.891A1.28 1.28 0 0 0 .41 6.22l2.313 2.172-.546 3.076a1.29 1.29 0 0 0 .539 1.282c.417.293.97.332 1.427.1L7 11.396l2.858 1.452c.457.233 1.01.194 1.427-.1a1.29 1.29 0 0 0 .54-1.28l-.547-3.077 2.313-2.18a1.28 1.28 0 0 0 .343-1.343 1.343 1.343 0 0 0-1.094-.89z"/>
+                                </svg>
+                            </i>
+                            <i>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13" viewBox="0 0 14 13">
+                                    <path fill="transparent" stroke="#5A03AF" stroke-width="1" fill-rule="nonzero" d="M12.84 3.978L9.645 3.53 8.215.722A1.36 1.36 0 0 0 7 0a1.36 1.36 0 0 0-1.215.73l-1.43 2.806-3.195.45c-.51.071-.934.417-1.094.891A1.28 1.28 0 0 0 .41 6.22l2.313 2.172-.546 3.076a1.29 1.29 0 0 0 .539 1.282c.417.293.97.332 1.427.1L7 11.396l2.858 1.452c.457.233 1.01.194 1.427-.1a1.29 1.29 0 0 0 .54-1.28l-.547-3.077 2.313-2.18a1.28 1.28 0 0 0 .343-1.343 1.343 1.343 0 0 0-1.094-.89z"/>
+                                </svg>
+                            </i>
+                            <i>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13" viewBox="0 0 14 13">
+                                    <path fill="transparent" stroke="#5A03AF" stroke-width="1" fill-rule="nonzero" d="M12.84 3.978L9.645 3.53 8.215.722A1.36 1.36 0 0 0 7 0a1.36 1.36 0 0 0-1.215.73l-1.43 2.806-3.195.45c-.51.071-.934.417-1.094.891A1.28 1.28 0 0 0 .41 6.22l2.313 2.172-.546 3.076a1.29 1.29 0 0 0 .539 1.282c.417.293.97.332 1.427.1L7 11.396l2.858 1.452c.457.233 1.01.194 1.427-.1a1.29 1.29 0 0 0 .54-1.28l-.547-3.077 2.313-2.18a1.28 1.28 0 0 0 .343-1.343 1.343 1.343 0 0 0-1.094-.89z"/>
+                                </svg>
+                            </i>
+                            <span class="rating-count">12</span>
+                        </div>
+                        <div class="product__price">
+                            <div class="product__price-old">750 грн</div>
+                            <div class="product__price-current">232 грн</div>
+                        </div>
+                        <div class="product__buttons">
+                            <a href="#" class="product__add">Добавить в корзину</a>
+                            <a href="#" class="product__buy">Купить в один клик</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <ul class="blog-pagination">
+                <li class="blog-pagination__item"><a href="#" class="blog-pagination__link active">1</a></li>
+                <li class="blog-pagination__item"><a href="#" class="blog-pagination__link">2</a></li>
+                <li class="blog-pagination__item"><a href="#" class="blog-pagination__link">3</a></li>
+                <li class="blog-pagination__item"><a href="#" class="blog-pagination__link">4</a></li>
+                <li class="blog-pagination__item"><a href="#" class="blog-pagination__link">5</a></li>
+                <li class="blog-pagination__item"><a href="#" class="blog-pagination__link last"><img src="assets/images/arrows-copy-next.svg" alt="next"></a></li>
+            </ul>
+            <div class="blog-pagination__count">Страница 1 из 4</div>
+        </div>
+    </div>
+    <div class="slider-category news">
+        <div class="slider-category__title">
+            <span>Товары, которыми Вы интересовались</span>
+        </div>
+        <div class="news__arrow slider-arrow">
+        <span class="news__arrow-left slider-arrow__left">
+            <span class='arrow-wrap'>
+                <i class='fa fa-long-arrow-left' aria-hidden='true'></i>
+            </span>
+        </span>
+            <span class="news__arrow-right slider-arrow__right">
+            <span class='arrow-wrap'>
+                <i class='fa fa-long-arrow-right' aria-hidden='true'></i>
+            </span>
+        </span>
+        </div>
+        <div class="slider-category__content">
+            <div class="owl-carousel owl-theme">
+                <div class="slider-category__item product">
+                    <div class="product-help-block">
+                        <div class="product-top">
+                            <img src="assets/images/love.svg" alt="like" class="product__like">
+                            <span class="product__sales">-7%</span>
+                        </div>
+                        <div class="product__image">
+                            <img src="assets/images/bitmap.png" alt="product">
+                        </div>
+                        <div class="product__description">
+                            <a href="product.html">Optimum Nutrition, Opti-Men, 150 таблеток</a>
+                        </div>
+                        <div class="product__rating">
+                            <i>
+                                <svg class="active" xmlns="http://www.w3.org/2000/svg" width="14" height="13" viewBox="0 0 14 13">
+                                    <path fill="transparent" stroke="#5A03AF" stroke-width="1" fill-rule="nonzero" d="M12.84 3.978L9.645 3.53 8.215.722A1.36 1.36 0 0 0 7 0a1.36 1.36 0 0 0-1.215.73l-1.43 2.806-3.195.45c-.51.071-.934.417-1.094.891A1.28 1.28 0 0 0 .41 6.22l2.313 2.172-.546 3.076a1.29 1.29 0 0 0 .539 1.282c.417.293.97.332 1.427.1L7 11.396l2.858 1.452c.457.233 1.01.194 1.427-.1a1.29 1.29 0 0 0 .54-1.28l-.547-3.077 2.313-2.18a1.28 1.28 0 0 0 .343-1.343 1.343 1.343 0 0 0-1.094-.89z"/>
+                                </svg>
+                            </i>
+                            <i>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13" viewBox="0 0 14 13">
+                                    <path fill="transparent" stroke="#5A03AF" stroke-width="1" fill-rule="nonzero" d="M12.84 3.978L9.645 3.53 8.215.722A1.36 1.36 0 0 0 7 0a1.36 1.36 0 0 0-1.215.73l-1.43 2.806-3.195.45c-.51.071-.934.417-1.094.891A1.28 1.28 0 0 0 .41 6.22l2.313 2.172-.546 3.076a1.29 1.29 0 0 0 .539 1.282c.417.293.97.332 1.427.1L7 11.396l2.858 1.452c.457.233 1.01.194 1.427-.1a1.29 1.29 0 0 0 .54-1.28l-.547-3.077 2.313-2.18a1.28 1.28 0 0 0 .343-1.343 1.343 1.343 0 0 0-1.094-.89z"/>
+                                </svg>
+                            </i>
+                            <i>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13" viewBox="0 0 14 13">
+                                    <path fill="transparent" stroke="#5A03AF" stroke-width="1" fill-rule="nonzero" d="M12.84 3.978L9.645 3.53 8.215.722A1.36 1.36 0 0 0 7 0a1.36 1.36 0 0 0-1.215.73l-1.43 2.806-3.195.45c-.51.071-.934.417-1.094.891A1.28 1.28 0 0 0 .41 6.22l2.313 2.172-.546 3.076a1.29 1.29 0 0 0 .539 1.282c.417.293.97.332 1.427.1L7 11.396l2.858 1.452c.457.233 1.01.194 1.427-.1a1.29 1.29 0 0 0 .54-1.28l-.547-3.077 2.313-2.18a1.28 1.28 0 0 0 .343-1.343 1.343 1.343 0 0 0-1.094-.89z"/>
+                                </svg>
+                            </i>
+                            <i>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13" viewBox="0 0 14 13">
+                                    <path fill="transparent" stroke="#5A03AF" stroke-width="1" fill-rule="nonzero" d="M12.84 3.978L9.645 3.53 8.215.722A1.36 1.36 0 0 0 7 0a1.36 1.36 0 0 0-1.215.73l-1.43 2.806-3.195.45c-.51.071-.934.417-1.094.891A1.28 1.28 0 0 0 .41 6.22l2.313 2.172-.546 3.076a1.29 1.29 0 0 0 .539 1.282c.417.293.97.332 1.427.1L7 11.396l2.858 1.452c.457.233 1.01.194 1.427-.1a1.29 1.29 0 0 0 .54-1.28l-.547-3.077 2.313-2.18a1.28 1.28 0 0 0 .343-1.343 1.343 1.343 0 0 0-1.094-.89z"/>
+                                </svg>
+                            </i>
+                            <i>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13" viewBox="0 0 14 13">
+                                    <path fill="transparent" stroke="#5A03AF" stroke-width="1" fill-rule="nonzero" d="M12.84 3.978L9.645 3.53 8.215.722A1.36 1.36 0 0 0 7 0a1.36 1.36 0 0 0-1.215.73l-1.43 2.806-3.195.45c-.51.071-.934.417-1.094.891A1.28 1.28 0 0 0 .41 6.22l2.313 2.172-.546 3.076a1.29 1.29 0 0 0 .539 1.282c.417.293.97.332 1.427.1L7 11.396l2.858 1.452c.457.233 1.01.194 1.427-.1a1.29 1.29 0 0 0 .54-1.28l-.547-3.077 2.313-2.18a1.28 1.28 0 0 0 .343-1.343 1.343 1.343 0 0 0-1.094-.89z"/>
+                                </svg>
+                            </i>
+                            <span class="rating-count">12</span>
+                        </div>
+                        <div class="product__price">
+                            <div class="product__price-old">750 грн</div>
+                            <div class="product__price-current">232 грн</div>
+                        </div>
+                        <div class="product__buttons">
+                            <a href="#" class="product__add">Добавить в корзину</a>
+                            <a href="#" class="product__buy">Купить в один клик</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-category__item product">
+                    <div class="product-help-block">
+                        <div class="product-top">
+                            <img src="assets/images/love.svg" alt="like" class="product__like">
+                            <span class="product__sales">-150%</span>
+                        </div>
+                        <div class="product__image">
+                            <img src="assets/images/bitmap.png" alt="product">
+                        </div>
+                        <div class="product__description">
+                            Optimum Nutrition, Opti-Men, 150 таблеток
+                        </div>
+                        <div class="product__rating">
+                            <i>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13" viewBox="0 0 14 13">
+                                    <path fill="transparent" stroke="#5A03AF" stroke-width="1" fill-rule="nonzero" d="M12.84 3.978L9.645 3.53 8.215.722A1.36 1.36 0 0 0 7 0a1.36 1.36 0 0 0-1.215.73l-1.43 2.806-3.195.45c-.51.071-.934.417-1.094.891A1.28 1.28 0 0 0 .41 6.22l2.313 2.172-.546 3.076a1.29 1.29 0 0 0 .539 1.282c.417.293.97.332 1.427.1L7 11.396l2.858 1.452c.457.233 1.01.194 1.427-.1a1.29 1.29 0 0 0 .54-1.28l-.547-3.077 2.313-2.18a1.28 1.28 0 0 0 .343-1.343 1.343 1.343 0 0 0-1.094-.89z"/>
+                                </svg>
+                            </i>
+                            <i>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13" viewBox="0 0 14 13">
+                                    <path fill="transparent" stroke="#5A03AF" stroke-width="1" fill-rule="nonzero" d="M12.84 3.978L9.645 3.53 8.215.722A1.36 1.36 0 0 0 7 0a1.36 1.36 0 0 0-1.215.73l-1.43 2.806-3.195.45c-.51.071-.934.417-1.094.891A1.28 1.28 0 0 0 .41 6.22l2.313 2.172-.546 3.076a1.29 1.29 0 0 0 .539 1.282c.417.293.97.332 1.427.1L7 11.396l2.858 1.452c.457.233 1.01.194 1.427-.1a1.29 1.29 0 0 0 .54-1.28l-.547-3.077 2.313-2.18a1.28 1.28 0 0 0 .343-1.343 1.343 1.343 0 0 0-1.094-.89z"/>
+                                </svg>
+                            </i>
+                            <i>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13" viewBox="0 0 14 13">
+                                    <path fill="transparent" stroke="#5A03AF" stroke-width="1" fill-rule="nonzero" d="M12.84 3.978L9.645 3.53 8.215.722A1.36 1.36 0 0 0 7 0a1.36 1.36 0 0 0-1.215.73l-1.43 2.806-3.195.45c-.51.071-.934.417-1.094.891A1.28 1.28 0 0 0 .41 6.22l2.313 2.172-.546 3.076a1.29 1.29 0 0 0 .539 1.282c.417.293.97.332 1.427.1L7 11.396l2.858 1.452c.457.233 1.01.194 1.427-.1a1.29 1.29 0 0 0 .54-1.28l-.547-3.077 2.313-2.18a1.28 1.28 0 0 0 .343-1.343 1.343 1.343 0 0 0-1.094-.89z"/>
+                                </svg>
+                            </i>
+                            <i>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13" viewBox="0 0 14 13">
+                                    <path fill="transparent" stroke="#5A03AF" stroke-width="1" fill-rule="nonzero" d="M12.84 3.978L9.645 3.53 8.215.722A1.36 1.36 0 0 0 7 0a1.36 1.36 0 0 0-1.215.73l-1.43 2.806-3.195.45c-.51.071-.934.417-1.094.891A1.28 1.28 0 0 0 .41 6.22l2.313 2.172-.546 3.076a1.29 1.29 0 0 0 .539 1.282c.417.293.97.332 1.427.1L7 11.396l2.858 1.452c.457.233 1.01.194 1.427-.1a1.29 1.29 0 0 0 .54-1.28l-.547-3.077 2.313-2.18a1.28 1.28 0 0 0 .343-1.343 1.343 1.343 0 0 0-1.094-.89z"/>
+                                </svg>
+                            </i>
+                            <i>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13" viewBox="0 0 14 13">
+                                    <path fill="transparent" stroke="#5A03AF" stroke-width="1" fill-rule="nonzero" d="M12.84 3.978L9.645 3.53 8.215.722A1.36 1.36 0 0 0 7 0a1.36 1.36 0 0 0-1.215.73l-1.43 2.806-3.195.45c-.51.071-.934.417-1.094.891A1.28 1.28 0 0 0 .41 6.22l2.313 2.172-.546 3.076a1.29 1.29 0 0 0 .539 1.282c.417.293.97.332 1.427.1L7 11.396l2.858 1.452c.457.233 1.01.194 1.427-.1a1.29 1.29 0 0 0 .54-1.28l-.547-3.077 2.313-2.18a1.28 1.28 0 0 0 .343-1.343 1.343 1.343 0 0 0-1.094-.89z"/>
+                                </svg>
+                            </i>
+                            <span class="rating-count">12</span>
+                        </div>
+                        <div class="product__price">
+                            <div class="product__price-old">750 грн</div>
+                            <div class="product__price-current">232 грн</div>
+                        </div>
+                        <div class="product__buttons">
+                            <a href="#" class="product__add">Добавить в корзину</a>
+                            <a href="#" class="product__buy">Купить в один клик</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-category__item product">
+                    <div class="product-help-block">
+                        <div class="product-top">
+                            <img src="assets/images/love.svg" alt="like" class="product__like">
+                            <span class="product__sales">-15%</span>
+                        </div>
+                        <div class="product__image">
+                            <img src="assets/images/bitmap.png" alt="product">
+                        </div>
+                        <div class="product__description">
+                            Optimum Nutrition, Opti-Men, 150 таблеток
+                        </div>
+                        <div class="product__rating">
+                            <i>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13" viewBox="0 0 14 13">
+                                    <path fill="transparent" stroke="#5A03AF" stroke-width="1" fill-rule="nonzero" d="M12.84 3.978L9.645 3.53 8.215.722A1.36 1.36 0 0 0 7 0a1.36 1.36 0 0 0-1.215.73l-1.43 2.806-3.195.45c-.51.071-.934.417-1.094.891A1.28 1.28 0 0 0 .41 6.22l2.313 2.172-.546 3.076a1.29 1.29 0 0 0 .539 1.282c.417.293.97.332 1.427.1L7 11.396l2.858 1.452c.457.233 1.01.194 1.427-.1a1.29 1.29 0 0 0 .54-1.28l-.547-3.077 2.313-2.18a1.28 1.28 0 0 0 .343-1.343 1.343 1.343 0 0 0-1.094-.89z"/>
+                                </svg>
+                            </i>
+                            <i>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13" viewBox="0 0 14 13">
+                                    <path fill="transparent" stroke="#5A03AF" stroke-width="1" fill-rule="nonzero" d="M12.84 3.978L9.645 3.53 8.215.722A1.36 1.36 0 0 0 7 0a1.36 1.36 0 0 0-1.215.73l-1.43 2.806-3.195.45c-.51.071-.934.417-1.094.891A1.28 1.28 0 0 0 .41 6.22l2.313 2.172-.546 3.076a1.29 1.29 0 0 0 .539 1.282c.417.293.97.332 1.427.1L7 11.396l2.858 1.452c.457.233 1.01.194 1.427-.1a1.29 1.29 0 0 0 .54-1.28l-.547-3.077 2.313-2.18a1.28 1.28 0 0 0 .343-1.343 1.343 1.343 0 0 0-1.094-.89z"/>
+                                </svg>
+                            </i>
+                            <i>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13" viewBox="0 0 14 13">
+                                    <path fill="transparent" stroke="#5A03AF" stroke-width="1" fill-rule="nonzero" d="M12.84 3.978L9.645 3.53 8.215.722A1.36 1.36 0 0 0 7 0a1.36 1.36 0 0 0-1.215.73l-1.43 2.806-3.195.45c-.51.071-.934.417-1.094.891A1.28 1.28 0 0 0 .41 6.22l2.313 2.172-.546 3.076a1.29 1.29 0 0 0 .539 1.282c.417.293.97.332 1.427.1L7 11.396l2.858 1.452c.457.233 1.01.194 1.427-.1a1.29 1.29 0 0 0 .54-1.28l-.547-3.077 2.313-2.18a1.28 1.28 0 0 0 .343-1.343 1.343 1.343 0 0 0-1.094-.89z"/>
+                                </svg>
+                            </i>
+                            <i>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13" viewBox="0 0 14 13">
+                                    <path fill="transparent" stroke="#5A03AF" stroke-width="1" fill-rule="nonzero" d="M12.84 3.978L9.645 3.53 8.215.722A1.36 1.36 0 0 0 7 0a1.36 1.36 0 0 0-1.215.73l-1.43 2.806-3.195.45c-.51.071-.934.417-1.094.891A1.28 1.28 0 0 0 .41 6.22l2.313 2.172-.546 3.076a1.29 1.29 0 0 0 .539 1.282c.417.293.97.332 1.427.1L7 11.396l2.858 1.452c.457.233 1.01.194 1.427-.1a1.29 1.29 0 0 0 .54-1.28l-.547-3.077 2.313-2.18a1.28 1.28 0 0 0 .343-1.343 1.343 1.343 0 0 0-1.094-.89z"/>
+                                </svg>
+                            </i>
+                            <i>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13" viewBox="0 0 14 13">
+                                    <path fill="transparent" stroke="#5A03AF" stroke-width="1" fill-rule="nonzero" d="M12.84 3.978L9.645 3.53 8.215.722A1.36 1.36 0 0 0 7 0a1.36 1.36 0 0 0-1.215.73l-1.43 2.806-3.195.45c-.51.071-.934.417-1.094.891A1.28 1.28 0 0 0 .41 6.22l2.313 2.172-.546 3.076a1.29 1.29 0 0 0 .539 1.282c.417.293.97.332 1.427.1L7 11.396l2.858 1.452c.457.233 1.01.194 1.427-.1a1.29 1.29 0 0 0 .54-1.28l-.547-3.077 2.313-2.18a1.28 1.28 0 0 0 .343-1.343 1.343 1.343 0 0 0-1.094-.89z"/>
+                                </svg>
+                            </i>
+                            <span class="rating-count">12</span>
+                        </div>
+                        <div class="product__price">
+                            <div class="product__price-old">750 грн</div>
+                            <div class="product__price-current">232 грн</div>
+                        </div>
+                        <div class="product__buttons">
+                            <a href="#" class="product__add">Добавить в корзину</a>
+                            <a href="#" class="product__buy">Купить в один клик</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-category__item product">
+                    <div class="product-help-block">
+                        <div class="product-top">
+                            <img src="assets/images/love.svg" alt="like" class="product__like">
+                            <span class="product__sales">-15%</span>
+                        </div>
+                        <div class="product__image">
+                            <img src="assets/images/bitmap.png" alt="product">
+                        </div>
+                        <div class="product__description">
+                            Optimum Nutrition, Opti-Men, 150 таблеток
+                        </div>
+                        <div class="product__rating">
+                            <i>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13" viewBox="0 0 14 13">
+                                    <path fill="transparent" stroke="#5A03AF" stroke-width="1" fill-rule="nonzero" d="M12.84 3.978L9.645 3.53 8.215.722A1.36 1.36 0 0 0 7 0a1.36 1.36 0 0 0-1.215.73l-1.43 2.806-3.195.45c-.51.071-.934.417-1.094.891A1.28 1.28 0 0 0 .41 6.22l2.313 2.172-.546 3.076a1.29 1.29 0 0 0 .539 1.282c.417.293.97.332 1.427.1L7 11.396l2.858 1.452c.457.233 1.01.194 1.427-.1a1.29 1.29 0 0 0 .54-1.28l-.547-3.077 2.313-2.18a1.28 1.28 0 0 0 .343-1.343 1.343 1.343 0 0 0-1.094-.89z"/>
+                                </svg>
+                            </i>
+                            <i>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13" viewBox="0 0 14 13">
+                                    <path fill="transparent" stroke="#5A03AF" stroke-width="1" fill-rule="nonzero" d="M12.84 3.978L9.645 3.53 8.215.722A1.36 1.36 0 0 0 7 0a1.36 1.36 0 0 0-1.215.73l-1.43 2.806-3.195.45c-.51.071-.934.417-1.094.891A1.28 1.28 0 0 0 .41 6.22l2.313 2.172-.546 3.076a1.29 1.29 0 0 0 .539 1.282c.417.293.97.332 1.427.1L7 11.396l2.858 1.452c.457.233 1.01.194 1.427-.1a1.29 1.29 0 0 0 .54-1.28l-.547-3.077 2.313-2.18a1.28 1.28 0 0 0 .343-1.343 1.343 1.343 0 0 0-1.094-.89z"/>
+                                </svg>
+                            </i>
+                            <i>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13" viewBox="0 0 14 13">
+                                    <path fill="transparent" stroke="#5A03AF" stroke-width="1" fill-rule="nonzero" d="M12.84 3.978L9.645 3.53 8.215.722A1.36 1.36 0 0 0 7 0a1.36 1.36 0 0 0-1.215.73l-1.43 2.806-3.195.45c-.51.071-.934.417-1.094.891A1.28 1.28 0 0 0 .41 6.22l2.313 2.172-.546 3.076a1.29 1.29 0 0 0 .539 1.282c.417.293.97.332 1.427.1L7 11.396l2.858 1.452c.457.233 1.01.194 1.427-.1a1.29 1.29 0 0 0 .54-1.28l-.547-3.077 2.313-2.18a1.28 1.28 0 0 0 .343-1.343 1.343 1.343 0 0 0-1.094-.89z"/>
+                                </svg>
+                            </i>
+                            <i>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13" viewBox="0 0 14 13">
+                                    <path fill="transparent" stroke="#5A03AF" stroke-width="1" fill-rule="nonzero" d="M12.84 3.978L9.645 3.53 8.215.722A1.36 1.36 0 0 0 7 0a1.36 1.36 0 0 0-1.215.73l-1.43 2.806-3.195.45c-.51.071-.934.417-1.094.891A1.28 1.28 0 0 0 .41 6.22l2.313 2.172-.546 3.076a1.29 1.29 0 0 0 .539 1.282c.417.293.97.332 1.427.1L7 11.396l2.858 1.452c.457.233 1.01.194 1.427-.1a1.29 1.29 0 0 0 .54-1.28l-.547-3.077 2.313-2.18a1.28 1.28 0 0 0 .343-1.343 1.343 1.343 0 0 0-1.094-.89z"/>
+                                </svg>
+                            </i>
+                            <i>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13" viewBox="0 0 14 13">
+                                    <path fill="transparent" stroke="#5A03AF" stroke-width="1" fill-rule="nonzero" d="M12.84 3.978L9.645 3.53 8.215.722A1.36 1.36 0 0 0 7 0a1.36 1.36 0 0 0-1.215.73l-1.43 2.806-3.195.45c-.51.071-.934.417-1.094.891A1.28 1.28 0 0 0 .41 6.22l2.313 2.172-.546 3.076a1.29 1.29 0 0 0 .539 1.282c.417.293.97.332 1.427.1L7 11.396l2.858 1.452c.457.233 1.01.194 1.427-.1a1.29 1.29 0 0 0 .54-1.28l-.547-3.077 2.313-2.18a1.28 1.28 0 0 0 .343-1.343 1.343 1.343 0 0 0-1.094-.89z"/>
+                                </svg>
+                            </i>
+                            <span class="rating-count">12</span>
+                        </div>
+                        <div class="product__price">
+                            <div class="product__price-old">750 грн</div>
+                            <div class="product__price-current">232 грн</div>
+                        </div>
+                        <div class="product__buttons">
+                            <a href="#" class="product__add">Добавить в корзину</a>
+                            <a href="#" class="product__buy">Купить в один клик</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-category__item product">
+                    <div class="product-help-block">
+                        <div class="product-top">
+                            <img src="assets/images/love.svg" alt="like" class="product__like">
+                            <span class="product__sales">-15%</span>
+                        </div>
+                        <div class="product__image">
+                            <img src="assets/images/bitmap.png" alt="product">
+                        </div>
+                        <div class="product__description">
+                            Optimum Nutrition, Opti-Men, 150 таблеток
+                        </div>
+                        <div class="product__rating">
+                            <i>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13" viewBox="0 0 14 13">
+                                    <path fill="transparent" stroke="#5A03AF" stroke-width="1" fill-rule="nonzero" d="M12.84 3.978L9.645 3.53 8.215.722A1.36 1.36 0 0 0 7 0a1.36 1.36 0 0 0-1.215.73l-1.43 2.806-3.195.45c-.51.071-.934.417-1.094.891A1.28 1.28 0 0 0 .41 6.22l2.313 2.172-.546 3.076a1.29 1.29 0 0 0 .539 1.282c.417.293.97.332 1.427.1L7 11.396l2.858 1.452c.457.233 1.01.194 1.427-.1a1.29 1.29 0 0 0 .54-1.28l-.547-3.077 2.313-2.18a1.28 1.28 0 0 0 .343-1.343 1.343 1.343 0 0 0-1.094-.89z"/>
+                                </svg>
+                            </i>
+                            <i>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13" viewBox="0 0 14 13">
+                                    <path fill="transparent" stroke="#5A03AF" stroke-width="1" fill-rule="nonzero" d="M12.84 3.978L9.645 3.53 8.215.722A1.36 1.36 0 0 0 7 0a1.36 1.36 0 0 0-1.215.73l-1.43 2.806-3.195.45c-.51.071-.934.417-1.094.891A1.28 1.28 0 0 0 .41 6.22l2.313 2.172-.546 3.076a1.29 1.29 0 0 0 .539 1.282c.417.293.97.332 1.427.1L7 11.396l2.858 1.452c.457.233 1.01.194 1.427-.1a1.29 1.29 0 0 0 .54-1.28l-.547-3.077 2.313-2.18a1.28 1.28 0 0 0 .343-1.343 1.343 1.343 0 0 0-1.094-.89z"/>
+                                </svg>
+                            </i>
+                            <i>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13" viewBox="0 0 14 13">
+                                    <path fill="transparent" stroke="#5A03AF" stroke-width="1" fill-rule="nonzero" d="M12.84 3.978L9.645 3.53 8.215.722A1.36 1.36 0 0 0 7 0a1.36 1.36 0 0 0-1.215.73l-1.43 2.806-3.195.45c-.51.071-.934.417-1.094.891A1.28 1.28 0 0 0 .41 6.22l2.313 2.172-.546 3.076a1.29 1.29 0 0 0 .539 1.282c.417.293.97.332 1.427.1L7 11.396l2.858 1.452c.457.233 1.01.194 1.427-.1a1.29 1.29 0 0 0 .54-1.28l-.547-3.077 2.313-2.18a1.28 1.28 0 0 0 .343-1.343 1.343 1.343 0 0 0-1.094-.89z"/>
+                                </svg>
+                            </i>
+                            <i>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13" viewBox="0 0 14 13">
+                                    <path fill="transparent" stroke="#5A03AF" stroke-width="1" fill-rule="nonzero" d="M12.84 3.978L9.645 3.53 8.215.722A1.36 1.36 0 0 0 7 0a1.36 1.36 0 0 0-1.215.73l-1.43 2.806-3.195.45c-.51.071-.934.417-1.094.891A1.28 1.28 0 0 0 .41 6.22l2.313 2.172-.546 3.076a1.29 1.29 0 0 0 .539 1.282c.417.293.97.332 1.427.1L7 11.396l2.858 1.452c.457.233 1.01.194 1.427-.1a1.29 1.29 0 0 0 .54-1.28l-.547-3.077 2.313-2.18a1.28 1.28 0 0 0 .343-1.343 1.343 1.343 0 0 0-1.094-.89z"/>
+                                </svg>
+                            </i>
+                            <i>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13" viewBox="0 0 14 13">
+                                    <path fill="transparent" stroke="#5A03AF" stroke-width="1" fill-rule="nonzero" d="M12.84 3.978L9.645 3.53 8.215.722A1.36 1.36 0 0 0 7 0a1.36 1.36 0 0 0-1.215.73l-1.43 2.806-3.195.45c-.51.071-.934.417-1.094.891A1.28 1.28 0 0 0 .41 6.22l2.313 2.172-.546 3.076a1.29 1.29 0 0 0 .539 1.282c.417.293.97.332 1.427.1L7 11.396l2.858 1.452c.457.233 1.01.194 1.427-.1a1.29 1.29 0 0 0 .54-1.28l-.547-3.077 2.313-2.18a1.28 1.28 0 0 0 .343-1.343 1.343 1.343 0 0 0-1.094-.89z"/>
+                                </svg>
+                            </i>
+                            <span class="rating-count">12</span>
+                        </div>
+                        <div class="product__price">
+                            <div class="product__price-old">750 грн</div>
+                            <div class="product__price-current">232 грн</div>
+                        </div>
+                        <div class="product__buttons">
+                            <a href="#" class="product__add">Добавить в корзину</a>
+                            <a href="#" class="product__buy">Купить в один клик</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="consulting">
+        <p class="consulting__title">Получить консультацию онлайн</p>
+        <div class="consulting__url">
+            <a href="#" class="consulting__link telegram__link active"><img src="assets/images/telegram-logo.svg" alt="telegram"><span>telegram</span></a>
+            <a href="#" class="consulting__link facebook__link"><img src="assets/images/facebook-messenger.svg" alt="facebook-messenger"><span>facebook</span></a>
+            <a href="#" class="consulting__link chat__link"><img src="assets/images/chat-icon.jpg" alt="facebook-messenger"><span>онлайн-чат</span></a>
+        </div>
+    </div>
+    <div class="footer">
+        <ul class="footer__list">
+            <li class="footer__item">
+                <a href="#" class="footer__link">компания</a>
+                <a href="#" class="footer__link">история onetwofit</a>
+                <a href="#" class="footer__link">блог</a>
+                <a href="#" class="footer__link">рецепты</a>
+                <a href="#" class="footer__link">зарабатывай на покупках</a>
+                <a href="#" class="footer__link">отзывы о магазине</a>
+            </li>
+            <li class="footer__item">
+                <a href="#" class="footer__link">поддержка</a>
+                <a href="#" class="footer__link">faq</a>
+                <a href="#" class="footer__link">возврат</a>
+                <a href="#" class="footer__link">доставка</a>
+                <a href="#" class="footer__link">политика конфиденциальности</a>
+                <a href="#" class="footer__link">пользовательское соглашение</a>
+            </li>
+            <li class="footer__item">
+                <a href="#" class="footer__link footer-telephone">0 800 888 99 22</a>
+                <a href="mailto: info@onetowit.org" class="footer__link footer-email">info@onetwofit.org</a>
+                <a href="#" class="footer__link footer__social"><img src="assets/images/facebook.svg" alt="facebook"></a>
+                <a href="#" class="footer__link footer__social"><img src="assets/images/instagram-icon.svg" alt="instagram"></a>
+                <a href="#" class="footer__link footer__social"><img src="assets/images/youtube-icon.svg" alt="youtube"></a>
+            </li>
+            <li class="footer__item">
+                <a href="#" class="footer__link"><img src="assets/images/master-card-icon.svg" alt="mastercard"></a>
+                <a href="#" class="footer__link"><img src="assets/images/visa.svg" alt="VISA"></a>
+            </li>
+        </ul>
+        <div class="footer-bot text-center">
+            © OneTwoFit 2018
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.3/owl.carousel.js"></script>
+
+    <script>
+    $(".slider-category .owl-carousel").owlCarousel({
+        loop: true,
+        nav: false,
+        dots: false,
+        smartSpeed: 600,
+        navText: [
+            "<i class='fa fa-bug'></i>",
+            "<i class='fa fa-bug'></i>"
+        ],
+        items: 5,
+        responsive: {
+            1300: {
+                items: 5
+            },
+            1200: {
+                items: 4
+            },
+            992: {
+                items: 3
+            },
+            768: {
+                items: 2
+            },
+            600: {
+                items: 2
+            },
+            550: {
+                items: 1
+            },
+            0: {
+                items: 1
+            }
+        }
+    });
+
+    var owl22 = $('.news .owl-carousel');
+    owl22.owlCarousel();
+    $('.news .slider-arrow__left').click(function() {
+        owl22.trigger('prev.owl.carousel');
+    });
+    $('.news .slider-arrow__right').click(function() {
+        owl22.trigger('next.owl.carousel');
+    });
+    </script>
+<script type="text/javascript" src="vendors.js"></script><script type="text/javascript" src="application.js"></script></body>
+</html>

@@ -1,0 +1,111 @@
+@import '../styles/variables';
+@import '../styles/mixins';
+
+.letter-page {
+  max-width: 750px;
+  margin: 50px auto;
+  &__logo {
+    text-align: center;
+    padding-bottom: 2rem;
+  }
+  &__image {
+    img {
+      width: 100%;
+    }
+  }
+  &__title {
+    font-size: 36px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.36;
+    letter-spacing: -1px;
+    text-align: center;
+    color: #000000;
+    padding-top: 43px;
+  }
+  &__description {
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+    padding: 43px;
+  }
+  &__link {
+    margin: auto;
+    display: block;
+    width: 309px;
+    height: 64px;
+    background-color: $main-color-purple;
+    border: solid 4px $main-color-purple;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 59px;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    &:hover {
+      color: #fff;
+      text-decoration: none;
+    }
+  }
+  &__wrap-white {
+    background-color: #fff;
+    padding-bottom: 43px;
+  }
+  &__info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1rem 0;
+  }
+  &__telephone {
+    flex: 0 0 50%;
+    padding-left: 50px;
+    a {
+      display: block;
+      font-size: 19px;
+      font-weight: 900;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: left;
+      color: #000000;
+      padding: 0.2rem 0;
+    }
+  }
+  &__social {
+    flex: 0 0 50%;
+    padding-right: 34px;
+    display: flex;
+    justify-content: flex-end;
+    img {
+      margin: 0 1rem;
+    }
+  }
+  &__text {
+    margin-top: 50px;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #9f9f9f;
+    a {
+      color: $main-color-purple;
+      &:hover {
+        color: $main-color-purple;
+      }
+    }
+  }
+}

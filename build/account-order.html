@@ -1,0 +1,1702 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Личный кабинетик. Мои заказы</title>
+<link href="styles.css" rel="stylesheet"></head>
+<body>
+<header class="header">
+    <div class="header-top">
+        <div class="header-top__language">
+            <ul class="header-top__country" data-toggle="modal" data-target="#start-modal">
+                <li class="header-top__country-name"><img src="assets/images/ua.svg" alt="Ukraine">Украина</li>
+            </ul>
+            <div class="header-top__lang">русский</div>
+            <div class="header-top__currency">
+                <select class="currency">
+                    <option value="1">грн</option>
+                    <option value="2">р</option>
+                </select>
+            </div>
+        </div>
+        <ul class="header-top__actions">
+            <li class="header-top__item"><a href="blog.html" class="header-top__link">Блог</a></li>
+            <li class="header-top__item"><a href="#" class="header-top__link">Сравнить</a></li>
+            <li class="header-top__item"><a href="#" class="header-top__link">Избранное</a></li>
+            <li class="header-top__item"><a href="#" class="header-top__link">Поделиться</a></li>
+        </ul>
+    </div>
+    <div class="header-main">
+        <div class="header-main__logo">
+            <a href="index.html"><img src="assets/images/combined-shape.svg" alt="logo"></a>
+        </div>
+        <div class="header-main__content">
+            <div class="header-main__content-wrap">
+                <div class="header-main__telephones telephones">
+                    <img src="assets/images/info.svg" alt="information" class="info-img telephones__icon" data-toggle="tooltip" data-placement="top" title="telephones icon">
+                    <select class="header-main__telephone">
+                        <option value="1">0 800 888 99 22</option>
+                        <option value="2">0 800 888 99 23</option>
+                        <option value="3">0 800 888 99 24</option>
+                    </select>
+                    <span class="schedule">
+                        <span class="schedule__text">7/7 9:00 - 18:00</span>
+                    </span>
+                </div>
+                <div class="header-main__search search">
+                    <input class="search-element" type="text" placeholder="поиск..." /><i class="fa fa-search" aria-hidden="true"></i>
+                </div>
+                <a href="search.html" class="search-icon-adaptive">
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                </a>
+            </div>
+        </div>
+        <div class="header-main__information">
+            <div class="header-main__autorization">
+                <a href="registration.html" class="login">Вход</a>
+                <!--<span class="vertical">|</span>-->
+                <a href="registration.html" class="registration">Регистрация</a>
+            </div>
+            <div class="header-main__cart">
+                <div class="header-main__cart-count">0</div>
+            </div>
+        </div>
+    </div>
+    <div class="header-bottom navigation">
+        <span class="schedule">
+            <span class="schedule__text">7/7 9:00 - 18:00</span>
+        </span>
+        <div class="burger">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+        </div>
+        <div class="adaptive-menu">
+            <ul class="adaptive-menu__list">
+                <li class="adaptive-menu__item">
+                    <a href="" class="adaptive-menu__link">Поиск товаров</a>
+                    <div class="sub-navigation-list__wrapper">
+                        <ul class="sub-navigation-list">
+                            <li class="sub-navigation-list__item">
+                                <a href="#" class="sub-navigation-list__link">Активные добавки</a>
+                                <div class="sub-sub-navigation-list__wrapper">
+                                    <ul class="sub-sub-navigation-list">
+                                        <li class="sub-sub-navigation-list__item">
+                                            <a href="#" class="sub-sub-navigation-list__link">Антивозрастные добавки</a>
+                                            <div class="third-level-menu__wrapper">
+                                                <ul class="third-level-menu">
+                                                    <li class="third-level-menu__item">
+                                                        <a href="#" class="third-level-menu__link">Коэнзим Q10</a>
+                                                        <ul class="fourth-level-menu">
+                                                            <li class="fourth-level-menu__item">
+                                                                <a href="#" class="fourth-level-menu__link">Коэнзим Q10 + рыбий жир</a>
+                                                                <a href="#" class="fourth-level-menu__link">Формулы коэнзим Q10</a>
+                                                                <a href="#" class="fourth-level-menu__link">Убихинол</a>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="third-level-menu__item">
+                                                        <a href="#" class="third-level-menu__link">Куркумин</a>
+                                                    </li>
+                                                    <li class="third-level-menu__item">
+                                                        <a href="#" class="third-level-menu__link">Лютеин</a>
+                                                    </li>
+                                                    <li class="third-level-menu__item">
+                                                        <a href="#" class="third-level-menu__link">Альфа-липоевая кислота</a>
+                                                        <ul class="fourth-level-menu">
+                                                            <li class="fourth-level-menu__item">
+                                                                <a href="#" class="fourth-level-menu__link">R-липоевая кислота</a>
+                                                                <a href="#" class="fourth-level-menu__link">Другие формулы</a>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="third-level-menu__item">
+                                                        <a href="#" class="third-level-menu__link">Антиаксантин</a>
+                                                        <ul class="fourth-level-menu">
+                                                            <li class="fourth-level-menu__item">
+                                                                <a href="#" class="fourth-level-menu__link">Биосатин</a>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="third-level-menu__item">
+                                                        <a href="#" class="third-level-menu__link">Ликопин</a>
+                                                    </li>
+                                                    <li class="third-level-menu__item">
+                                                        <a href="#" class="third-level-menu__link">Ликопин</a>
+                                                    </li>
+                                                    <li class="third-level-menu__item">
+                                                        <a href="#" class="third-level-menu__link">Пихногенол</a>
+                                                        <ul class="fourth-level-menu">
+                                                            <li class="fourth-level-menu__item">
+                                                                <a href="#" class="fourth-level-menu__link">Сосновая кора (экстракт)</a>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="third-level-menu__item">
+                                                        <a href="#" class="third-level-menu__link">Кверцетин</a>
+                                                    </li>
+                                                    <li class="third-level-menu__item">
+                                                        <a href="#" class="third-level-menu__link">Рутин</a>
+                                                    </li>
+                                                    <li class="third-level-menu__item">
+                                                        <a href="#" class="third-level-menu__link">Зеленый чай</a>
+                                                    </li>
+                                                    <li class="third-level-menu__item">
+                                                        <a href="#" class="third-level-menu__link">L-глупатион</a>
+                                                    </li>
+                                                </ul>
+                                                <ul class="third-level-menu">
+                                                    <li class="third-level-menu__item">
+                                                        <a href="#" class="third-level-menu__link">Коэнзим Q10</a>
+                                                        <ul class="fourth-level-menu">
+                                                            <li class="fourth-level-menu__item">
+                                                                <a href="#" class="fourth-level-menu__link">Коэнзим Q10 + рыбий жир</a>
+                                                                <a href="#" class="fourth-level-menu__link">Формулы коэнзим Q10</a>
+                                                                <a href="#" class="fourth-level-menu__link">Убихинол</a>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="third-level-menu__item">
+                                                        <a href="#" class="third-level-menu__link">Куркумин</a>
+                                                    </li>
+                                                    <li class="third-level-menu__item">
+                                                        <a href="#" class="third-level-menu__link">Лютеин</a>
+                                                    </li>
+                                                    <li class="third-level-menu__item">
+                                                        <a href="#" class="third-level-menu__link">Альфа-липоевая кислота</a>
+                                                        <ul class="fourth-level-menu">
+                                                            <li class="fourth-level-menu__item">
+                                                                <a href="#" class="fourth-level-menu__link">R-липоевая кислота</a>
+                                                                <a href="#" class="fourth-level-menu__link">Другие формулы</a>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="third-level-menu__item">
+                                                        <a href="#" class="third-level-menu__link">Антиаксантин</a>
+                                                        <ul class="fourth-level-menu">
+                                                            <li class="fourth-level-menu__item">
+                                                                <a href="#" class="fourth-level-menu__link">Биосатин</a>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="third-level-menu__item">
+                                                        <a href="#" class="third-level-menu__link">Ликопин</a>
+                                                    </li>
+                                                    <li class="third-level-menu__item">
+                                                        <a href="#" class="third-level-menu__link">Ликопин</a>
+                                                    </li>
+                                                    <li class="third-level-menu__item">
+                                                        <a href="#" class="third-level-menu__link">Пихногенол</a>
+                                                        <ul class="fourth-level-menu">
+                                                            <li class="fourth-level-menu__item">
+                                                                <a href="#" class="fourth-level-menu__link">Сосновая кора (экстракт)</a>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li class="sub-sub-navigation-list__item">
+                                            <a href="#" class="sub-sub-navigation-list__link">Для имунной системы</a>
+                                            <div class="third-level-menu__wrapper">
+                                                <ul class="third-level-menu">
+                                                    <li class="third-level-menu__item">
+                                                        <a href="#" class="third-level-menu__link">Тестовый продукт</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li class="sub-sub-navigation-list__item">
+                                            <a href="#" class="sub-sub-navigation-list__link">Для регуляции сна</a>
+                                            <div class="third-level-menu__wrapper">
+                                                <ul class="third-level-menu">
+                                                    <li class="third-level-menu__item">
+                                                        <a href="#" class="third-level-menu__link">Коэнзим Q10</a>
+                                                        <ul class="fourth-level-menu">
+                                                            <li class="fourth-level-menu__item">
+                                                                <a href="#" class="fourth-level-menu__link">Коэнзим Q10 + рыбий жир</a>
+                                                                <a href="#" class="fourth-level-menu__link">Формулы коэнзим Q10</a>
+                                                                <a href="#" class="fourth-level-menu__link">Убихинол</a>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="third-level-menu__item">
+                                                        <a href="#" class="third-level-menu__link">Куркумин</a>
+                                                    </li>
+                                                    <li class="third-level-menu__item">
+                                                        <a href="#" class="third-level-menu__link">Лютеин</a>
+                                                    </li>
+                                                    <li class="third-level-menu__item">
+                                                        <a href="#" class="third-level-menu__link">Альфа-липоевая кислота</a>
+                                                        <ul class="fourth-level-menu">
+                                                            <li class="fourth-level-menu__item">
+                                                                <a href="#" class="fourth-level-menu__link">R-липоевая кислота</a>
+                                                                <a href="#" class="fourth-level-menu__link">Другие формулы</a>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="third-level-menu__item">
+                                                        <a href="#" class="third-level-menu__link">Антиаксантин</a>
+                                                        <ul class="fourth-level-menu">
+                                                            <li class="fourth-level-menu__item">
+                                                                <a href="#" class="fourth-level-menu__link">Биосатин</a>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="third-level-menu__item">
+                                                        <a href="#" class="third-level-menu__link">Ликопин</a>
+                                                    </li>
+                                                    <li class="third-level-menu__item">
+                                                        <a href="#" class="third-level-menu__link">Ликопин</a>
+                                                    </li>
+                                                    <li class="third-level-menu__item">
+                                                        <a href="#" class="third-level-menu__link">Пихногенол</a>
+                                                        <ul class="fourth-level-menu">
+                                                            <li class="fourth-level-menu__item">
+                                                                <a href="#" class="fourth-level-menu__link">Сосновая кора (экстракт)</a>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="third-level-menu__item">
+                                                        <a href="#" class="third-level-menu__link">Кверцетин</a>
+                                                    </li>
+                                                    <li class="third-level-menu__item">
+                                                        <a href="#" class="third-level-menu__link">Рутин</a>
+                                                    </li>
+                                                    <li class="third-level-menu__item">
+                                                        <a href="#" class="third-level-menu__link">Зеленый чай</a>
+                                                    </li>
+                                                    <li class="third-level-menu__item">
+                                                        <a href="#" class="third-level-menu__link">L-глупатион</a>
+                                                    </li>
+                                                </ul>
+                                                <ul class="third-level-menu">
+                                                    <li class="third-level-menu__item">
+                                                        <a href="#" class="third-level-menu__link">Коэнзим Q10</a>
+                                                        <ul class="fourth-level-menu">
+                                                            <li class="fourth-level-menu__item">
+                                                                <a href="#" class="fourth-level-menu__link">Коэнзим Q10 + рыбий жир</a>
+                                                                <a href="#" class="fourth-level-menu__link">Формулы коэнзим Q10</a>
+                                                                <a href="#" class="fourth-level-menu__link">Убихинол</a>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="third-level-menu__item">
+                                                        <a href="#" class="third-level-menu__link">Куркумин</a>
+                                                    </li>
+                                                    <li class="third-level-menu__item">
+                                                        <a href="#" class="third-level-menu__link">Лютеин</a>
+                                                    </li>
+                                                    <li class="third-level-menu__item">
+                                                        <a href="#" class="third-level-menu__link">Альфа-липоевая кислота</a>
+                                                        <ul class="fourth-level-menu">
+                                                            <li class="fourth-level-menu__item">
+                                                                <a href="#" class="fourth-level-menu__link">R-липоевая кислота</a>
+                                                                <a href="#" class="fourth-level-menu__link">Другие формулы</a>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="third-level-menu__item">
+                                                        <a href="#" class="third-level-menu__link">Антиаксантин</a>
+                                                        <ul class="fourth-level-menu">
+                                                            <li class="fourth-level-menu__item">
+                                                                <a href="#" class="fourth-level-menu__link">Биосатин</a>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="third-level-menu__item">
+                                                        <a href="#" class="third-level-menu__link">Ликопин</a>
+                                                    </li>
+                                                    <li class="third-level-menu__item">
+                                                        <a href="#" class="third-level-menu__link">Ликопин</a>
+                                                    </li>
+                                                    <li class="third-level-menu__item">
+                                                        <a href="#" class="third-level-menu__link">Пихногенол</a>
+                                                        <ul class="fourth-level-menu">
+                                                            <li class="fourth-level-menu__item">
+                                                                <a href="#" class="fourth-level-menu__link">Сосновая кора (экстракт)</a>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li class="sub-sub-navigation-list__item">
+                                            <a href="#" class="sub-sub-navigation-list__link">Для опорно-двигательного аппарата</a>
+                                        </li>
+                                        <li class="sub-sub-navigation-list__item">
+                                            <a href="#" class="sub-sub-navigation-list__link">Для работы мозга</a>
+                                        </li>
+                                        <li class="sub-sub-navigation-list__item">
+                                            <a href="#" class="sub-sub-navigation-list__link">Для сердечно-сосудистой системы</a>
+                                        </li>
+                                        <li class="sub-sub-navigation-list__item">
+                                            <a href="#" class="sub-sub-navigation-list__link">Для детокса</a>
+                                        </li>
+                                        <li class="sub-sub-navigation-list__item">
+                                            <a href="#" class="sub-sub-navigation-list__link">Для мужского здоровья</a>
+                                        </li>
+                                        <li class="sub-sub-navigation-list__item">
+                                            <a href="#" class="sub-sub-navigation-list__link">Для женского здоровья</a>
+                                        </li>
+                                        <li class="sub-sub-navigation-list__item">
+                                            <a href="#" class="sub-sub-navigation-list__link">Для детского здоровья</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="sub-navigation-list__item">
+                                <a href="#" class="sub-navigation-list__link">Добавки по предназначению</a>
+                                <div class="sub-sub-navigation-list__wrapper">
+                                    <ul class="sub-sub-navigation-list">
+                                        <li class="sub-sub-navigation-list__item">
+                                            <a href="#" class="sub-sub-navigation-list__link">Антивозрастные добавки</a>
+                                        </li>
+                                        <li class="sub-sub-navigation-list__item">
+                                            <a href="#" class="sub-sub-navigation-list__link">Для имунной системы</a>
+                                        </li>
+                                        <li class="sub-sub-navigation-list__item">
+                                            <a href="#" class="sub-sub-navigation-list__link">Для регуляции сна</a>
+                                        </li>
+                                        <li class="sub-sub-navigation-list__item">
+                                            <a href="#" class="sub-sub-navigation-list__link">Для опорно-двигательного аппарата</a>
+                                        </li>
+                                        <li class="sub-sub-navigation-list__item">
+                                            <a href="#" class="sub-sub-navigation-list__link">Для работы мозга</a>
+                                        </li>
+                                        <li class="sub-sub-navigation-list__item">
+                                            <a href="#" class="sub-sub-navigation-list__link">Для сердечно-сосудистой системы</a>
+                                        </li>
+                                        <li class="sub-sub-navigation-list__item">
+                                            <a href="#" class="sub-sub-navigation-list__link">Для детокса</a>
+                                        </li>
+                                        <li class="sub-sub-navigation-list__item">
+                                            <a href="#" class="sub-sub-navigation-list__link">Для мужского здоровья</a>
+                                        </li>
+                                        <li class="sub-sub-navigation-list__item">
+                                            <a href="#" class="sub-sub-navigation-list__link">Для женского здоровья</a>
+                                        </li>
+                                        <li class="sub-sub-navigation-list__item">
+                                            <a href="#" class="sub-sub-navigation-list__link">Для детского здоровья</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="adaptive-menu__item">
+                    <a href="" class="adaptive-menu__link">Витамины и минералы</a>
+                    <div class="sub-navigation-list__wrapper">
+                        <ul class="sub-navigation-list">
+                            <li class="sub-navigation-list__item">
+                                <a href="#" class="sub-navigation-list__link">Активные добавки</a>
+                                <div class="sub-sub-navigation-list__wrapper">
+                                    <ul class="sub-sub-navigation-list">
+                                        <li class="sub-sub-navigation-list__item">
+                                            <a href="#" class="sub-sub-navigation-list__link">Антивозрастные добавки</a>
+                                            <div class="third-level-menu__wrapper">
+                                                <ul class="third-level-menu">
+                                                    <li class="third-level-menu__item">
+                                                        <a href="#" class="third-level-menu__link">Коэнзим Q10</a>
+                                                        <ul class="fourth-level-menu">
+                                                            <li class="fourth-level-menu__item">
+                                                                <a href="#" class="fourth-level-menu__link">Коэнзим Q10 + рыбий жир</a>
+                                                                <a href="#" class="fourth-level-menu__link">Формулы коэнзим Q10</a>
+                                                                <a href="#" class="fourth-level-menu__link">Убихинол</a>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="third-level-menu__item">
+                                                        <a href="#" class="third-level-menu__link">Куркумин</a>
+                                                    </li>
+                                                    <li class="third-level-menu__item">
+                                                        <a href="#" class="third-level-menu__link">Лютеин</a>
+                                                    </li>
+                                                    <li class="third-level-menu__item">
+                                                        <a href="#" class="third-level-menu__link">Альфа-липоевая кислота</a>
+                                                        <ul class="fourth-level-menu">
+                                                            <li class="fourth-level-menu__item">
+                                                                <a href="#" class="fourth-level-menu__link">R-липоевая кислота</a>
+                                                                <a href="#" class="fourth-level-menu__link">Другие формулы</a>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="third-level-menu__item">
+                                                        <a href="#" class="third-level-menu__link">Антиаксантин</a>
+                                                        <ul class="fourth-level-menu">
+                                                            <li class="fourth-level-menu__item">
+                                                                <a href="#" class="fourth-level-menu__link">Биосатин</a>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="third-level-menu__item">
+                                                        <a href="#" class="third-level-menu__link">Ликопин</a>
+                                                    </li>
+                                                    <li class="third-level-menu__item">
+                                                        <a href="#" class="third-level-menu__link">Ликопин</a>
+                                                    </li>
+                                                    <li class="third-level-menu__item">
+                                                        <a href="#" class="third-level-menu__link">Пихногенол</a>
+                                                        <ul class="fourth-level-menu">
+                                                            <li class="fourth-level-menu__item">
+                                                                <a href="#" class="fourth-level-menu__link">Сосновая кора (экстракт)</a>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="third-level-menu__item">
+                                                        <a href="#" class="third-level-menu__link">Кверцетин</a>
+                                                    </li>
+                                                    <li class="third-level-menu__item">
+                                                        <a href="#" class="third-level-menu__link">Рутин</a>
+                                                    </li>
+                                                    <li class="third-level-menu__item">
+                                                        <a href="#" class="third-level-menu__link">Зеленый чай</a>
+                                                    </li>
+                                                    <li class="third-level-menu__item">
+                                                        <a href="#" class="third-level-menu__link">L-глупатион</a>
+                                                    </li>
+                                                </ul>
+                                                <ul class="third-level-menu">
+                                                    <li class="third-level-menu__item">
+                                                        <a href="#" class="third-level-menu__link">Коэнзим Q10</a>
+                                                        <ul class="fourth-level-menu">
+                                                            <li class="fourth-level-menu__item">
+                                                                <a href="#" class="fourth-level-menu__link">Коэнзим Q10 + рыбий жир</a>
+                                                                <a href="#" class="fourth-level-menu__link">Формулы коэнзим Q10</a>
+                                                                <a href="#" class="fourth-level-menu__link">Убихинол</a>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="third-level-menu__item">
+                                                        <a href="#" class="third-level-menu__link">Куркумин</a>
+                                                    </li>
+                                                    <li class="third-level-menu__item">
+                                                        <a href="#" class="third-level-menu__link">Лютеин</a>
+                                                    </li>
+                                                    <li class="third-level-menu__item">
+                                                        <a href="#" class="third-level-menu__link">Альфа-липоевая кислота</a>
+                                                        <ul class="fourth-level-menu">
+                                                            <li class="fourth-level-menu__item">
+                                                                <a href="#" class="fourth-level-menu__link">R-липоевая кислота</a>
+                                                                <a href="#" class="fourth-level-menu__link">Другие формулы</a>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="third-level-menu__item">
+                                                        <a href="#" class="third-level-menu__link">Антиаксантин</a>
+                                                        <ul class="fourth-level-menu">
+                                                            <li class="fourth-level-menu__item">
+                                                                <a href="#" class="fourth-level-menu__link">Биосатин</a>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="third-level-menu__item">
+                                                        <a href="#" class="third-level-menu__link">Ликопин</a>
+                                                    </li>
+                                                    <li class="third-level-menu__item">
+                                                        <a href="#" class="third-level-menu__link">Ликопин</a>
+                                                    </li>
+                                                    <li class="third-level-menu__item">
+                                                        <a href="#" class="third-level-menu__link">Пихногенол</a>
+                                                        <ul class="fourth-level-menu">
+                                                            <li class="fourth-level-menu__item">
+                                                                <a href="#" class="fourth-level-menu__link">Сосновая кора (экстракт)</a>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li class="sub-sub-navigation-list__item">
+                                            <a href="#" class="sub-sub-navigation-list__link">Для имунной системы</a>
+                                            <div class="third-level-menu__wrapper">
+                                                <ul class="third-level-menu">
+                                                    <li class="third-level-menu__item">
+                                                        <a href="#" class="third-level-menu__link">Тестовый продукт</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li class="sub-sub-navigation-list__item">
+                                            <a href="#" class="sub-sub-navigation-list__link">Для регуляции сна</a>
+                                            <div class="third-level-menu__wrapper">
+                                                <ul class="third-level-menu">
+                                                    <li class="third-level-menu__item">
+                                                        <a href="#" class="third-level-menu__link">Коэнзим Q10</a>
+                                                        <ul class="fourth-level-menu">
+                                                            <li class="fourth-level-menu__item">
+                                                                <a href="#" class="fourth-level-menu__link">Коэнзим Q10 + рыбий жир</a>
+                                                                <a href="#" class="fourth-level-menu__link">Формулы коэнзим Q10</a>
+                                                                <a href="#" class="fourth-level-menu__link">Убихинол</a>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="third-level-menu__item">
+                                                        <a href="#" class="third-level-menu__link">Куркумин</a>
+                                                    </li>
+                                                    <li class="third-level-menu__item">
+                                                        <a href="#" class="third-level-menu__link">Лютеин</a>
+                                                    </li>
+                                                    <li class="third-level-menu__item">
+                                                        <a href="#" class="third-level-menu__link">Альфа-липоевая кислота</a>
+                                                        <ul class="fourth-level-menu">
+                                                            <li class="fourth-level-menu__item">
+                                                                <a href="#" class="fourth-level-menu__link">R-липоевая кислота</a>
+                                                                <a href="#" class="fourth-level-menu__link">Другие формулы</a>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="third-level-menu__item">
+                                                        <a href="#" class="third-level-menu__link">Антиаксантин</a>
+                                                        <ul class="fourth-level-menu">
+                                                            <li class="fourth-level-menu__item">
+                                                                <a href="#" class="fourth-level-menu__link">Биосатин</a>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="third-level-menu__item">
+                                                        <a href="#" class="third-level-menu__link">Ликопин</a>
+                                                    </li>
+                                                    <li class="third-level-menu__item">
+                                                        <a href="#" class="third-level-menu__link">Ликопин</a>
+                                                    </li>
+                                                    <li class="third-level-menu__item">
+                                                        <a href="#" class="third-level-menu__link">Пихногенол</a>
+                                                        <ul class="fourth-level-menu">
+                                                            <li class="fourth-level-menu__item">
+                                                                <a href="#" class="fourth-level-menu__link">Сосновая кора (экстракт)</a>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="third-level-menu__item">
+                                                        <a href="#" class="third-level-menu__link">Кверцетин</a>
+                                                    </li>
+                                                    <li class="third-level-menu__item">
+                                                        <a href="#" class="third-level-menu__link">Рутин</a>
+                                                    </li>
+                                                    <li class="third-level-menu__item">
+                                                        <a href="#" class="third-level-menu__link">Зеленый чай</a>
+                                                    </li>
+                                                    <li class="third-level-menu__item">
+                                                        <a href="#" class="third-level-menu__link">L-глупатион</a>
+                                                    </li>
+                                                </ul>
+                                                <ul class="third-level-menu">
+                                                    <li class="third-level-menu__item">
+                                                        <a href="#" class="third-level-menu__link">Коэнзим Q10</a>
+                                                        <ul class="fourth-level-menu">
+                                                            <li class="fourth-level-menu__item">
+                                                                <a href="#" class="fourth-level-menu__link">Коэнзим Q10 + рыбий жир</a>
+                                                                <a href="#" class="fourth-level-menu__link">Формулы коэнзим Q10</a>
+                                                                <a href="#" class="fourth-level-menu__link">Убихинол</a>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="third-level-menu__item">
+                                                        <a href="#" class="third-level-menu__link">Куркумин</a>
+                                                    </li>
+                                                    <li class="third-level-menu__item">
+                                                        <a href="#" class="third-level-menu__link">Лютеин</a>
+                                                    </li>
+                                                    <li class="third-level-menu__item">
+                                                        <a href="#" class="third-level-menu__link">Альфа-липоевая кислота</a>
+                                                        <ul class="fourth-level-menu">
+                                                            <li class="fourth-level-menu__item">
+                                                                <a href="#" class="fourth-level-menu__link">R-липоевая кислота</a>
+                                                                <a href="#" class="fourth-level-menu__link">Другие формулы</a>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="third-level-menu__item">
+                                                        <a href="#" class="third-level-menu__link">Антиаксантин</a>
+                                                        <ul class="fourth-level-menu">
+                                                            <li class="fourth-level-menu__item">
+                                                                <a href="#" class="fourth-level-menu__link">Биосатин</a>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="third-level-menu__item">
+                                                        <a href="#" class="third-level-menu__link">Ликопин</a>
+                                                    </li>
+                                                    <li class="third-level-menu__item">
+                                                        <a href="#" class="third-level-menu__link">Ликопин</a>
+                                                    </li>
+                                                    <li class="third-level-menu__item">
+                                                        <a href="#" class="third-level-menu__link">Пихногенол</a>
+                                                        <ul class="fourth-level-menu">
+                                                            <li class="fourth-level-menu__item">
+                                                                <a href="#" class="fourth-level-menu__link">Сосновая кора (экстракт)</a>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li class="sub-sub-navigation-list__item">
+                                            <a href="#" class="sub-sub-navigation-list__link">Для опорно-двигательного аппарата</a>
+                                        </li>
+                                        <li class="sub-sub-navigation-list__item">
+                                            <a href="#" class="sub-sub-navigation-list__link">Для работы мозга</a>
+                                        </li>
+                                        <li class="sub-sub-navigation-list__item">
+                                            <a href="#" class="sub-sub-navigation-list__link">Для сердечно-сосудистой системы</a>
+                                        </li>
+                                        <li class="sub-sub-navigation-list__item">
+                                            <a href="#" class="sub-sub-navigation-list__link">Для детокса</a>
+                                        </li>
+                                        <li class="sub-sub-navigation-list__item">
+                                            <a href="#" class="sub-sub-navigation-list__link">Для мужского здоровья</a>
+                                        </li>
+                                        <li class="sub-sub-navigation-list__item">
+                                            <a href="#" class="sub-sub-navigation-list__link">Для женского здоровья</a>
+                                        </li>
+                                        <li class="sub-sub-navigation-list__item">
+                                            <a href="#" class="sub-sub-navigation-list__link">Для детского здоровья</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="sub-navigation-list__item">
+                                <a href="#" class="sub-navigation-list__link">Добавки по предназначению</a>
+                                <div class="sub-sub-navigation-list__wrapper">
+                                    <ul class="sub-sub-navigation-list">
+                                        <li class="sub-sub-navigation-list__item">
+                                            <a href="#" class="sub-sub-navigation-list__link">Антивозрастные добавки</a>
+                                        </li>
+                                        <li class="sub-sub-navigation-list__item">
+                                            <a href="#" class="sub-sub-navigation-list__link">Для имунной системы</a>
+                                        </li>
+                                        <li class="sub-sub-navigation-list__item">
+                                            <a href="#" class="sub-sub-navigation-list__link">Для регуляции сна</a>
+                                        </li>
+                                        <li class="sub-sub-navigation-list__item">
+                                            <a href="#" class="sub-sub-navigation-list__link">Для опорно-двигательного аппарата</a>
+                                        </li>
+                                        <li class="sub-sub-navigation-list__item">
+                                            <a href="#" class="sub-sub-navigation-list__link">Для работы мозга</a>
+                                        </li>
+                                        <li class="sub-sub-navigation-list__item">
+                                            <a href="#" class="sub-sub-navigation-list__link">Для сердечно-сосудистой системы</a>
+                                        </li>
+                                        <li class="sub-sub-navigation-list__item">
+                                            <a href="#" class="sub-sub-navigation-list__link">Для детокса</a>
+                                        </li>
+                                        <li class="sub-sub-navigation-list__item">
+                                            <a href="#" class="sub-sub-navigation-list__link">Для мужского здоровья</a>
+                                        </li>
+                                        <li class="sub-sub-navigation-list__item">
+                                            <a href="#" class="sub-sub-navigation-list__link">Для женского здоровья</a>
+                                        </li>
+                                        <li class="sub-sub-navigation-list__item">
+                                            <a href="#" class="sub-sub-navigation-list__link">Для детского здоровья</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="adaptive-menu__item"><a href="" class="adaptive-menu__link">Добавки</a></li>
+                <li class="adaptive-menu__item"><a href="" class="adaptive-menu__link">Травы и грибы</a></li>
+                <li class="adaptive-menu__item"><a href="" class="adaptive-menu__link">Здоровое питание</a></li>
+                <li class="adaptive-menu__item"><a href="" class="adaptive-menu__link">Спорт и фитнес</a></li>
+                <li class="adaptive-menu__item"><a href="" class="adaptive-menu__link">Специальное предложение</a></li>
+            </ul>
+        </div>
+        <img src="assets/images/info.svg" alt="information" class="info-img telephones__icon" data-toggle="tooltip" data-placement="top" title="telephones icon">
+        <select class="header-main__telephone">
+            <option value="1">0 800 888 99 22</option>
+            <option value="2">0 800 888 99 23</option>
+            <option value="3">0 800 888 99 24</option>
+        </select>
+        <ul class="navigation-list">
+            <li class="navigation-list__item">
+                <a href="#" class="navigation-list__link">Поиск товара</a>
+            </li>
+            <li class="navigation-list__item">
+                <a href="#" class="navigation-list__link">Витамины и минералы</a>
+                <div class="sub-navigation-list__wrapper">
+                    <ul class="sub-navigation-list">
+                        <li class="sub-navigation-list__item">
+                            <a href="#" class="sub-navigation-list__link">Активные добавки</a>
+                            <div class="sub-sub-navigation-list__wrapper">
+                                <ul class="sub-sub-navigation-list">
+                                    <li class="sub-sub-navigation-list__item">
+                                        <a href="#" class="sub-sub-navigation-list__link">Антивозрастные добавки</a>
+                                        <div class="third-level-menu__wrapper">
+                                            <ul class="third-level-menu">
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Коэнзим Q10</a>
+                                                    <ul class="fourth-level-menu">
+                                                        <li class="fourth-level-menu__item">
+                                                            <a href="#" class="fourth-level-menu__link">Коэнзим Q10 + рыбий жир</a>
+                                                            <a href="#" class="fourth-level-menu__link">Формулы коэнзим Q10</a>
+                                                            <a href="#" class="fourth-level-menu__link">Убихинол</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Куркумин</a>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Лютеин</a>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Альфа-липоевая кислота</a>
+                                                    <ul class="fourth-level-menu">
+                                                        <li class="fourth-level-menu__item">
+                                                            <a href="#" class="fourth-level-menu__link">R-липоевая кислота</a>
+                                                            <a href="#" class="fourth-level-menu__link">Другие формулы</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Антиаксантин</a>
+                                                    <ul class="fourth-level-menu">
+                                                        <li class="fourth-level-menu__item">
+                                                            <a href="#" class="fourth-level-menu__link">Биосатин</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Ликопин</a>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Ликопин</a>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Пихногенол</a>
+                                                    <ul class="fourth-level-menu">
+                                                        <li class="fourth-level-menu__item">
+                                                            <a href="#" class="fourth-level-menu__link">Сосновая кора (экстракт)</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Кверцетин</a>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Рутин</a>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Зеленый чай</a>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">L-глупатион</a>
+                                                </li>
+                                            </ul>
+                                            <ul class="third-level-menu">
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Коэнзим Q10</a>
+                                                    <ul class="fourth-level-menu">
+                                                        <li class="fourth-level-menu__item">
+                                                            <a href="#" class="fourth-level-menu__link">Коэнзим Q10 + рыбий жир</a>
+                                                            <a href="#" class="fourth-level-menu__link">Формулы коэнзим Q10</a>
+                                                            <a href="#" class="fourth-level-menu__link">Убихинол</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Куркумин</a>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Лютеин</a>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Альфа-липоевая кислота</a>
+                                                    <ul class="fourth-level-menu">
+                                                        <li class="fourth-level-menu__item">
+                                                            <a href="#" class="fourth-level-menu__link">R-липоевая кислота</a>
+                                                            <a href="#" class="fourth-level-menu__link">Другие формулы</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Антиаксантин</a>
+                                                    <ul class="fourth-level-menu">
+                                                        <li class="fourth-level-menu__item">
+                                                            <a href="#" class="fourth-level-menu__link">Биосатин</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Ликопин</a>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Ликопин</a>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Пихногенол</a>
+                                                    <ul class="fourth-level-menu">
+                                                        <li class="fourth-level-menu__item">
+                                                            <a href="#" class="fourth-level-menu__link">Сосновая кора (экстракт)</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                            <ul class="third-level-menu">
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">
+                                                        <img src="assets/images/group-12.jpg" alt="акция">
+                                                    </a>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">
+                                                        <img src="assets/images/group-9.jpg" alt="акция">
+                                                    </a>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">
+                                                        <img src="assets/images/group-9-copy.jpg" alt="акция">
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                            <div class="third-level-menu__images">
+                                                <img src="assets/images/san.png" alt="sponsors">
+                                                <img src="assets/images/my-protein.png" alt="sponsors">
+                                                <img src="assets/images/usn.png" alt="sponsors">
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="sub-sub-navigation-list__item">
+                                        <a href="#" class="sub-sub-navigation-list__link">Для имунной системы</a>
+                                        <div class="third-level-menu__wrapper">
+                                            <ul class="third-level-menu">
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Тестовый продукт</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="sub-sub-navigation-list__item">
+                                        <a href="#" class="sub-sub-navigation-list__link">Для регуляции сна</a>
+                                        <div class="third-level-menu__wrapper">
+                                            <ul class="third-level-menu">
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Коэнзим Q10</a>
+                                                    <ul class="fourth-level-menu">
+                                                        <li class="fourth-level-menu__item">
+                                                            <a href="#" class="fourth-level-menu__link">Коэнзим Q10 + рыбий жир</a>
+                                                            <a href="#" class="fourth-level-menu__link">Формулы коэнзим Q10</a>
+                                                            <a href="#" class="fourth-level-menu__link">Убихинол</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Куркумин</a>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Лютеин</a>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Альфа-липоевая кислота</a>
+                                                    <ul class="fourth-level-menu">
+                                                        <li class="fourth-level-menu__item">
+                                                            <a href="#" class="fourth-level-menu__link">R-липоевая кислота</a>
+                                                            <a href="#" class="fourth-level-menu__link">Другие формулы</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Антиаксантин</a>
+                                                    <ul class="fourth-level-menu">
+                                                        <li class="fourth-level-menu__item">
+                                                            <a href="#" class="fourth-level-menu__link">Биосатин</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Ликопин</a>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Ликопин</a>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Пихногенол</a>
+                                                    <ul class="fourth-level-menu">
+                                                        <li class="fourth-level-menu__item">
+                                                            <a href="#" class="fourth-level-menu__link">Сосновая кора (экстракт)</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Кверцетин</a>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Рутин</a>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Зеленый чай</a>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">L-глупатион</a>
+                                                </li>
+                                            </ul>
+                                            <ul class="third-level-menu">
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Коэнзим Q10</a>
+                                                    <ul class="fourth-level-menu">
+                                                        <li class="fourth-level-menu__item">
+                                                            <a href="#" class="fourth-level-menu__link">Коэнзим Q10 + рыбий жир</a>
+                                                            <a href="#" class="fourth-level-menu__link">Формулы коэнзим Q10</a>
+                                                            <a href="#" class="fourth-level-menu__link">Убихинол</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Куркумин</a>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Лютеин</a>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Альфа-липоевая кислота</a>
+                                                    <ul class="fourth-level-menu">
+                                                        <li class="fourth-level-menu__item">
+                                                            <a href="#" class="fourth-level-menu__link">R-липоевая кислота</a>
+                                                            <a href="#" class="fourth-level-menu__link">Другие формулы</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Антиаксантин</a>
+                                                    <ul class="fourth-level-menu">
+                                                        <li class="fourth-level-menu__item">
+                                                            <a href="#" class="fourth-level-menu__link">Биосатин</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Ликопин</a>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Ликопин</a>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Пихногенол</a>
+                                                    <ul class="fourth-level-menu">
+                                                        <li class="fourth-level-menu__item">
+                                                            <a href="#" class="fourth-level-menu__link">Сосновая кора (экстракт)</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                            <ul class="third-level-menu">
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">
+                                                        <img src="assets/images/group-12.jpg" alt="акция">
+                                                    </a>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">
+                                                        <img src="assets/images/group-9.jpg" alt="акция">
+                                                    </a>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">
+                                                        <img src="assets/images/group-9-copy.jpg" alt="акция">
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                            <div class="third-level-menu__images">
+                                                <img src="assets/images/san.png" alt="sponsors">
+                                                <img src="assets/images/san.png" alt="sponsors">
+                                                <img src="assets/images/san.png" alt="sponsors">
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="sub-sub-navigation-list__item">
+                                        <a href="#" class="sub-sub-navigation-list__link">Для опорно-двигательного аппарата</a>
+                                    </li>
+                                    <li class="sub-sub-navigation-list__item">
+                                        <a href="#" class="sub-sub-navigation-list__link">Для работы мозга</a>
+                                    </li>
+                                    <li class="sub-sub-navigation-list__item">
+                                        <a href="#" class="sub-sub-navigation-list__link">Для сердечно-сосудистой системы</a>
+                                    </li>
+                                    <li class="sub-sub-navigation-list__item">
+                                        <a href="#" class="sub-sub-navigation-list__link">Для детокса</a>
+                                    </li>
+                                    <li class="sub-sub-navigation-list__item">
+                                        <a href="#" class="sub-sub-navigation-list__link">Для мужского здоровья</a>
+                                    </li>
+                                    <li class="sub-sub-navigation-list__item">
+                                        <a href="#" class="sub-sub-navigation-list__link">Для женского здоровья</a>
+                                    </li>
+                                    <li class="sub-sub-navigation-list__item">
+                                        <a href="#" class="sub-sub-navigation-list__link">Для детского здоровья</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="sub-navigation-list__item">
+                            <a href="#" class="sub-navigation-list__link">Добавки по предназначению</a>
+                            <div class="sub-sub-navigation-list__wrapper">
+                                <ul class="sub-sub-navigation-list">
+                                    <li class="sub-sub-navigation-list__item">
+                                        <a href="#" class="sub-sub-navigation-list__link">Антивозрастные добавки</a>
+                                    </li>
+                                    <li class="sub-sub-navigation-list__item">
+                                        <a href="#" class="sub-sub-navigation-list__link">Для имунной системы</a>
+                                    </li>
+                                    <li class="sub-sub-navigation-list__item">
+                                        <a href="#" class="sub-sub-navigation-list__link">Для регуляции сна</a>
+                                    </li>
+                                    <li class="sub-sub-navigation-list__item">
+                                        <a href="#" class="sub-sub-navigation-list__link">Для опорно-двигательного аппарата</a>
+                                    </li>
+                                    <li class="sub-sub-navigation-list__item">
+                                        <a href="#" class="sub-sub-navigation-list__link">Для работы мозга</a>
+                                    </li>
+                                    <li class="sub-sub-navigation-list__item">
+                                        <a href="#" class="sub-sub-navigation-list__link">Для сердечно-сосудистой системы</a>
+                                    </li>
+                                    <li class="sub-sub-navigation-list__item">
+                                        <a href="#" class="sub-sub-navigation-list__link">Для детокса</a>
+                                    </li>
+                                    <li class="sub-sub-navigation-list__item">
+                                        <a href="#" class="sub-sub-navigation-list__link">Для мужского здоровья</a>
+                                    </li>
+                                    <li class="sub-sub-navigation-list__item">
+                                        <a href="#" class="sub-sub-navigation-list__link">Для женского здоровья</a>
+                                    </li>
+                                    <li class="sub-sub-navigation-list__item">
+                                        <a href="#" class="sub-sub-navigation-list__link">Для детского здоровья</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="navigation-list__item">
+                <a href="#" class="navigation-list__link">Добавки</a>
+                <div class="sub-navigation-list__wrapper">
+                    <ul class="sub-navigation-list">
+                        <li class="sub-navigation-list__item">
+                            <a href="#" class="sub-navigation-list__link">Активные добавки</a>
+                            <div class="sub-sub-navigation-list__wrapper">
+                                <ul class="sub-sub-navigation-list">
+                                    <li class="sub-sub-navigation-list__item">
+                                        <a href="#" class="sub-sub-navigation-list__link">Антивозрастные добавки</a>
+                                        <div class="third-level-menu__wrapper">
+                                            <ul class="third-level-menu">
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Коэнзим Q10</a>
+                                                    <ul class="fourth-level-menu">
+                                                        <li class="fourth-level-menu__item">
+                                                            <a href="#" class="fourth-level-menu__link">Коэнзим Q10 + рыбий жир</a>
+                                                            <a href="#" class="fourth-level-menu__link">Формулы коэнзим Q10</a>
+                                                            <a href="#" class="fourth-level-menu__link">Убихинол</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Куркумин</a>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Лютеин</a>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Альфа-липоевая кислота</a>
+                                                    <ul class="fourth-level-menu">
+                                                        <li class="fourth-level-menu__item">
+                                                            <a href="#" class="fourth-level-menu__link">R-липоевая кислота</a>
+                                                            <a href="#" class="fourth-level-menu__link">Другие формулы</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Антиаксантин</a>
+                                                    <ul class="fourth-level-menu">
+                                                        <li class="fourth-level-menu__item">
+                                                            <a href="#" class="fourth-level-menu__link">Биосатин</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Ликопин</a>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Ликопин</a>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Пихногенол</a>
+                                                    <ul class="fourth-level-menu">
+                                                        <li class="fourth-level-menu__item">
+                                                            <a href="#" class="fourth-level-menu__link">Сосновая кора (экстракт)</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Кверцетин</a>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Рутин</a>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Зеленый чай</a>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">L-глупатион</a>
+                                                </li>
+                                            </ul>
+                                            <ul class="third-level-menu">
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Коэнзим Q10</a>
+                                                    <ul class="fourth-level-menu">
+                                                        <li class="fourth-level-menu__item">
+                                                            <a href="#" class="fourth-level-menu__link">Коэнзим Q10 + рыбий жир</a>
+                                                            <a href="#" class="fourth-level-menu__link">Формулы коэнзим Q10</a>
+                                                            <a href="#" class="fourth-level-menu__link">Убихинол</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Куркумин</a>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Лютеин</a>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Альфа-липоевая кислота</a>
+                                                    <ul class="fourth-level-menu">
+                                                        <li class="fourth-level-menu__item">
+                                                            <a href="#" class="fourth-level-menu__link">R-липоевая кислота</a>
+                                                            <a href="#" class="fourth-level-menu__link">Другие формулы</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Антиаксантин</a>
+                                                    <ul class="fourth-level-menu">
+                                                        <li class="fourth-level-menu__item">
+                                                            <a href="#" class="fourth-level-menu__link">Биосатин</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Ликопин</a>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Ликопин</a>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Пихногенол</a>
+                                                    <ul class="fourth-level-menu">
+                                                        <li class="fourth-level-menu__item">
+                                                            <a href="#" class="fourth-level-menu__link">Сосновая кора (экстракт)</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                            <ul class="third-level-menu">
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">
+                                                        <img src="assets/images/group-12.jpg" alt="акция">
+                                                    </a>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">
+                                                        <img src="assets/images/group-9.jpg" alt="акция">
+                                                    </a>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">
+                                                        <img src="assets/images/group-9-copy.jpg" alt="акция">
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                            <div class="third-level-menu__images">
+                                                <img src="assets/images/san.png" alt="sponsors">
+                                                <img src="assets/images/my-protein.png" alt="sponsors">
+                                                <img src="assets/images/usn.png" alt="sponsors">
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="sub-sub-navigation-list__item">
+                                        <a href="#" class="sub-sub-navigation-list__link">Для имунной системы</a>
+                                        <div class="third-level-menu__wrapper">
+                                            <ul class="third-level-menu">
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Тестовый продукт</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="sub-sub-navigation-list__item">
+                                        <a href="#" class="sub-sub-navigation-list__link">Для регуляции сна</a>
+                                        <div class="third-level-menu__wrapper">
+                                            <ul class="third-level-menu">
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Коэнзим Q10</a>
+                                                    <ul class="fourth-level-menu">
+                                                        <li class="fourth-level-menu__item">
+                                                            <a href="#" class="fourth-level-menu__link">Коэнзим Q10 + рыбий жир</a>
+                                                            <a href="#" class="fourth-level-menu__link">Формулы коэнзим Q10</a>
+                                                            <a href="#" class="fourth-level-menu__link">Убихинол</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Куркумин</a>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Лютеин</a>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Альфа-липоевая кислота</a>
+                                                    <ul class="fourth-level-menu">
+                                                        <li class="fourth-level-menu__item">
+                                                            <a href="#" class="fourth-level-menu__link">R-липоевая кислота</a>
+                                                            <a href="#" class="fourth-level-menu__link">Другие формулы</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Антиаксантин</a>
+                                                    <ul class="fourth-level-menu">
+                                                        <li class="fourth-level-menu__item">
+                                                            <a href="#" class="fourth-level-menu__link">Биосатин</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Ликопин</a>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Ликопин</a>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Пихногенол</a>
+                                                    <ul class="fourth-level-menu">
+                                                        <li class="fourth-level-menu__item">
+                                                            <a href="#" class="fourth-level-menu__link">Сосновая кора (экстракт)</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Кверцетин</a>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Рутин</a>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Зеленый чай</a>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">L-глупатион</a>
+                                                </li>
+                                            </ul>
+                                            <ul class="third-level-menu">
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Коэнзим Q10</a>
+                                                    <ul class="fourth-level-menu">
+                                                        <li class="fourth-level-menu__item">
+                                                            <a href="#" class="fourth-level-menu__link">Коэнзим Q10 + рыбий жир</a>
+                                                            <a href="#" class="fourth-level-menu__link">Формулы коэнзим Q10</a>
+                                                            <a href="#" class="fourth-level-menu__link">Убихинол</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Куркумин</a>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Лютеин</a>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Альфа-липоевая кислота</a>
+                                                    <ul class="fourth-level-menu">
+                                                        <li class="fourth-level-menu__item">
+                                                            <a href="#" class="fourth-level-menu__link">R-липоевая кислота</a>
+                                                            <a href="#" class="fourth-level-menu__link">Другие формулы</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Антиаксантин</a>
+                                                    <ul class="fourth-level-menu">
+                                                        <li class="fourth-level-menu__item">
+                                                            <a href="#" class="fourth-level-menu__link">Биосатин</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Ликопин</a>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Ликопин</a>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">Пихногенол</a>
+                                                    <ul class="fourth-level-menu">
+                                                        <li class="fourth-level-menu__item">
+                                                            <a href="#" class="fourth-level-menu__link">Сосновая кора (экстракт)</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                            <ul class="third-level-menu">
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">
+                                                        <img src="assets/images/group-12.jpg" alt="акция">
+                                                    </a>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">
+                                                        <img src="assets/images/group-9.jpg" alt="акция">
+                                                    </a>
+                                                </li>
+                                                <li class="third-level-menu__item">
+                                                    <a href="#" class="third-level-menu__link">
+                                                        <img src="assets/images/group-9-copy.jpg" alt="акция">
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                            <div class="third-level-menu__images">
+                                                <img src="assets/images/san.png" alt="sponsors">
+                                                <img src="assets/images/my-protein.png" alt="sponsors">
+                                                <img src="assets/images/usn.png" alt="sponsors">
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="sub-sub-navigation-list__item">
+                                        <a href="#" class="sub-sub-navigation-list__link">Для опорно-двигательного аппарата</a>
+                                    </li>
+                                    <li class="sub-sub-navigation-list__item">
+                                        <a href="#" class="sub-sub-navigation-list__link">Для работы мозга</a>
+                                    </li>
+                                    <li class="sub-sub-navigation-list__item">
+                                        <a href="#" class="sub-sub-navigation-list__link">Для сердечно-сосудистой системы</a>
+                                    </li>
+                                    <li class="sub-sub-navigation-list__item">
+                                        <a href="#" class="sub-sub-navigation-list__link">Для детокса</a>
+                                    </li>
+                                    <li class="sub-sub-navigation-list__item">
+                                        <a href="#" class="sub-sub-navigation-list__link">Для мужского здоровья</a>
+                                    </li>
+                                    <li class="sub-sub-navigation-list__item">
+                                        <a href="#" class="sub-sub-navigation-list__link">Для женского здоровья</a>
+                                    </li>
+                                    <li class="sub-sub-navigation-list__item">
+                                        <a href="#" class="sub-sub-navigation-list__link">Для детского здоровья</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="sub-navigation-list__item">
+                            <a href="#" class="sub-navigation-list__link">Добавки по предназначению</a>
+                            <div class="sub-sub-navigation-list__wrapper">
+                                <ul class="sub-sub-navigation-list">
+                                    <li class="sub-sub-navigation-list__item">
+                                        <a href="#" class="sub-sub-navigation-list__link">Антивозрастные добавки</a>
+                                    </li>
+                                    <li class="sub-sub-navigation-list__item">
+                                        <a href="#" class="sub-sub-navigation-list__link">Для имунной системы</a>
+                                    </li>
+                                    <li class="sub-sub-navigation-list__item">
+                                        <a href="#" class="sub-sub-navigation-list__link">Для регуляции сна</a>
+                                    </li>
+                                    <li class="sub-sub-navigation-list__item">
+                                        <a href="#" class="sub-sub-navigation-list__link">Для опорно-двигательного аппарата</a>
+                                    </li>
+                                    <li class="sub-sub-navigation-list__item">
+                                        <a href="#" class="sub-sub-navigation-list__link">Для работы мозга</a>
+                                    </li>
+                                    <li class="sub-sub-navigation-list__item">
+                                        <a href="#" class="sub-sub-navigation-list__link">Для сердечно-сосудистой системы</a>
+                                    </li>
+                                    <li class="sub-sub-navigation-list__item">
+                                        <a href="#" class="sub-sub-navigation-list__link">Для детокса</a>
+                                    </li>
+                                    <li class="sub-sub-navigation-list__item">
+                                        <a href="#" class="sub-sub-navigation-list__link">Для мужского здоровья</a>
+                                    </li>
+                                    <li class="sub-sub-navigation-list__item">
+                                        <a href="#" class="sub-sub-navigation-list__link">Для женского здоровья</a>
+                                    </li>
+                                    <li class="sub-sub-navigation-list__item">
+                                        <a href="#" class="sub-sub-navigation-list__link">Для детского здоровья</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="navigation-list__item"><a href="#" class="navigation-list__link">Травы и грибы</a></li>
+            <li class="navigation-list__item"><a href="#" class="navigation-list__link">Здоровое питание</a></li>
+            <li class="navigation-list__item"><a href="#" class="navigation-list__link">Спорт и фитнес</a></li>
+            <li class="navigation-list__item">
+                <a href="#" class="navigation-list__link">Специальное предложение</a>
+            </li>
+        </ul>
+    </div>
+</header>
+<div class="container-fluid">
+    <div class="row">
+        <div class="account account-subscribe">
+            <div class="col-sm-2 account__sidebar">
+                <ul class="account-list">
+                    <li class="account-list__item"><a href="account.html" class="account-list__link">Личные данные</a></li>
+                    <li class="account-list__item"><a href="account-map.html" class="account-list__link">Мои карты</a></li>
+                    <li class="account-list__item"><a href="account-order.html" class="account-list__link account-list__link-active">Мои заказы</a></li>
+                    <li class="account-list__item"><a href="account-featured.html" class="account-list__link">Избранное</a></li>
+                    <li class="account-list__item"><a href="account-referal.html" class="account-list__link">Реферальная программа</a></li>
+                    <li class="account-list__item"><a href="account-subscribe.html" class="account-list__link">Мои подписки</a></li>
+                    <li class="account-list__item"><a href="#" class="account-list__link">Выход</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-10 account__page">
+                <div class="account__title account-subscribe__title">
+                    Мои заказы <img class="info-img" src="assets/images/i.svg" alt="info" data-toggle="tooltip" data-placement="top" title="" data-original-title="Мы будем присылать вам любой товар без вашего участия. Средства будут автоматически сниматься с карты, товар отправляться из магазина. Перед отправкой по средствам смс вы будете проинформированы. Вы всегда можете отключить автоматическую подписку">
+                </div>
+                <div class="account__info account-subscribe__info">
+                    <div class="account-subscribe__content">
+                        <div class="account-subscribe__row account-subscribe__row-open">
+                            <div class="account-subscribe__icon">
+
+                            </div>
+                            <div class="account-subscribe__order-info">
+                                <span>Номер заказа: <br> 000001</span>
+                                <span>Дата заказа: <br> 02.02.2018</span>
+                                <p class="account-subscribe__product-status">
+                                    <span class="circle orange"></span><span>Товар в пути</span>
+                                </p>
+                            </div>
+                            <div class="account-subscribe-wrapper account-subscribe-wrapper__open">
+                                <div class="account-subscribe__viewport">
+                                    <div class="table-responsive">
+                                        <table class="table">
+                                            <tbody>
+                                            <tr class="table-image__wrap">
+                                                <td class="table-image">
+                                                    <img src="assets/images/bitmap.png" alt="product">
+                                                </td>
+                                                <td>
+                                                    Optimum Nutrition, Opti-Men, 150 таблеток
+                                                </td>
+                                                <td>1 уп.</td>
+                                                <td>50 грн.</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="field-total" colspan="3">Доставка (Самовывоз из Новой Почты)</td>
+                                                <td>20 грн.</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="field-total" colspan="3"><b>Итого к оплате</b></td>
+                                                <td><b>777 грн.</b></td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                                <div class="account-subscribe__status">
+                                    <div class="table__product">
+                                        <div class="table__product-info">
+                                            <p class="text-center">Статус заказа</p>
+                                            <p class="account-subscribe__product-status">
+                                                <span class="circle orange"></span><span>Товар в пути</span>
+                                            </p>
+                                            <p class="telephone">Уточнить детали вы можете по телефону:<p class="text-center">0 800 888 99 22</p></p>
+                                            <p class="auto-buy">Делать автоматическую покупку<img class="info-img" src="assets/images/r-pinfo-icon.svg" alt="info" data-toggle="tooltip" data-placement="top" title="" data-original-title="Новинки"></p>
+                                            <p class="count-days text-center">
+                                                <select class="count-days__select">
+                                                    <option value="0">через 30 дней</option>
+                                                    <option value="1">через 12 дней</option>
+                                                </select>
+                                            </p>
+                                            <div class="checkbox">
+                                                <label class="checkbox-wrap">Подписаться на товар
+                                                    <input type="checkbox" class="checkbox__input">
+                                                    <span class="checkbox__text checkmark"></span>
+                                                </label>
+                                            </div>
+                                            <a href="#" class="account-subscribe__repeat-link">Повторить заказ</a>
+                                            <a href="#" class="account-subscribe__lost-review">Оставить заказ</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="account-subscribe__row">
+                            <div class="account-subscribe__icon">
+
+                            </div>
+                            <div class="account-subscribe__order-info">
+                                <span>Номер заказа: <br> 000002</span>
+                                <span>Дата заказа: <br> 02.03.2018</span>
+                                <p class="account-subscribe__product-status">
+                                    <span class="circle green"></span><span>Товар доставлен</span>
+                                </p>
+                            </div>
+                            <div class="account-subscribe-wrapper">
+                                <div class="account-subscribe__viewport">
+                                    <div class="table-responsive">
+                                        <table class="table">
+                                            <tbody>
+                                            <tr>
+                                                <td class="table-image">
+                                                    <img src="assets/images/bitmap.png" alt="product">
+                                                </td>
+                                                <td>
+                                                    Optimum Nutrition, Opti-Men, 150 таблеток
+                                                </td>
+                                                <td>1 уп.</td>
+                                                <td>50 грн.</td>
+
+                                            </tr>
+                                            <tr class="table-image__wrap">
+                                                <td class="table-image">
+                                                    <img src="assets/images/bitmap.png" alt="product">
+                                                </td>
+                                                <td>
+                                                    Optimum Nutrition, Opti-Men, 150 таблеток
+                                                </td>
+                                                <td>1 уп.</td>
+                                                <td>50 грн.</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="field-total" colspan="3">Доставка (Самовывоз из Новой Почты)</td>
+                                                <td>20 грн.</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="field-total" colspan="3"><b>Итого к оплате</b></td>
+                                                <td><b>777 грн.</b></td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                                <div class="account-subscribe__status">
+                                    <div class="table__product">
+                                        <div class="table__product-info">
+                                            <p class="text-center">Статус заказа</p>
+                                            <p class="account-subscribe__product-status">
+                                                <span class="circle green"></span><span>Товар доставлен</span>
+                                            </p>
+                                            <p class="telephone">Уточнить детали вы можете по телефону:<p class="text-center">0 800 888 99 22</p></p>
+                                            <p class="auto-buy">Делать автоматическую покупку<img class="info-img" src="assets/images/r-pinfo-icon.svg" alt="info" data-toggle="tooltip" data-placement="top" title="" data-original-title="Новинки"></p>
+                                            <p class="count-days text-center">
+                                                <select class="count-days__select">
+                                                    <option value="0">через 30 дней</option>
+                                                    <option value="1">через 12 дней</option>
+                                                </select>
+                                            </p>
+                                            <div class="checkbox">
+                                                <label class="checkbox-wrap">Подписаться на товар
+                                                    <input type="checkbox" class="checkbox__input">
+                                                    <span class="checkbox__text checkmark"></span>
+                                                </label>
+                                            </div>
+                                            <a href="#" class="account-subscribe__repeat-link">Повторить заказ</a>
+                                            <a href="#" class="account-subscribe__lost-review">Оставить заказ</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="footer">
+    <ul class="footer__list">
+        <li class="footer__item">
+            <a href="#" class="footer__link">компания</a>
+            <a href="#" class="footer__link">история onetwofit</a>
+            <a href="#" class="footer__link">блог</a>
+            <a href="#" class="footer__link">рецепты</a>
+            <a href="#" class="footer__link">зарабатывай на покупках</a>
+            <a href="#" class="footer__link">отзывы о магазине</a>
+        </li>
+        <li class="footer__item">
+            <a href="#" class="footer__link">поддержка</a>
+            <a href="#" class="footer__link">faq</a>
+            <a href="#" class="footer__link">возврат</a>
+            <a href="#" class="footer__link">доставка</a>
+            <a href="#" class="footer__link">политика конфиденциальности</a>
+            <a href="#" class="footer__link">пользовательское соглашение</a>
+        </li>
+        <li class="footer__item">
+            <a href="#" class="footer__link footer-telephone">0 800 888 99 22</a>
+            <a href="mailto: info@onetowit.org" class="footer__link footer-email">info@onetwofit.org</a>
+            <a href="#" class="footer__link footer__social"><img src="assets/images/facebook.svg" alt="facebook"></a>
+            <a href="#" class="footer__link footer__social"><img src="assets/images/instagram-icon.svg" alt="instagram"></a>
+            <a href="#" class="footer__link footer__social"><img class="youtube-icon" src="assets/images/youtube-icon.svg" alt="youtube"></a>
+        </li>
+        <li class="footer__item">
+            <a href="#" class="footer__link"><img src="assets/images/master-card-icon.svg" alt="mastercard"></a>
+            <a href="#" class="footer__link"><img src="assets/images/visa.svg" alt="VISA"></a>
+        </li>
+    </ul>
+    <div class="footer-bot text-center">
+        © OneTwoFit 2018
+    </div>
+</div>
+
+<script>
+    let $rows = document.querySelectorAll('.account-subscribe__row');
+    let row;
+
+    for (let i = 0; i < $rows.length; i++) {
+        $rows[i].querySelector('.account-subscribe__icon').addEventListener('click', handler);
+
+    }
+
+    function handler() {
+        row = this.parentNode.children; //МАССИВ ВСЕХ ЭЛЕМЕНТОВ, row[row.length-1] <- wrapper
+
+        let wrapper = row[row.length-1];
+
+        if (wrapper.classList.contains('account-subscribe-wrapper__open')) {
+            wrapper.classList.remove('account-subscribe-wrapper__open');
+            wrapper.parentNode.classList.remove('account-subscribe__row-open');
+        } else {
+            wrapper.classList.add('account-subscribe-wrapper__open');
+            wrapper.parentNode.classList.add('account-subscribe__row-open');
+        }
+    }
+
+
+
+
+</script>
+<script>
+    //menu
+    let burger = document.querySelector('.burger');
+    let menu = document.querySelectorAll('.adaptive-menu__item');
+
+    burger.addEventListener('click', () => {
+        if (burger.classList.contains('open')) {
+            burger.classList.remove('open');
+            burger.nextElementSibling.classList.remove('adaptive-menu__open');
+            burger.firstElementChild.classList.remove('fa-close');
+            burger.firstElementChild.classList.add('fa-bars');
+            document.body.style.overflowY = 'scroll';
+        } else {
+            burger.classList.add('open');
+            burger.nextElementSibling.classList.add('adaptive-menu__open');
+            burger.firstElementChild.classList.add('fa-close');
+            burger.firstElementChild.classList.remove('fa-bars');
+            document.body.style.overflowY = 'hidden';
+        }
+    });
+    for (let i = 0; i < menu.length; i++) {
+        menu[i].addEventListener('click', () => {
+            if (menu[i].classList.contains('sub__open')) {
+                menu[i].classList.remove('sub__open');
+            } else {
+                menu[i].classList.add('sub__open');
+            }
+        });
+    }
+</script>
+
+<script type="text/javascript" src="vendors.js"></script><script type="text/javascript" src="application.js"></script></body>
+</html>

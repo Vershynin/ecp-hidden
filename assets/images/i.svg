@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+    <g fill="none" fill-rule="evenodd">
+        <circle cx="10" cy="10" r="10" fill="#6004BA"/>
+        <text fill="#FFF" font-family="Georgia-BoldItalic, Georgia" font-size="13" font-style="italic" font-weight="bold">
+            <tspan x="7" y="15">i</tspan>
+        </text>
+    </g>
+</svg>

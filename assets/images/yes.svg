@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="41" height="39" viewBox="0 0 41 39">
+    <defs>
+        <path id="a" d="M8 0h34v28H8z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <circle cx="19.5" cy="19.5" r="19.5" fill="#00CAC5"/>
+        </g>
+        <path fill="#FFF" d="M19.086 21.532L13.223 15.7 10 18.906l7.736 7.698L19.158 28 41 6.27 37.714 3z"/>
+    </g>
+</svg>

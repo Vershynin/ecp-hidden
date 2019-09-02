@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Блог. Страница не найдена</title>
+</head>
+<body>
+<div class="blog-header">
+    <div class="blog-header__container">
+        <div class="blog-header__logo">
+            <a href="index.html" class="logo__link">
+                <img src="../assets/images/combined-shape.svg" alt="logo">
+            </a>
+            <a href="blog.html" class="blog-header__logo-text">blog</a>
+        </div>
+        <div class="blog-header__nav">
+            <ul class="blog-header-list">
+                <li class="blog-header__item"><a href="blog-life.html" class="blog-header__link">Жизнь</a></li>
+                <li class="blog-header__item"><a href="blog-eat.html" class="blog-header__link">Питание</a></li>
+                <li class="blog-header__item"><a href="blog-sport.html" class="blog-header__link">Спорт</a></li>
+                <li class="blog-header__item"><a href="blog-health.html" class="blog-header__link">Здоровье</a></li>
+                <li class="blog-header__item"><a href="blog-receipt.html" class="blog-header__link">Рецепты</a></li>
+                <li class="blog-header__item"><a href="#" class="blog-header__link">в интернет магазин</a></li>
+            </ul>
+        </div>
+        <div class="blog-adaptive">
+            <div class="blog-adaptive__burger">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+            </div>
+            <ul class="blog-adaptive__list">
+                <li class="blog-adaptive__item"><a href="blog-life.html" class="blog-adaptive__link">Жизнь</a></li>
+                <li class="blog-adaptive__item"><a href="blog-eat.html" class="blog-adaptive__link">Питание</a></li>
+                <li class="blog-adaptive__item"><a href="blog-sport.html" class="blog-adaptive__link">Спорт</a></li>
+                <li class="blog-adaptive__item"><a href="blog-health.html" class="blog-adaptive__link">Здоровье</a></li>
+                <li class="blog-adaptive__item"><a href="blog-receipt.html" class="blog-adaptive__link">Рецепты</a></li>
+            </ul>
+            <div class="blog-adaptive__icon">X</div>
+        </div>
+        <div class="blog-header__search"><i class="fa fa-search" aria-hidden="true"></i></div>
+    </div>
+</div>
+<div class="blog-page-error">
+    <div class="blog-page-error__text">Ошибка 404 Страница не найдена.</div>
+    <a href="blog.html" class="blog-page-error__link">на главную</a>
+</div>
+<div class="consulting blog-consulting">
+    <div class="consulting__url">
+        <a href="#" class="consulting__link telegram__link active"><img src="../assets/images/telegram-logo.svg" alt="telegram"><span>telegram</span></a>
+        <a href="#" class="consulting__link facebook__link"><img src="../assets/images/facebook-messenger.svg" alt="facebook-messenger"><span>facebook</span></a>
+        <a href="#" class="consulting__link chat__link"><img src="../assets/images/chat-icon.jpg" alt="facebook-messenger"><span>онлайн-чат</span></a>
+    </div>
+</div>
+<div class="footer">
+    <ul class="footer__list">
+        <li class="footer__item">
+            <a href="#" class="footer__link">компания</a>
+            <a href="#" class="footer__link">история onetwofit</a>
+            <a href="#" class="footer__link">блог</a>
+            <a href="#" class="footer__link">рецепты</a>
+            <a href="#" class="footer__link">зарабатывай на покупках</a>
+            <a href="#" class="footer__link">отзывы о магазине</a>
+        </li>
+        <li class="footer__item">
+            <a href="#" class="footer__link">поддержка</a>
+            <a href="#" class="footer__link">faq</a>
+            <a href="#" class="footer__link">возврат</a>
+            <a href="#" class="footer__link">доставка</a>
+            <a href="#" class="footer__link">политика конфиденциальности</a>
+            <a href="#" class="footer__link">пользовательское соглашение</a>
+        </li>
+        <li class="footer__item">
+            <a href="#" class="footer__link footer-telephone">0 800 888 99 22</a>
+            <a href="mailto: info@onetowit.org" class="footer__link footer-email">info@onetwofit.org</a>
+            <a href="#" class="footer__link footer__social"><img src="../assets/images/facebook.svg" alt="facebook"></a>
+            <a href="#" class="footer__link footer__social"><img src="../assets/images/instagram-icon.svg" alt="instagram"></a>
+            <a href="#" class="footer__link footer__social"><img class="youtube-icon" src="../assets/images/youtube-icon.svg" alt="youtube"></a>
+        </li>
+        <li class="footer__item">
+            <a href="#" class="footer__link"><img src="../assets/images/master-card-icon.svg" alt="mastercard"></a>
+            <a href="#" class="footer__link"><img src="../assets/images/visa.svg" alt="VISA"></a>
+        </li>
+    </ul>
+    <div class="footer-bot text-center">
+        © OneTwoFit 2018
+    </div>
+</div>
+
+<script>
+    //blog-adaptive menu
+    const burgerAdaptive = document.querySelector('.blog-adaptive__burger');
+
+    burgerAdaptive.addEventListener('click', () => {
+        if (burgerAdaptive.nextElementSibling.classList.contains('open')) {
+            burgerAdaptive.nextElementSibling.classList.remove('open');
+            burgerAdaptive.nextElementSibling.style.background = 'rgba(0,0,0,0.5)';
+            burgerAdaptive.firstElementChild.classList.remove('fa-close');
+            burgerAdaptive.firstElementChild.classList.add('fa-bars');
+            document.body.style.overflowY = 'scroll';
+        } else {
+            burgerAdaptive.nextElementSibling.classList.add('open');
+            burgerAdaptive.firstElementChild.classList.add('fa-close');
+            burgerAdaptive.firstElementChild.classList.remove('fa-bars');
+            document.body.style.overflowY = 'hidden';
+        }
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,141 @@
+@import '../styles/variables';
+@import '../styles/mixins';
+
+.cart-page {
+  padding-top: 114px;
+  padding-bottom: 50px;
+  &__title {
+    font-size: 36px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.36;
+    letter-spacing: -1px;
+    text-align: left;
+    color: #000000;
+    margin: 36px 0;
+  }
+  &__content {
+    width: 100%;
+    content: '';
+    display: table;
+    clear: both;
+  }
+  .table {
+    border: solid 1px #a1a1a1;
+    padding: 1rem;
+    td {
+      border: none;
+      vertical-align: middle;
+      font-size: 16px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.5;
+      letter-spacing: normal;
+      text-align: left;
+      color: #000000;
+      img {
+        width: 96px;
+        height: 96px;
+      }
+    }
+    .icon {
+      cursor: pointer;
+      font-size: 16px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.44;
+      letter-spacing: normal;
+      text-align: center;
+      color: $main-color-purple;
+    }
+    .decrease, .increase {
+      cursor: pointer;
+      display: inline-block;
+      width: 25px;
+      height: 25px;
+      line-height: 25px;
+      border: 1px solid #cccccc;
+      text-align: center;
+      &:hover {
+        border: 1px solid $main-color-purple;
+      }
+    }
+    .cart-count {
+      width: 20px;
+      display: inline-block;
+      font-size: 16px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.5;
+      letter-spacing: normal;
+      text-align: center;
+      color: #000000;
+    }
+  }
+  &__name {
+    font-size: 22px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.23;
+    letter-spacing: -1px;
+    text-align: left;
+    color: #000000;
+  }
+  &__row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  &__right {
+    flex-grow: 1;
+  }
+  &__textarea {
+    width: 385px;
+    height: 120px;
+    background-color: #ffffff;
+    border: solid 1px #a1a1a1;
+    resize: none;
+    padding: 1rem;
+  }
+  &__back {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 194px;
+    height: 44px;
+    background-color: #ffffff;
+    border: solid 1px $main-color-purple;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.44;
+    letter-spacing: normal;
+    color: $main-color-purple;
+    &:hover {
+      color: $main-color-purple;
+      text-decoration: none;
+    }
+  }
+}
+
+.cart-page {
+  .cart__table-buy {
+    .order-page__cart .table-cart .table {
+      td {
+        font-size: 14px;
+        &:nth-child(even) {
+          text-align: right;
+        }
+      }
+    }
+    .table {
+      border: none;
+    }
+  }
+}
